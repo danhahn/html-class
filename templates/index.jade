@@ -1,0 +1,44 @@
+extends layout
+
+block append vars
+  - bodyclass = 'homepage'
+
+block header
+  div.well.small
+    h1= locals.description
+    h2= locals.date
+
+block notes
+  if locals.classnote
+    div.container
+      div.alert.alert-danger
+        p= locals.classnote + " "
+          a.btn.btn-xs(href=locals.classaction, target='_blank') Click Here
+
+block content
+  include author
+  each article in articles
+    article.lesson-item.col-md-4
+      .well
+        header
+          h2
+            a(href=article.url)= article.title
+          div.date
+            div.month= moment(article.date).format('MMM')
+            div.day= moment(article.date).format('DD')
+        section.content
+          !{ typogr(article.intro).typogrify() }
+          if article.hasMore
+            a(href=article.url).more.btn View Lesson
+
+block prepend footer
+  div.nav
+    if prevPage
+      a(href=prevPage.url) « Newer
+    else
+      a(href='/archive.html') « Archives
+    if nextPage
+      a(href=nextPage.url) Next page »
+
+
+

@@ -1,0 +1,37 @@
+
+extends layout
+
+block addlocalcss
+  if page.metadata.localcss
+    link(rel='stylesheet', href=page.metadata.localcss)
+
+block addlocaljs
+  if page.metadata.localjs
+    script(src=page.metadata.localjs)
+
+block append vars
+  - bodyclass = 'article-detail'
+
+block prepend title
+  | #{ page.title + " - "}
+
+block header
+  include author
+  div.well.small.page-title
+    h1= page.title
+    div.date
+      div.month= moment(page.date).format('MMM')
+      div.day= moment(page.date).format('D')
+
+block content
+  div.col-md-3.side-nav
+    div.side-nav-inner
+  div.col-md-9.main-content
+    article.article
+      section.content!= typogr(page.html).typogrify()
+
+block prepend footer
+  div.nav
+    a(href=contents.index.url) « Full blog
+
+

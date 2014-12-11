@@ -1,0 +1,25 @@
+#content {
+  border: 3px solid gray;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+#content p {
+  margin: 0;
+}
+#content p.color:nth-child(odd) {
+  background-color: lightgray;
+}
+#content p.color:nth-child(even) {
+  background-color: lightblue;
+}
+#content p.margin {
+  margin: 20px 0;
+}
+#content p.padding {
+  padding: 20px 0;
+}
+
+.btn:focus {
+	outline: none !important;
+}

@@ -1,0 +1,99 @@
+@import "../../css/vars";
+
+@standard: @alt;
+@standard-dark: darken(@standard, 20%);
+
+@active: @primary;
+@active-dark: darken(@active, 20%);
+
+@size: 50px;
+
+@width: 200px;
+
+@grad: linear-gradient(90deg, @standard, darken(@standard, 15%));
+@grad2: radial-gradient(@standard-dark 80%, darken(@standard-dark, 15%));
+
+@grad3: linear-gradient(90deg, @active, darken(@active, 15%));
+@grad4: radial-gradient(@active-dark 80%, darken(@active-dark, 15%));
+
+ul.buckets {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	&:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	li {
+		color: #fff;
+		background: @grad;
+		width: @width;
+		line-height: @width;
+		text-align: center;
+		font-size: 30px;
+		float: left;
+		margin-left: 10px;
+		margin-top: @size;
+		margin-bottom: @size;
+		position: relative;
+		transition: all .1s;
+		&:hover {
+			font-weight: bold;
+		}
+		&:before, &:after {
+			content: "";
+			display: block;
+			width: @width;
+			height: @size;
+			border-radius: 50%;
+			position: absolute;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			border: 1px solid black;
+		}
+
+		&:before {
+			top: -@size/2;
+			background: @grad2;
+		}
+
+		&:after {
+			bottom: -@size/2;
+			background: @grad;
+			z-index: -1;
+		}
+		&.active {
+			background: @grad3;
+			font-weight: bold;
+			font-size: 2.5em;
+			&:before {
+				background: @grad4;
+			}
+			&:after{
+				background: @grad3;
+			}
+		}
+
+	}
+}
+
+@widthSm: 90px;
+
+@media screen and (max-width: 360px) {
+	ul.buckets {
+		li {
+			width: @widthSm;
+			height: @widthSm;
+			line-height: @widthSm;
+			font-size: 15px;
+			&:before, &:after {
+				width: @widthSm;
+			}
+			&.active {
+				font-size: 15px;
+			}
+		}
+
+	}
+}
