@@ -6,7 +6,7 @@ block append vars
 block header
   div.well.small
     h1= locals.description
-    h2= locals.date
+    h2= locals.startDate + " to " + locals.endDate
 
 block notes
   if locals.classnote
