@@ -15,6 +15,7 @@ html(lang='en')
       link(rel='stylesheet', href='/css/bootstrap.css')
       link(rel='stylesheet', href='/css/flat-ui.css')
       link(rel='stylesheet', href='/css/main.css')
+      link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
       block addlocalcss
       link(rel="icon", type="image/png", href="/images/favicon.png")
       script(src='/js/highlight.pack.js')
@@ -45,20 +46,34 @@ html(lang='en')
           div.collapse.navbar-collapse
             ul.nav.navbar-nav
               li
-                a(href="/") Home
+                a(href="/")
+                  i.fa.fa-home= " Home"
                 ul
-                  each item, i in locals.navitems
-                    li <a href="/lessons/lesson-#{item}/">Lesson #{item}</a>
+                  - var navItem = 0;
+                  while navItem < locals.totalItems
+                    li <a href="/lessons/lesson-#{navItem + 1}/">Lesson #{navItem+ 1}</a>
+                    -navItem++
               li
-                a(href="/syllabus.html") Syllabus
+                a(href="/syllabus.html")
+                  i.fa.fa-book
+                  =" Syllabus"
               li
-                a(href="/notes/tags/index.html") HTML Tag List
+                a(href="/notes/tags/index.html")
+                  i.fa.fa-html5
+                  = " HTML Tag List"
               li
-                a(href="/notes/ascii/index.html") ASCII Codes
+                a(href="/notes/css/index.html")
+                  i.fa.fa-css3
+                  = " CSS"
               li
-                a(href="/notes/colors/index.html") Colors
+                a(href="/notes/ascii/index.html")
+                  i.fa.fa-heart
+                  = " ASCII Codes"
               li
-                a(href="/notes/css/index.html") CSS
+                a(href="/notes/colors/index.html")
+                  i.fa.fa-paint-brush
+                  = " Colors"
+
 
     header.main-header
       div.container

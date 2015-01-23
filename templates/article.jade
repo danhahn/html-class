@@ -20,9 +20,11 @@ block header
   div.well.small.page-title
     h1= page.title
     div.date
-      div.month= moment(page.date).format('MMM')
-      div.day= moment(page.date).format('D')
-
+      i.fa.fa-calendar
+      span.month= moment(page.date).format('MMMM')
+      span.day= moment(page.date).format('D') + ","
+      span.year= moment(page.date).format('YYYY')
+      
 block content
   div.col-md-3.side-nav
     div.side-nav-inner

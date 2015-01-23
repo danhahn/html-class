@@ -51,7 +51,7 @@ $(function() {
 		else if(url.indexOf(".txt") > -1) {
 			el.attr("target", "_blank");
 			el.addClass("btn");
-			el.append(' <i class="glyphicon glyphicon-download"></i>');
+			el.append(' <i class="fa fa-download"></i>');
 		}
 		else if(url.indexOf(".zip") > -1) {
 			el.attr("target", "_blank");
@@ -59,7 +59,7 @@ $(function() {
 		}
 		else if (url.indexOf("homework.html") > -1) {
 			//el.addClass("btn");
-			el.append(' <i class="glyphicon glyphicon-tasks"></i>');
+			el.append(' <i class="fa fa-download"></i>');
 		}
 	});
 
@@ -79,7 +79,7 @@ $(function() {
 		var el = $(this);
 		var item = el.clone();
 		item.prependTo(".side-nav-inner");
-		item.append(' <i class="glyphicon glyphicon-download"></i>');
+		item.append(' <i class="fa fa-download"></i>');
 		el.remove();
 	});
 

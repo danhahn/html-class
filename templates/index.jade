@@ -24,8 +24,10 @@ block content
           h2
             a(href=article.url)= article.title
           div.date
-            div.month= moment(article.date).format('MMM')
-            div.day= moment(article.date).format('DD')
+            i.fa.fa-calendar
+            span.month= moment(article.date).format('MMMM')
+            span.day= moment(article.date).format('D') + ","
+            span.year= moment(article.date).format('YYYY')
         section.content
           !{ typogr(article.intro).typogrify() }
           if article.hasMore

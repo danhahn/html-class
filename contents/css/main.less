@@ -135,6 +135,17 @@ h3 {
 		margin-bottom: 0;
 		background-color: @secondary;
 		padding: 10px 20px;
+		&.page-title {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.date {
+				font-size: 1.5em;
+				color: white;
+				flex-basis: 160px;
+				white-space: nowrap;
+			}
+		}
 
 		h1 {
 			font-family: 'Roboto Condensed', sans-serif;
@@ -457,36 +468,11 @@ footer {
 }
 
 .date {
-	z-index: 100;
-	position: absolute;
-	top: 10px;
-	left: -35px;
-	width: 60px;
-	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-	.dateview();
-	border-left: 2px solid darken(#fff, 20%);
-	border-radius: 5px;
-	-webkit-transition: all .5s;
-	transition: all .5s;
-	&:hover {
-		.dateview(5deg);
-	}
-	.month {
-		background-color: @alt;
-		border-bottom: 2px solid darken(@alt, 10%);
-		line-height: 1.5;
-		border-radius: 3px 3px 0 0;
-		text-transform: uppercase;
-		color: #fff;
-	}
-	.day {
-		background-color: #fff;
-		line-height: 1.50;
-		font-size: 2em;
-		border-radius: 0 0 3px 3px;
-		font-weight: 700;
-		box-shadow: 0 -2px 0 darken(#fff, 20%) inset;
+	font-weight: 100;
+	color: @alt;
+	font-size: .75em;
+	span, i {
+		padding-right: 5px;
 	}
 }
 
@@ -604,15 +590,11 @@ img[src$="homework.png"] {max-width: 100%;}
 			font-size: 3em;
 		}
 	}
+	.nav.navbar-nav {
+		font-size: .9em;
+	}
 }
 @media screen and (max-width: 1024px) {
-	.date {
-		left: 10px;
-	}
-	.page-title h1 {
-		padding-left: 60px;
-	}
-
 	article
 	{
 		.well h2 {
@@ -624,6 +606,10 @@ img[src$="homework.png"] {max-width: 100%;}
 }
 
 @media screen and (max-width: 992px) {
+	.nav.navbar-nav {
+		font-size: .8em;
+	}
+
 	.col-md-3.well {
 		width: calc(~"50% - 10px");
 		float: left;
@@ -734,16 +720,6 @@ img[src$="homework.png"] {max-width: 100%;}
 		margin-left: 0;
 	}
 
-	.date {
-		.dateview(0deg);
-		top: 5px;
-		left: inherit;
-		right: 5px;
-		width: 50px;
-		.day {
-			font-size: 1.5em;
-		}
-	}
 
 }
 
@@ -754,6 +730,10 @@ img[src$="homework.png"] {max-width: 100%;}
 @media screen and (max-width: 768px) {
 	.homepage .navbar{
 		display: inherit;
+	}
+
+	p {
+		text-align: left;
 	}
 }
 
@@ -810,6 +790,18 @@ img[src$="homework.png"] {max-width: 100%;}
 					padding: 5px;
 				}
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main-header .well {
+		h1 {
+			font-size: 2em;
+		}
+		.date.date {
+			font-size: 1em;
+			text-align: right;
 		}
 	}
 }
