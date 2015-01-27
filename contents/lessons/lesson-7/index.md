@@ -5,7 +5,7 @@ date: 2015-3-18 15:00
 template: article.jade
 ---
 
-This week we will be talking about CSS Layouts.  How to build them without tables.
+This week we will be talking about CSS Layouts.  How to build them without tables. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

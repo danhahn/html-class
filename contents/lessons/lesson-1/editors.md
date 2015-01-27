@@ -8,9 +8,10 @@ template: article.jade
 # HTML Editors
 
 * [Intro]()
+* [Editors](editors.html)
 * [HTML Template](template.html)
 * [Blocklevel](blocklevel.html)
-* [Editors](editors.html)
+* [Classwork](classwork.html)
 * [Homework](homework.html)
 
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.

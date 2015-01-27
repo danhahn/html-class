@@ -5,7 +5,7 @@ date: 2015-4-1 15:00
 template: article.jade
 ---
 
-This week we will be talking about how to use HTML forms.
+This week we will be talking about how to use HTML forms. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default js"><i class="fa fa-laptop"></i>JavaScript</span></div>
 
 <span class="more"></span>
 

@@ -5,7 +5,7 @@ date: 2015-3-4 15:00
 template: article.jade
 ---
 
-This week we will be talking about floating.  How to align images, build gallery and simple navigation.
+This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

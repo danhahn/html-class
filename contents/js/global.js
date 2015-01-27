@@ -28,6 +28,8 @@ $(function() {
 //	});
 
 	$(".main-content").find(".more").parent().prev().remove();
+	$(".main-content").find(".more").parent().prev().remove();
+	$(".main-content").find(".more").parent().prev().remove();
 	$(".main-content").find(".more").remove();
 
 	if(showNav)

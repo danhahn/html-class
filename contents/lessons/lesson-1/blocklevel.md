@@ -3,14 +3,24 @@ title: Lesson 1
 author: the-wintersmith
 date: 2015-1-28 15:00
 template: article.jade
+
+tags: {
+  'html': {
+    'label': 'html',
+    'icon': 'fa fa-html5',
+    'data' : ['p','h1','h2','h3','h4','h5','h6', 'br', 'blockquote', 'ol', 'ul', 'li', 'div', 'section', 'article', 'header', 'footer']
+  }
+}
+
 ---
 
 #Blocklevel Elements
 
 * [Intro]()
+* [Editors](editors.html)
 * [HTML Template](template.html)
 * [Blocklevel](blocklevel.html)
-* [Editors](editors.html)
+* [Classwork](classwork.html)
 * [Homework](homework.html)
 
 Block Level elements are used to define the structure of the HTML page. Block Level elements will define and area on the page or force content on its own line. Block Level elements must be the outermost elements but can be nested within each other. The only exception to the rule is the paragraph tag which needs to be the innermost block level elements.

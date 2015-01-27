@@ -12,7 +12,6 @@ template: article.jade
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
-* [Image Examples](image-examples.html)
 * [Homework](homework.html)
 
 On the web today we use 3 types of images. Each has an advatage and disadvantage over the other types. It is import to use the correct image type in the right situation to ensure fast page loads.

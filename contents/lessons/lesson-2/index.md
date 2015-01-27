@@ -3,9 +3,18 @@ title: Lesson 2
 author: Dan Hahn
 date: 2015-2-4 15:00
 template: article.jade
+
+tags: {
+  'html': {
+    'label': 'html',
+    'icon': 'fa fa-html5',
+    'data' : ['strong', 'em', 'a', 'img']
+  }
+}
+
 ---
 
-This week we will talk about how to create links and embed images.
+This week we will talk about how to create links and embed images. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span></div>
 
 <span class="more"></span>
 
@@ -15,7 +24,6 @@ This week we will talk about how to create links and embed images.
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
-* [Image Examples](image-examples.html)
 * [Homework](homework.html)
 
 [Download Notes <i class="icon-download-alt icon-white"></i>](week2-notes.zip)[Download Stater File <i class="icon-download-alt icon-white"></i>](week2.zip)

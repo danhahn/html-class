@@ -3,14 +3,22 @@ title: Lesson 1
 author: the-wintersmith
 date: 2015-1-28 15:00
 template: article.jade
+tags: {
+  'html': {
+    'label': 'html',
+    'icon': 'fa fa-html5',
+    'data' : ['html','head','title','body']
+  }
+}
 ---
 
 #Setting up the HTML template
 
 * [Intro]()
+* [Editors](editors.html)
 * [HTML Template](template.html)
 * [Blocklevel](blocklevel.html)
-* [Text Edit](textedit.html)
+* [Classwork](classwork.html)
 * [Homework](homework.html)
 
 All HTML pages are based on the same HTML template that will be used to create every HTML going forward.

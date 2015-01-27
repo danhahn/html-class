@@ -8,10 +8,9 @@ template: article.jade
 # Classwork for week 1
 
 * [Intro]()
+* [Editors](editors.html)
 * [HTML Template](template.html)
 * [Blocklevel](blocklevel.html)
-* [HTML Template](template.html)
-* [Editors](editors.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 

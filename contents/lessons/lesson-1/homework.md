@@ -8,9 +8,10 @@ template: article.jade
 #Homework – Lesson 1
 
 * [Intro]()
+* [Editors](editors.html)
 * [HTML Template](template.html)
 * [Blocklevel](blocklevel.html)
-* [Editors](editors.html)
+* [Classwork](classwork.html)
 * [Homework](homework.html)
 
 Create a new HTML document form the template that we created in class. Save the file as **homework_1_yourname.html** and send it to **dan@svahtml.com**.

@@ -30,6 +30,23 @@ block content
     div.side-nav-inner
   div.col-md-9.main-content
     article.article
+      if page.metadata.tags
+        each val, index in page.metadata.tags
+          div.tags
+            div.data
+              span(class=val.label).label.label-default
+                i(class=val.icon)
+                = val.label
+            ul
+              each tag in val.data
+                li
+                  if val.label == "html"
+                    code &lt;#{tag}&gt;
+                  if val.label == "css"
+                    code #{tag}:&#123;&#125;
+
+
+
       section.content!= typogr(page.html).typogrify()
 
 block prepend footer

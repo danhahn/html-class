@@ -5,7 +5,7 @@ date: 2015-2-25 15:00
 template: article.jade
 ---
 
-This week we will talk about Table and all the good and bad that goes with it.
+This week we will talk about Table and all the good and bad that goes with it. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

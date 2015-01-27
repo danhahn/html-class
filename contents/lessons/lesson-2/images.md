@@ -11,7 +11,6 @@ template: article.jade
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
-* [Image Examples](image-examples.html)
 * [Homework](homework.html)
 
 The image tag or `<img>` is used to embed an image within an `HTML` document.  At the time the page is rendered the browser will set aside a space on the page for an image to load.  The browser then need to find and load the image in that space.  If the iamge can't be found than it will not show up.  There are two required attribute.

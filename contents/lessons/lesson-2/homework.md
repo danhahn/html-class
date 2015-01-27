@@ -11,7 +11,6 @@ template: article.jade
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
-* [Image Examples](image-examples.html)
 * [Homework](homework.html)
 
 ## Goals of this homework

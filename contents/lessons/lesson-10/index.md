@@ -5,7 +5,7 @@ date: 2015-4-8 15:00
 template: article.jade
 ---
 
-How to set up your own HTML website including how to choose where to host and how to upload.
+How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

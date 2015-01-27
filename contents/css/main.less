@@ -366,6 +366,11 @@ p.date {
 		p {
 			text-align: left;
 		}
+		div {
+			.label {
+				font-size: 1.1em;
+			}
+		}
 	}
 	position: relative;
 }
@@ -580,6 +585,47 @@ img[src$="homework.png"] {max-width: 100%;}
 	background-color: @secondary;
 }
 
+.label {
+	&.html{
+		background-color: #E44D26;
+	}
+	&.css {
+		background-color: #1572B6;
+	}
+	&.js {
+		background-color: #F0DB4F;
+		color: black;
+	}
+	text-transform: uppercase;
+	i {
+		margin-right: 3px;
+	}
+}
+
+.tags {
+
+	display: flex;
+	align-items: baseline;
+
+	.data {
+		font-size: 1.4em;
+		white-space: nowrap;
+		flex: 0 0 75px;
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		align-items: baseline;
+		li {
+			margin-right: 2px;
+			&:not(:last-child):after {
+				content: ',';
+			}
+		}
+	}
+}
 
 //iPhone < 5:
 @media screen and (device-aspect-ratio: 2/3) {}
