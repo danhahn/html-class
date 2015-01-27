@@ -138,6 +138,11 @@ $(function() {
 	});
 
 
+	$('.side-nav-inner').affix({
+		offset: {
+			top: 60
+		}
+	})
 
 
 

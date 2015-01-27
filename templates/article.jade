@@ -26,8 +26,6 @@ block header
       span.year= moment(page.date).format('YYYY')
       
 block content
-  div.col-md-3.side-nav
-    div.side-nav-inner
   div.col-md-9.main-content
     article.article
       if page.metadata.tags
@@ -44,10 +42,9 @@ block content
                     code &lt;#{tag}&gt;
                   if val.label == "css"
                     code #{tag}:&#123;&#125;
-
-
-
       section.content!= typogr(page.html).typogrify()
+  div.col-md-3.side-nav
+    div.side-nav-inner
 
 block prepend footer
   div.nav
