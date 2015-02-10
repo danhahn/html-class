@@ -7,10 +7,7 @@
 	"date": "September 24, 2014 to December 17, 2014",
 	"totalItems" : 12,
     "startDate": "January 28, 2014",
-    "endDate": "April 22, 2014",
-    "classnote" : "Please enter your Name, Email and Phone here ->",
-    "classaction" : "https://docs.google.com/forms/d/1fbersx8gApfHU0AiAclVnDCPtyNOg1e-XP3K9FZ3CZ8/viewform?usp=send_form"
-
+    "endDate": "April 22, 2014"
   },
 	"plugins": [
 		"./plugins/paginator.coffee",

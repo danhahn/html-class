@@ -600,6 +600,9 @@ img[src$="homework.png"] {max-width: 100%;}
 		background-color: #F0DB4F;
 		color: black;
 	}
+	&.attribute {
+		background-color: #008080;
+	}
 	text-transform: uppercase;
 	i {
 		margin-right: 3px;
@@ -614,7 +617,8 @@ img[src$="homework.png"] {max-width: 100%;}
 	.data {
 		font-size: 1.4em;
 		white-space: nowrap;
-		flex: 0 0 75px;
+		margin-right: 10px;
+		min-width: 50px;
 	}
 
 	ul {
@@ -622,6 +626,7 @@ img[src$="homework.png"] {max-width: 100%;}
 		flex-wrap: wrap;
 		list-style: none;
 		align-items: baseline;
+		margin-bottom: 0;
 		li {
 			margin-right: 2px;
 			&:not(:last-child):after {

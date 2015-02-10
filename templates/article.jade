@@ -42,6 +42,8 @@ block content
                     code &lt;#{tag}&gt;
                   if val.label == "css"
                     code #{tag}:&#123;&#125;
+                  if val.label == "attribute"
+                    code "#{tag}"
       section.content!= typogr(page.html).typogrify()
   div.col-md-3.side-nav
     div.side-nav-inner
