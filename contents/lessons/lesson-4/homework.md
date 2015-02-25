@@ -16,15 +16,19 @@ template: article.jade
 
 Download the starter file that contains the HTML and images for this homework.
 
+Create a folder `homework4_yourname`
+
 [Stater File](homework-week4.zip)
 
 Add this style below to the html.
 
 When a value has a `?` you will need to figure out what the value should be.
 
+**Note:** Be sure to send all HTML, CSS and images in a zip file.
+
 ##body
 
-	background-color - #FF0000
+	background-color - #c0c0c0
 	font - ? arial
 	
 

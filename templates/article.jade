@@ -28,6 +28,10 @@ block header
 block content
   div.col-md-9.main-content
     article.article
+
+      section.content!= typogr(page.html).typogrify()
+  div.col-md-3.side-nav
+    div.side-nav-inner
       if page.metadata.tags
         each val, index in page.metadata.tags
           div.tags
@@ -44,9 +48,6 @@ block content
                     code #{tag}:&#123;&#125;
                   if val.label == "attribute"
                     code "#{tag}"
-      section.content!= typogr(page.html).typogrify()
-  div.col-md-3.side-nav
-    div.side-nav-inner
 
 block prepend footer
   div.nav

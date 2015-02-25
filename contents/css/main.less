@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto+Condensed:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto+Condensed:400,700,300|Oxygen+Mono);
 
 @import "vars";
 
@@ -255,7 +255,7 @@ h3 {
 		height: @logo-height;
 		margin-top: 7px;
 		.tag {
-			fill: @alt;
+			fill: darken(@white, 20%);
 		}
 
 		.bracket {
@@ -326,9 +326,21 @@ p.date {
 	overflow: hidden;
 }
 
+.table {
+	border: 1px solid #ddd;
+	background-color: rgba(221,221,221,.2);
+	tbody, thead {
+		tr{
+			td, th {
+				padding: .5em 2em;
+			}
+		}
+	}
+}
+
 .table th {
-	background-color: @alt;
-	color: #000;
+
+	color: @alt;
 }
 
 .alert-info {
@@ -551,8 +563,8 @@ img[src$="homework.png"] {max-width: 100%;}
 
 .homework-view {
 	display: flex;
-	border-top: 1px solid #FF0000;
-	border-bottom: 1px solid #FF0000;
+	border-top: 1px solid @alt;
+	border-bottom: 1px solid @alt;
 
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -569,7 +581,7 @@ img[src$="homework.png"] {max-width: 100%;}
 			max-width: 150px;
 			img {
 				max-width: 100%;
-				border: 2px solid #FF0000;
+				border: 2px solid gray;
 			}
 		}
 	}
@@ -612,7 +624,9 @@ img[src$="homework.png"] {max-width: 100%;}
 .tags {
 
 	display: flex;
+	flex-direction: column;
 	align-items: baseline;
+	margin-bottom: 10px;
 
 	.data {
 		font-size: 1.4em;
@@ -634,6 +648,12 @@ img[src$="homework.png"] {max-width: 100%;}
 			}
 		}
 	}
+}
+
+pre {
+	border: none;
+	padding: 0;
+	border-radius: 0;
 }
 
 //iPhone < 5:
@@ -803,6 +823,21 @@ img[src$="homework.png"] {max-width: 100%;}
 
 	p {
 		text-align: left;
+	}
+}
+
+table.no-style {
+	font-family: monospace;
+	border: 1px solid silver;
+	width: auto;
+	tr {
+		th {
+			background-color: transparent;
+			text-align: center;
+		}
+		td, th {
+			border: 1px solid silver;
+		}
 	}
 }
 

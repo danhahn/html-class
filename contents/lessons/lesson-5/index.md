@@ -3,6 +3,23 @@ title: Lesson 5
 author: Dan Hahn
 date: 2015-2-25 15:00
 template: article.jade
+tags: {
+  'html': {
+    'label': 'html',
+    'icon': 'fa fa-html5',
+    'data' : ['table', 'tr', 'td', 'tbody', 'thead']
+  },
+  'css': {
+      'label': 'css',
+      'icon': 'fa fa-css3',
+      'data' : ['border-collapse']
+    },
+  'attribute': {
+      'label': 'attribute',
+      'icon': 'fa fa-quote-right',
+      'data' : ['colspan', 'rowspan']
+    }
+}
 ---
 
 This week we will talk about Table and all the good and bad that goes with it. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
@@ -37,7 +54,9 @@ Tables are defined with the `<table>` tag. A table is divided into rows (with th
 		</tbody>
 	</table>
 
-<table>
+### Example
+
+<table class="no-style">
 	<thead>
 		<tr>
 			<th>row 1, cell 1</th>
@@ -158,7 +177,7 @@ Normal table with header
 		<tbody>
 	</table>
 
-<table border="1">
+<table border="1" class="no-style">
 	<thead>
 		<tr>
 			<th>Heading</th>
@@ -193,7 +212,7 @@ The `colspan` attribute is a way to make on `<td>` take up the space of two or m
 	</tr>
 	</table>
 
-<table border="1">
+<table border="1" class="no-style">
 <tr>
 	<td colspan="2">row 1, cell 1</td>
 </tr>
@@ -217,7 +236,7 @@ The `rowspan` attribute is like the `colspan` but the cell will span from one ro
 	</tr>
 	</table>
 
-<table border="1">
+<table border="1" class="no-style">
 <tr>
 	<td rowspan="2">row 1, cell 1</td>
 	<td>row 1, cell 2</td>
@@ -267,7 +286,7 @@ Adding comments before and after a nested table helps keep the two table straigh
 		</tr>
 	</table>
 
-<table>
+<table class="no-style">
 <tr>
     <td>
 		This cell contains a nested table.

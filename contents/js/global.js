@@ -1,5 +1,5 @@
 $(function() {
-	$("table").addClass("table table-condensed");
+	$("table").addClass("table");
 
 	var showNav = false;
 
