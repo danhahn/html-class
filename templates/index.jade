@@ -9,6 +9,9 @@ block header
     h2= locals.startDate + " to " + locals.endDate
 
 block notes
+  if locals.note
+    div.container
+      div.alert.alert-danger= locals.note
   if locals.classnote
     div.container
       div.alert.alert-danger

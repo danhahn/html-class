@@ -92,10 +92,12 @@ $(function() {
 		var winPos =$(window).scrollTop();
 		if (winPos > 100) {
 			//$("body").removeClass("homepage");
-			$(".homepage").addClass("scroll")
+			$(".homepage").addClass("scroll");
+			$(".article-detail").addClass("scroll");
 		}
 		else {
-			$(".homepage").removeClass("scroll")
+			$(".homepage").removeClass("scroll");
+			$(".article-detail").removeClass("scroll");
 		}
 
 	})
