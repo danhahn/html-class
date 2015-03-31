@@ -40,7 +40,7 @@ Unit|Description
 color_name|A color name (red)
 rgb(x,x,x)|A rgb value (rgb(255,0,0))
 rgb(y%, y%, y%)|A rgb percentage value (rgb(100%,0%,0%))
-#rrggbb|A hex number ( #ff0000).
+#rrggbb|A hex number ( #c0c0c0).
 
 ---
 

@@ -24,9 +24,9 @@ subject: TEST
 <td bgcolor="#000000"><span style="color: gray;">gray</span></td>
 </tr>
 <tr>
-<td><span style="color: #FF0000;">#FF0000</span></td>
+<td><span style="color: #c0c0c0;">#c0c0c0</span></td>
 <td bgcolor="#FFFFFF"><span style="color: silver;">silver</span></td>
-<td bgcolor="#000000"><span style="color: silver;">#FF0000</span></td>
+<td bgcolor="#000000"><span style="color: silver;">#c0c0c0</span></td>
 <td bgcolor="#000000"><span style="color: silver;">silver</span></td>
 </tr>
 <tr>
@@ -90,9 +90,9 @@ subject: TEST
 <td bgcolor="#000000"><span style="color: magenta;">magenta</span></td>
 </tr>
 <tr>
-<td><span style="color: #ff0000;">#FF0000</span></td>
+<td><span style="color: #c0c0c0;">#c0c0c0</span></td>
 <td bgcolor="#FFFFFF"><span style="color: red;">red</span></td>
-<td bgcolor="#000000"><span style="color: red;">#FF0000</span></td>
+<td bgcolor="#000000"><span style="color: red;">#c0c0c0</span></td>
 <td bgcolor="#000000"><span style="color: red;">red</span></td>
 </tr>
 <tr>
@@ -139,9 +139,9 @@ subject: TEST
 <td bgcolor="#000000"><span style="color: darkgray;">darkgray</span></td>
 </tr>
 <tr>
-<td><span style="color: #FF0000;">#FF0000</span></td>
+<td><span style="color: #c0c0c0;">#c0c0c0</span></td>
 <td bgcolor="#FFFFFF"><span style="color: silver;">silver</span></td>
-<td bgcolor="#000000"><span style="color: silver;">#FF0000</span></td>
+<td bgcolor="#000000"><span style="color: silver;">#c0c0c0</span></td>
 <td bgcolor="#000000"><span style="color: silver;">silver</span></td>
 </tr>
 <tr>
@@ -685,9 +685,9 @@ subject: TEST
 <td bgcolor="#000000"><span style="color: crimson;">crimson</span></td>
 </tr>
 <tr>
-<td><span style="color: #ff0000;">#FF0000</span></td>
+<td><span style="color: #c0c0c0;">#c0c0c0</span></td>
 <td bgcolor="#FFFFFF"><span style="color: red;">red</span></td>
-<td bgcolor="#000000"><span style="color: red;">#FF0000</span></td>
+<td bgcolor="#000000"><span style="color: red;">#c0c0c0</span></td>
 <td bgcolor="#000000"><span style="color: red;">red</span></td>
 </tr>
 <tr>

@@ -8,7 +8,6 @@ body {
 
 p {
 	line-height: 1.8;
-	text-align: justify;
 }
 
 a {
@@ -435,7 +434,13 @@ footer {
 	margin-left: 0;
 }
 
+#cntrBoxModel {
+	padding: 0;
+}
+
 .box-container {
+
+	box-sizing: content-box;
 
 	margin: 0 0 20px;
 
@@ -470,6 +475,7 @@ footer {
 }
 
 .box-model {
+	box-sizing: content-box;
 	width: 100%;
 	position: relative;
 	z-index: 100;

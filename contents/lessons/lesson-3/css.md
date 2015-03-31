@@ -172,7 +172,6 @@ in|inch
 cm|centimeter
 mm|millimeter
 em|one em is equal to the font size of the current element
-ex|one ex is the x-height of a font, the x-height is usually about half the font-size
 pt|point (1 pt is the same as 1/72 inch)
 pc|pica (1 pc is the same as 12 points)
 px|pixels (a dot on the computer screen)
