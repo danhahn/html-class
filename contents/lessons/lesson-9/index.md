@@ -13,6 +13,7 @@ This week we will be talking about how to use HTML forms. <div><span class="labe
 
 * [HTML Forms]()
 * [Class Work](classwork.html)
+* [Intro to JS and Jquery](javascript.html)
 
 [Download Notes  <i class="icon-download-alt icon-white"></i>](week9-notes.zip)
 [Download Starter File  <i class="icon-download-alt icon-white"></i>](week9.zip)

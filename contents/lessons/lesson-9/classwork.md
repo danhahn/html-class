@@ -9,6 +9,7 @@ template: article.jade
 
 * [HTML Forms]()
 * [Class Work](classwork.html)
+* [Intro to JS and Jquery](javascript.html)
 
 We will building a page that looks like this.gi
 
