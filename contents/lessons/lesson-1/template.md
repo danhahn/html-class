@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 2015-1-28 15:00
+date: 6/3/2015 15:00
 template: article.jade
 tags: {
   'html': {
@@ -17,7 +17,7 @@ tags: {
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Blocklevel](blocklevel.html)
+* [Block-Level](block-level.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 

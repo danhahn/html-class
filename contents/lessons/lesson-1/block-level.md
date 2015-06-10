@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 2015-1-28 15:00
+date: 6/3/2015 15:00
 template: article.jade
 
 tags: {
@@ -14,18 +14,19 @@ tags: {
 
 ---
 
-#Blocklevel Elements
+#Block-Level Elements
 
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Blocklevel](blocklevel.html)
+* [Block-Level](block-level.html)
+* [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 
-Block Level elements are used to define the structure of the HTML page. Block Level elements will define and area on the page or force content on its own line. Block Level elements must be the outermost elements but can be nested within each other. The only exception to the rule is the paragraph tag which needs to be the innermost block level elements.
+Block-Level elements are used to define the structure of the HTML page. Block-Level elements will define and area on the page or force content on its own line. Block-Level elements must be the outermost elements but can be nested within each other. The only exception to the rule is the paragraph tag which needs to be the innermost Block-Level elements.
 
-##Structure Tags - Block Level Elements
+##Structure Tags - Block-Level Elements
 
 ###Paragraph Tag (`<p>`)
 
