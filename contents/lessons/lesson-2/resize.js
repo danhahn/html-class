@@ -13,7 +13,7 @@ $(function() {
         $('.content img')
           .css(
             {
-              'width': this.innerHTML
+              'width': $(this).html()
             }
           )
       });
