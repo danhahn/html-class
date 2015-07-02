@@ -14,8 +14,4 @@ template: article.jade
 Download and save to a `images` folder
 
 ## Image 1
-![](images/goldsnow.gif)
-
-## Image 2
-
-![](images/lakeEffect.jpg)
+![](images/lake-effect.png)

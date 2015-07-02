@@ -19,18 +19,34 @@ Make sure you have a local copy of the two images.
 
 <a href="homework5-images.html" class="btn">Download Images</a>
 
+## Colors
+
+* \#70a7ff
+* \#c2dcff
+* \#8ac4ff
+* \#ffffff
+* \#c0c0c0
+
+## Google fonts
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700italic' rel='stylesheet' type='text/css'>
+    font-family: 'Lobster Two', cursive;
+
 ##page title – New York
 
 State Golden Snowball Award Contest
 
 ###div
 
-	add ID “site”
-	set width to 800px
+  add class “site”
+  set width to 800px
 
 ###header
 
-	image goldsnow.gif (alt – New York State Golden Snowball Award Contest)
+  New York State Golden Snowball Award Contest
+
+    background-color - #70A7FF
+
 
 ###p
 
@@ -44,37 +60,37 @@ Golden Snowball Totals for the 2007 – 2008 Snowfall Season
 
 add class “chart” to table
 
-	border-collapse: collapse
-	width – 700px
+    border-collapse: collapse
+    width – 100%
 
 All TD and TH
 
-	text-align – center
-	padding – 5px
-	width – 120px
-	border: 1px solid gray
+    text-align – center
+    padding – 5px 10px
+    width – 150px
+    border: 1px solid gray
 
 header(class)
 
-	background-color - #70A7FF;
+    background-color - #70A7FF;
 
 row(class)
 
-	background-color - #C2DCFF
+    background-color - #C2DCFF
 
 row(alt)
 
-	background-color – #8AC4FF
+    background-color – #8AC4FF
 
 Add class “city” to the first column of each row
 
-	text-align: left
-	width: 200px
+    text-align: left
+    width: 200px
 
 highlight(class)
 
-	background-color: white
-	font-weight: bold
+    background-color: white
+    font-weight: bold
 
 th (class – header)
 
@@ -128,10 +144,14 @@ td (class – row)
 
 Lake-effect snow
 
-###image
+### figure with image
 
-	lakeEffect.jpg (class = photo)
-	float – right;
+    lake-effect.png
+    How Lake Effect Works
+    ~~~~~~~~~~~
+    background-color - 70A7FF
+    color - gray
+    font-size - 10px
 
 ###p
 
