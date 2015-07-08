@@ -8,54 +8,47 @@ template: article.jade
 #Homework
 
 * [Box Model]()
+* [Pseudo Class](pseudo.html)
 * [Floats](floats.html)
 * [Clear Fix](clear-fix.html)
 * [Homework](homework.html)
 
-[Download Stater File](homework-week6.zip)
+[Download Stater File](homework6_yourname.zip)
 
-The point of this homework is to build a simple navigation out of an unordered list.  The idea is we are going to build a nav then style it.
-
-![](homework.png)
+The point of this homework is to work with floats and the box model to create example of what a homepage of a site might look like.
 
 ## Getting started
 
-We are building off the homework from last week.  If your work has errors or you are just not happy with it you can use the starter file attached on the right.
+Download the starer file and be sure to rename both the folder and file name.
 
-## Build the nav
+In this folder you will find
 
-As we talked about in class but what is a navigation in HTML tags?  It is a list of links.  So build the correct HTML markup support the navigation.
+* 1 html page
+* 1 css file
+* 1 folder of images
 
-* Home -> "index.html"
-* News -> "news/index.html"
-* Sports -> "sports/index.html"
-* Entertainment -> "entertainment/index.html"
-* Weather -> "weather/index.html"
+## global nav
 
-**Note:** You will see in the HTML where the nav should go after the `<header>` and before the `<article>`.
+For the global nav we need to turn a vertical nav in to a horizontal nav.
 
-## Adding the style
+## promos
 
-Nav
+In this section we need to "stack" the promo boxes next to each other.  Here there is a small 10px gap between each box.  
 
-	background color -> #9D9D9D
+Here you will need to put a margin right on all but the last box.  Keep in mind that we can use `:last-child` to target the last element.
 
-Nav Item
+**Note:** you may need to define a width to get the boxes to align correct.
 
-	Spacing top and bottom -> 5
-	Spacing left and right -> 10
+## more content
 
-Nav Link
+Here we need to use the box model get the correct size of each box.  
 
-	Text -> uppercase
-	Text -> bold
-	font color -> #1F346C
+So lets figure out the size for each box in this section.  
 
-Nav Link Rollover
-
-	background color -> #1F346C
-	font color -> white
-
-Please note that I left out a good number of styles and if you just do what is set above it will not work. Please look back at the notes form class.
+* total width 1000px
+* 4 boxes
+* 10px of space between each box (not after the last)
+* 10px of padding on each box
+* 1px border
 
 <div class="homework-view" data-lesson="lesson6"></div>
