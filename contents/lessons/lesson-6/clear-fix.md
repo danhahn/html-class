@@ -35,10 +35,10 @@ The most basic way to fix the issue is to add a height to the parent element.
         <li>Nav Item 4</li>
     </ul>
 
-|Good|Bad|
-|----|---|
-|it works|not flexaable|
-||hard to know what he correct height is.|
+| Good     | Bad                                     |
+|----------|-----------------------------------------|
+| it works | not flexaable                           |
+|          | hard to know what he correct height is. |
 
 ## Overflow
 

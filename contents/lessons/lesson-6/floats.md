@@ -21,10 +21,10 @@ When an element is floated they go into a state that is not inline or block.  A 
 
 ##Float Basics
 
-|prop|value|desc|example|
-|----|-----|----|-------|
-|float|left|float an item to the left and content will wrap around it|`float: left;`|
-|float|right|float an item to the right and content will wrap around it|`float: right;`|
+| prop  | value | desc                                                       | example         |
+|-------|-------|------------------------------------------------------------|-----------------|
+| float | left  | float an item to the left and content will wrap around it  | `float: left;`  |
+| float | right | float an item to the right and content will wrap around it | `float: right;` |
 
     <style>
         img {
@@ -52,11 +52,11 @@ When an element is floated it affects both the element that has the float and th
 
 Clear has three values, left, right and both.  `clear: left` will clear a `float: left`, `clear: right` will clear a `float right` and `clear: both` will clear either a left or right float.
 
-|prop|value|desc|example|
-|----|-----|----|-------|
-|clear|left|A clear **left** will clear an element that has been floated left|`clear: left;`|
-|clear|right|A clear **right** will clear an element that has been floated right|`clear: right;`|
-|clear|both|A clear **both** will clear an element that has been floated left **or** right|`clear: both;`|
+| prop  | value | desc                                                                           | example         |
+|-------|-------|--------------------------------------------------------------------------------|-----------------|
+| clear | left  | A clear **left** will clear an element that has been floated left              | `clear: left;`  |
+| clear | right | A clear **right** will clear an element that has been floated right            | `clear: right;` |
+| clear | both  | A clear **both** will clear an element that has been floated left **or** right | `clear: both;`  |
 
 The the clear float must be added to an element after the floated element.
 

@@ -1,0 +1,146 @@
+body {
+  background: #c6cbcc;
+  font: 15px arial;
+  margin: 20px;
+}
+
+h1, h2, h3, h4, p, ul, figure {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo img {
+  display: block;
+}
+
+.global-nav {
+  background-color: #231f20;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.global-nav:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.global-nav img, .global-nav ul {
+  float: left;
+}
+.global-nav ul {
+  margin-left: 10px;
+}
+.global-nav ul li {
+  float: left;
+}
+.global-nav ul li a {
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 30px;
+  background-color: #080707;
+  margin-left: 10px;
+}
+.global-nav ul li a:hover {
+  background-color: #594f51;
+}
+
+.hero {
+  margin-bottom: 10px;
+}
+.hero img {
+  display: block;
+}
+.hero figcaption {
+  background-color: #ead98b;
+  padding: 20px;
+}
+
+.promos:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.promos li {
+  float: left;
+  width: 325px;
+  padding-bottom: 40px;
+  margin-right: 12px;
+}
+.promos li:last-child {
+  margin-right: 0;
+}
+.promos h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.promos p {
+  line-height: 1.8em;
+}
+
+.more-content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.more-content li {
+  box-sizing: border-box;
+  height: 270px;
+  float: left;
+  margin-right: 10px;
+  width: 242px;
+  font-size: 12px;
+  border: 1px solid silver;
+  padding: 10px;
+}
+.more-content li img {
+  max-width: 100%;
+}
+.more-content li:last-child {
+  margin-right: 0;
+}
+.more-content li p {
+  line-height: 1.5em;
+  padding: 10px;
+}
+.more-content li p a {
+  color: #955251;
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.global-footer {
+  margin-top: 20px;
+  background-color: #414042;
+}
+.global-footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.global-footer li {
+  float: left;
+}
+.global-footer li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
