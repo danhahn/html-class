@@ -1,85 +1,133 @@
 ---
 title: Lesson 8
 author: Dan Hahn
-date: 2015-3-25 15:00
+date: 7/22/2015 15:00
 template: article.jade
 ---
 
-This week we will be talking about applying a background image with CSS. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we work on the in class final.  
 
 <span class="more"></span>
 
-#Backgrounds
+#Final Project
 
-* [Backgrounds]()
-* [Flex Box](flex.html)
+* [Final Project]()
+* [Full Image](full.html)
 
-[Download Notes  <i class="icon-download-alt icon-white"></i>](week8-notes.zip)
-[Download Starter File  <i class="icon-download-alt icon-white"></i>](week8.zip)
+The final is due at the end of class on July 22, 2015.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
 
-Backgrounds are a way to add colors and images to elements on the page.
+<a href="summer-2015.psd" class="btn">Download PSD</a>
 
-###Background Color
+## Colors
 
-	background-color: color name | RGB Value | Hex Value;
+* \#333333
+* \#ffffff
+* \#808080
+* \#a8383b
+* \#236167
+* \#cccccc
+* \#a7a7a7
+* \#30858d
+* \#000000
+* \#de9b9d
 
-Background color can be added any element on the page including both block and inline elements. Block level elements will display the full width of the element where inline will only display in the space the content needs. You can use padding to expose more of the background.
+## fonts
 
-###Background Image
+    @import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Homemade Apple', cursive;
 
-	background-image: url(<image path>);
+## header
 
-Background images can be applied to any element on the page including both block and inline elements. If a background color and image are applied at the same time to the same element the image will overlay the color. By default a background image will tile in all directions starting in the top left corner.
+###### Swatches
 
-###Background Repeat
+* \#ffffff
 
-	background-repeat: repeat | no-repeat | repeat-x | repeat-y
+New York State {font size 60px}<br>
+The Empire State {font size 20px}
 
-When applying a background image it will tile in all directions by default.
+## Nav
 
-You can control the way the image will tile by using `background-repeat`.
+###### Swatches
 
-Repeat | Direction
----|---
-repeat (default) | tiles in all directions
-no-repeat | the image will appear one time.
-repeat-x | repeat along the x axis
-repeat-y | repeat along the x axis
+* \#a8383b
+* \#30858d
+* \#ffffff
 
-###Background Attachment
+### Nav Items
 
-	background-attachment: scroll | fixed;
+* Home(index.html)
+* History(history/index.html)
+* Geography(geography/index.html)
+* Major cities(cities/index.html)
+* Demographics(demographics/index.html)
+* Transportation(transportation/index.html)
+* Sports(sports/index.html)
 
-When a background image is applied to an element by default it will move with that element then the page scrolls. An image can be locked to one location by setting the value of background-attachment to fixed. When fixed is applied the element will no longer have its location set by the element but the body instead. The most common use of the is property is when applying a background to the BODY tag and that background image should not move when the page is scrolled.
+## Content
 
-####Background Position
+###### Swatches
 
-	background-position: (left, right or center) (top, center or bottom);
+* \#236167
+* \#333333
+* \#808080
+* \#ffffff
+* \#a8383b
 
-The position of the background image can be sent by using background-position. When a value is set the image will move to the location set background-position and if a tile is applied tile out from that point.
+##New York
 
-If you want the image to be position the center both vertical and horizontal than you need only define the value of center.
+New York is a state in the Northeastern and Mid-Atlantic regions of the United States **[1]**. New York is the 27th-most extensive, the third-most populous, and the seventh-most densely populated of the 50 United States. New York is bordered by New Jersey and Pennsylvania to the south and by Connecticut, Massachusetts, and Vermont to the east. The state has a maritime border with Rhode Island east of Long Island, as well as an international border with the Canadian provinces of Quebec to the north and Ontario to the west and north. The state of New York is often referred to as New York State to distinguish it from New York City, its largest city.
 
-	background-position: center;
+*Photo 1*
 
-Position can also be set by adding a number value, two values must be set with the first value how far from the left and the second value how far from the top. Number can be in pixels or percentages.
+New York City **[2]**, with a Census-estimated population of over 8.4 million in 2013, is the most populous city in the United States and the nucleus of the premier gateway for legal immigration to the United States—the New York City Metropolitan Area, one of the most populous urban agglomerations in the world. New York City is also known for being the location of Ellis Island, the largest historical gateway for immigration in the history of the United States. A global power city, New York City exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. The home of the United Nations Headquarters, New York City is an important center for international diplomacy and has been described as the cultural and financial capital of the world. New York City alone makes up over 40 percent of the population of New York State, while two-thirds of the state's population resides within the New York City Metropolitan Area, and Long Island is home to nearly 40% of New York State's population. Both the state and New York City were named for the 17th century Duke of York, future King James II of England.
 
-	background-position: 100px 300px;
-	background-position: 50% 80%;
+*Photo 2*
 
-###Background Shorthand
+New York was inhabited by various tribes of Algonquian and Iroquoian speaking Native Americans at the time Dutch settlers moved into the region in the early 17th century. In 1609, the region was first claimed by Henry Hudson for the Dutch. Fort Nassau was built near the site of the present-day capital of Albany in 1614. The Dutch soon also settled New Amsterdam and parts of the Hudson River Valley, establishing the colony of New Netherland. The British annexed the colony from the Dutch in 1664. The borders of the British colony, the Province of New York, were quite similar to those of the present-day state.
 
-	background: image repeat attachment position color;
+About one third of all the battles of the Revolutionary War took place in New York. The state constitution was enacted in 1777. New York became the 11th state to ratify the United States Constitution, on July 26, 1788.
 
-Like many CSS properties there is a shorthand way to define a background. Like with other shorthand options not all values are required and values not set will be set to the default value.
+## Links
 
-	background: #fff url(images/side-bar.png) repeat-y right top;
+* United States[1] -> http://www.whitehouse.gov
+* New York City[2] -> http://www.nyc.gov
 
-In this example attachment is not defined so it will be set to the default which in this case is scroll.
+## images
 
-In a case where you need to override a value set elsewhere and remove all background values it can be done by setting the background value to none.
+<a href="images.zip" class="btn">Download images</a>
 
-	background: none;
+**1**
+<img src="images/index1.jpg" alt="">
+<p>Capital Building</p>
+**2**
+<img src="images/index2.jpg" alt="">
+<p>New York State</p>
 
-You are setting the `background-image` to none and by default setting the `background-color` to transparent.
+## Side Bar
 
+###### Swatches
+
+* \#a7a7a7
+* \#a8383b
+* \#ffffff
+
+
+Governor<br>
+Andrew Cuomo (D)
+
+Lieutenant Governor<br>
+Robert Duffy (D)
+
+Population<br>
+Total - 19,651,127<br>
+Density - 416.42/sq mi
+
+## Footer
+
+###### Swatches
+
+* \#de9b9d
+* \#ffffff
+
+© 2015 SVA HTML

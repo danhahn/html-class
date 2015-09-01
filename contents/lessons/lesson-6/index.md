@@ -1,7 +1,7 @@
 ---
 title: Lesson 6
 author: Dan Hahn
-date: 3/11/2015 15:00
+date: 7/8/2015 15:00
 template: article.jade
 
 tags: {
@@ -21,6 +21,7 @@ This week we will be talking about floating.  How to align images, build gallery
 # CSS Box Model
 
 * [Box Model]()
+* [Pseudo Class](pseudo.html)
 * [Floats](floats.html)
 * [Clear Fix](clear-fix.html)
 * [Homework](homework.html)
@@ -38,23 +39,23 @@ To set the width of an element you take the desired width and subtract the `padd
 
 If we have an element that needs to fit in to a space that is `400px` and it has `padding: 20px` and `border: 5px solid black` the calulation to find the size would look like this.
 
-	400px - 20px -20px - 5px - 5px = 350px
+  400px - 20px -20px - 5px - 5px = 350px
 
 ### Example
 
 <button id="fixWidth" class="btn" style="float: right;">Fix Width</button>
 
 <ul id="cntrBoxModel" class="btn-group">
-	<li class="btn" data-total="400" id="total">width: 400px;</li>
-	<li class="btn" data-size="20">padding: 20px;</li>
-	<li class="btn" data-size="10">border: 10px solid #1abc9c;</li>
-	<li class="btn" data-size="30">margin: 30px;</li>
+  <li class="btn" data-total="400" id="total">width: 400px;</li>
+  <li class="btn" data-size="20">padding: 20px;</li>
+  <li class="btn" data-size="10">border: 10px solid #1abc9c;</li>
+  <li class="btn" data-size="30">margin: 30px;</li>
 </ul>
 
 <div id="displayBoxModel" class="box-container">
-	<div class="box-model">
-		Box Model Element.
-	</div>
+  <div class="box-model">
+    Box Model Element.
+  </div>
 </div>
 
 <script src="lesson-6.js"></script>

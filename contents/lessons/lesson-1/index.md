@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 2015-1-28 15:00
+date: 6/3/2015 15:00
 template: article.jade
 localcss: buckets.css
 localjs: buckets.js
@@ -24,7 +24,8 @@ Introduction to HTML, Web Browsers, Standards <div><span class="label label-defa
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Blocklevel](blocklevel.html)
+* [Block-Level](block-level.html)
+* [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 
@@ -37,12 +38,12 @@ HTML or Hyper Text Markup Language is the building blocks of all web pages.  HTM
 Another way to think about it is HTML is a series of start and stop commands for the web browser.  The browser then renders that content to the specs of HTML.  
 
 ##The Three Buckets
-Modern web development uses the three bucket approach.  Each bucket adds another layer to the display of the page. 
+Modern web development uses the three bucket approach.  Each bucket adds another layer to the display of the page.
 
 <ul class="buckets">
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
 </ul>
 
 * HTML is the building blocks or scaffolding of the page.  
@@ -64,7 +65,7 @@ If the tag has a closing tag it will match the opening tag but have an `/` after
 
 There are a few number of tags that do not have a closing tag because they do not wrap any content.  Older versions of HTML required that all tags be opened and closed.  This is no longer the case although you may still see a self-closing tag `<tag />` in code examples.  
 
-##Attributes 
+##Attributes
 Sometimes a tag will need additional information to perform correctly.  Adding an attribute to the tag allows the developer to set the correct information on each tag.  
 
 * Attributes will always go on the opening tag after the tag name.  There must be space between the tag name and the attribute name.
@@ -72,14 +73,14 @@ Sometimes a tag will need additional information to perform correctly.  Adding a
 * If an attribute has a value the value must be quoted and you should use the double quote "
 * If an attribute has a value there must be an equal sign = between the attribute name and the value.
 * The order of the attribute does not matter.
-* The number of attributes that are used has decreased with newer versions of HTML. 
+* The number of attributes that are used has decreased with newer versions of HTML.
 
 ###One Attribute
 
 	<tag attribute="value">content</tag>
 
 ###Two Attributes
-	
+
 	<tag attribute="value" attribute="value">content</tag>
 
 ##Block-level vs inline
@@ -87,14 +88,14 @@ Sometimes a tag will need additional information to perform correctly.  Adding a
 Most all tags fall in to one of two types of tags, inline or block.  Understanding how an element displays will help you choose the correct tag to use.  
 
 Block-level elements will
-* Fill the full width of the parent element 
+* Fill the full width of the parent element
 * Force the content to its own line
-* Allows for padding and margin to be set on the top and bottom. 
+* Allows for padding and margin to be set on the top and bottom.
 
 ###Examples
 `<p>`, `<div>`, `<header>`, `<nav>`, `<ul>`, `<li>`, and `<h1>`.
 
-Inline will 
+Inline will
 * Only take up the space of the content
 * Wont force the content two its own line i.e. stay "inline"
 * Can't have padding on the top and bottom
@@ -104,7 +105,7 @@ Examples
 
 The block examples are structural elements, while the inline elements are text-based. This is an easy way to remember which is which.
 
-Generally speaking, you can put any block element inside another block element. You can also put any inline element inside a block element, as well as any inline element inside any other inline element. But you cannot put a block element inside an inline element. The paragraph tags also must be the inner most block element or in other words you cannot have a paragraph tag nested in a paragraph tag. 
+Generally speaking, you can put any block element inside another block element. You can also put any inline element inside a block element, as well as any inline element inside any other inline element. But you cannot put a block element inside an inline element. The paragraph tags also must be the inner most block element or in other words you cannot have a paragraph tag nested in a paragraph tag.
 
 ##Nesting Elements
 If we think about html as the building blocks of a webpage we will have to nest elements within in each other to build the page correctly.  

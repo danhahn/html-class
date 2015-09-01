@@ -1,9 +1,9 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 2015-2-4 15:00
-date: 2015-2-4 15:00
+date: 6/10/2015 15:00
 template: article.jade
+localjs: resize.js
 ---
 
 #Image Types
@@ -55,21 +55,19 @@ The PNG dates back to 1996 but was not supported on the web until the mid 2000. 
 
 ---
 
+##SVG - Scalable Vector Graphics
+
+(SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999. SVG images and their behaviors are defined in XML text files.
+
+<span class="example">![](images/sva-logo.svg)</span>
+
+##Image Resizing
+
+<p id="resize">In the event that an image needs to be resized each image type dislay different. </p>
+
 ##Optimization
 Optimizing images is a very import step to ensure that pages load quickly. Images in their default state are often much later than they need to be. While you can control the display size of an image with HTML or CSS it will not change the actual size of the image and you may end up downloading something much larger than you need.
 Each image type has its own compression and can reduce the image by a lot. It is important to choose the correct image type for its need. Just because it is small size it may not display correct and will look wrong.
-This image is over 3MB which is way to large for most pages.
-
-<span class="example">![](images/nyc.jpg)</span>
-
-This image is over 3MB which is way to large for most pages.
-
-type|size
----|---
-.gif|560k
-.jpg low|71k
-.jpg high|240k
-.png|1.5MB
 
 <style>
 
@@ -78,7 +76,9 @@ type|size
 	display: inline-block;
 }
 
-.example img {
-	max-width: 100%;
+.example:hover {
+	background-color: orange;
 }
+
+
 </style>

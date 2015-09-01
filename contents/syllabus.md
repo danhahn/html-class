@@ -8,10 +8,10 @@ subject: TEST
 
 #Getting started with Web Languages: HTML and CSS
 
-**12 weeks**<br>
+**8 weeks**<br>
 Wednesday **6:00-10:00 pm**<br>
-September 24, 2014 to December 17, 2014<br>
-2nd Floor – Room 216
+June 3 tp July 22 2015<br>
+2nd Floor – Room 204
 
 Daniel Hahn - dan@svahtml.com
 
@@ -51,7 +51,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * How a web page works
 * How we work
 * Parts of the HTML tag
-* Block Level vs Inline
+* Block-Level vs Inline
 * Basic HTML Document
 * Doctypes
 * Workflow
@@ -134,33 +134,6 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * CSS Layouts
 
 ###Lesson 8
-* Introduction to Forms
-* Naming elements
-* Form tag
-* Action
-* Method
-	* Post
-	* Get
-* Input tag
-	* Text
-	* Password
-	* Radio
-	* Checkbox
-	* Submit
-	* Reset
-	* Button
-	* Hidden
-* Select box
-* Textarea
-* Applying styles to forms
-
-###Lesson 9
-* Setting up a website
-* How to host your site
-* How manage your site
-
-
-###Lesson 10
-Final Project
+* Final Project
 
 Instructor reserves the right to alter the syllabus if/when needed

@@ -1,7 +1,7 @@
 ---
 title: Lesson 5
 author: Dan Hahn
-date: 2015-2-25 15:00
+date: 7/1/2015 15:00
 template: article.jade
 ---
 
@@ -14,8 +14,4 @@ template: article.jade
 Download and save to a `images` folder
 
 ## Image 1
-![](images/goldsnow.gif)
-
-## Image 2
-
-![](images/lakeEffect.jpg)
+![](images/lake-effect.png)

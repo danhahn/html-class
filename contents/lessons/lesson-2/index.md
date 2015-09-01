@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 2015-2-4 15:00
+date: 6/10/2015 15:00
 template: article.jade
 
 tags: {
@@ -74,7 +74,7 @@ If we had the text **HTML at SVA** and wanted to link to the web page *http://ww
 
 Keep in mind that the `<a>` is an inline element so it can be placed next to other text. 
 
-If you want a link to be on its own line it would need to wrapped with a blocklevel element like a `<p>`.
+If you want a link to be on its own line it would need to wrapped with a Block-Level element like a `<p>`.
 
 ---
 

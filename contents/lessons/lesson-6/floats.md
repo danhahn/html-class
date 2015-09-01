@@ -1,13 +1,14 @@
 ---
 title: Lesson 6
 author: Dan Hahn
-date: 3/11/2015 15:00
+date: 7/8/2015 15:00
 template: article.jade
 ---
 
 # Floats
 
 * [Box Model]()
+* [Pseudo Class](pseudo.html)
 * [Floats](floats.html)
 * [Clear Fix](clear-fix.html)
 * [Homework](homework.html)
@@ -20,12 +21,12 @@ When an element is floated they go into a state that is not inline or block.  A 
 
 ##Float Basics
 
-|prop|value|desc|example|
-|----|-----|----|-------|
-|float|left|float an item to the left and content will wrap around it|`float: left;`|
-|float|right|float an item to the right and content will wrap around it|`float: right;`|
+| prop  | value | desc                                                       | example         |
+|-------|-------|------------------------------------------------------------|-----------------|
+| float | left  | float an item to the left and content will wrap around it  | `float: left;`  |
+| float | right | float an item to the right and content will wrap around it | `float: right;` |
 
-	<style>
+    <style>
         img {
             float: left;
         }
@@ -51,11 +52,11 @@ When an element is floated it affects both the element that has the float and th
 
 Clear has three values, left, right and both.  `clear: left` will clear a `float: left`, `clear: right` will clear a `float right` and `clear: both` will clear either a left or right float.
 
-|prop|value|desc|example|
-|----|-----|----|-------|
-|clear|left|A clear **left** will clear an element that has been floated left|`clear: left;`|
-|clear|right|A clear **right** will clear an element that has been floated right|`clear: right;`|
-|clear|both|A clear **both** will clear an element that has been floated left **or** right|`clear: both;`|
+| prop  | value | desc                                                                           | example         |
+|-------|-------|--------------------------------------------------------------------------------|-----------------|
+| clear | left  | A clear **left** will clear an element that has been floated left              | `clear: left;`  |
+| clear | right | A clear **right** will clear an element that has been floated right            | `clear: right;` |
+| clear | both  | A clear **both** will clear an element that has been floated left **or** right | `clear: both;`  |
 
 The the clear float must be added to an element after the floated element.
 
@@ -73,14 +74,14 @@ In this example the content in the second element is not affected by the the flo
         }
     </style>
     <div>
-		<h2>Story Title</h2>
-		<p>Content. Content. Content. Content. Content. Content. </p>
-		<img src="image.jpg">
-		<p>Content. Content. Content. Content. Content. Content. </p>
-		<h3>Next Section</h3>
-		<p>Content. Content. Content. Content. Content. Content. </p>
-		<p>Content. Content. Content. Content. Content. Content. </p>
-	</div>
+      <h2>Story Title</h2>
+      <p>Content. Content. Content. Content. Content. Content. </p>
+      <img src="image.jpg">
+      <p>Content. Content. Content. Content. Content. Content. </p>
+      <h3>Next Section</h3>
+      <p>Content. Content. Content. Content. Content. Content. </p>
+      <p>Content. Content. Content. Content. Content. Content. </p>
+    </div>
 
 ####Output
 
@@ -96,18 +97,18 @@ When two or more consecutive elements are floated in the same direction they wil
 
 ###Example
 
-	<style>
-		li {
-			float: left;
-			list-style:none;
-		}
-	</style>
-	<ul>
-		<li>Nav Item 1</li>
-		<li>Nav Item 2</li>
-		<li>Nav Item 3</li>
-		<li>Nav Item 4</li>
-	</ul>
+    <style>
+      li {
+        float: left;
+        list-style:none;
+      }
+    </style>
+    <ul>
+      <li>Nav Item 1</li>
+      <li>Nav Item 2</li>
+      <li>Nav Item 3</li>
+      <li>Nav Item 4</li>
+    </ul>
 
 <div id="stacking_content"></div>
 
@@ -115,3 +116,9 @@ When two or more consecutive elements are floated in the same direction they wil
 [More Info](http://css-tricks.com/all-about-floats/)
 
 <script src="lesson-6.js"></script>
+
+<style>
+  table td:nth-child(4) {
+    white-space: nowrap;
+  }
+</style>
