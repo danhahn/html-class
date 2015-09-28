@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 6/3/2015 15:00
+date: 9/30/2015 15:00
 template: article.jade
 localcss: buckets.css
 localjs: buckets.js

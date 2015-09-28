@@ -1,7 +1,7 @@
 ---
 title: Lesson 9
 author: Dan Hahn
-date: 2015-4-1 15:00
+date: 11/25/2015 15:00
 template: article.jade
 ---
 

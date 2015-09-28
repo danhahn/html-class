@@ -21,7 +21,7 @@ block notes
 block content
   include author
   each article in articles
-    article.lesson-item.col-md-6
+    article.lesson-item.col-md-4
       .well
         header
           h2
@@ -44,6 +44,3 @@ block prepend footer
       a(href='/archive.html') « Archives
     if nextPage
       a(href=nextPage.url) Next page »
-
-
-

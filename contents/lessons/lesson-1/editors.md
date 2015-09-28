@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 6/3/2015 15:00
+date: 9/30/2015 15:00
 template: article.jade
 ---
 
@@ -16,12 +16,25 @@ template: article.jade
 
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.
 
-Below are some options for better HTML editors.  In class we will be using **Brackets**.
+Below are some options for better HTML editors.  In class we will be using **Ataom**.
+
+##[Atom](http://atom.io/)
+
+[![](images/Atom.png)](http://atom.io/)
+
+You may not have known this, but Adobe has a small open source markup editor project called Brackets. It’s available on both Mac and Windows for free and receives updates every 2.5 weeks, according to the developer. There are always new features being added to it, but the current ones include tabbed editing, a fullscreen mode, a very handy live preview, and even a bunch of debugging features if the app has problems. The best part about this free tool is that Adobe wants you to hack it. The company is very supportive of any customization efforts you may have and will even take suggestions for feature integrations in a later release.
+
+If you want your own custom markup editor, this is the best app you’ll get for free. Its possibilities are infinite, and it’s a code editor that actually looks nice.
+
+Price: **Free** (open source)<br>
+Requires: OS X 10.6 or later<br>
+Developer: Adobe
+
+---
 
 ##[Brackets](http://brackets.io/)
 
 [![](images/Brackets.png)](http://brackets.io/)
-
 
 You may not have known this, but Adobe has a small open source markup editor project called Brackets. It’s available on both Mac and Windows for free and receives updates every 2.5 weeks, according to the developer. There are always new features being added to it, but the current ones include tabbed editing, a fullscreen mode, a very handy live preview, and even a bunch of debugging features if the app has problems. The best part about this free tool is that Adobe wants you to hack it. The company is very supportive of any customization efforts you may have and will even take suggestions for feature integrations in a later release.
 
@@ -93,12 +106,12 @@ Developer: Apple Inc.
 
 <style>
 h2 + p {
-	float: left;
-	margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 
 }
 p img,
 p a img {
-	width: 100px;
+    width: 100px;
 }
 </style>
