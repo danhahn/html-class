@@ -10,8 +10,8 @@ subject: TEST
 
 **8 weeks**<br>
 Wednesday **6:00-10:00 pm**<br>
-June 3 tp July 22 2015<br>
-2nd Floor – Room 204
+September 30 tp December 16 2015<br>
+2nd Floor – Room 214
 
 Daniel Hahn - dan@svahtml.com
 
@@ -21,9 +21,9 @@ http://html.svahtml.com
 
 All class work, materials, and assignments will be given though the class web site.  In addition any announcement may be made on the site. The site will also provide back lesson and class presentations will be found there for you to review.
 
-	Login for both lab computers
-	User Name : smc2422a
-	Password : hahn
+    Login for both lab computers
+    User Name : svanyc
+    Password : svanyc
 
 ##Attendance:
 Every class is very important and will build off of the class before; therefore you must attend class every week. If you do miss a class, you are expected to make up the work before the next class. If you know in advance that you will miss a class, please contact me 24 hours before the class. Missing TWO or more classes will result in failure of the course.
@@ -59,10 +59,10 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 ###Lesson 1
 
 * Minimal HTML Document
-	* HTML
-	* Head
-	* Body
-	* Title
+    * HTML
+    * Head
+    * Body
+    * Title
 * Setting up HTML template
 * Block Elements
 * Straight Text
@@ -74,9 +74,9 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Preformatted Text
 * Horizontal Rules
 * List
-	* Ordered
-	* Unordered
-	* Nested list
+    * Ordered
+    * Unordered
+    * Nested list
 * HTML5 Tags
 
 ###Lesson 2
@@ -84,12 +84,12 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Path names
 * Linking Documents
 * Anchor Tag
-	* Mailto
-	* Anchor Tag
+    * Mailto
+    * Anchor Tag
 * Image Formats
-	* Gif
-	* JPEG or JPG
-	* PNG
+    * Gif
+    * JPEG or JPG
+    * PNG
 * Image Tag
 * Alternative Text for Images
 * Images as links

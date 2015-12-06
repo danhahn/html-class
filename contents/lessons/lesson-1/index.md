@@ -53,15 +53,15 @@ Modern web development uses the three bucket approach.  Each bucket adds another
 ##The Tag
 There are over 80 different HTML tags that can be used.  They all have the same basic format.  Most tags have an opening and a closing tag.  
 
-	<tag>content</tag>
+    <tag>content</tag>
 
 All tags have brackets around them < and > that are used by the browser to know what is a tag and what is content.  Right after the opening bracket `<` is the tag name like h1 or p then the closing bracket `>`.
 
-	<tag>
+    <tag>
 
 If the tag has a closing tag it will match the opening tag but have an `/` after the opening bracket.  This is the indication to the browser to close the tag that was opened.  With out it the browser would never know when to stop.  
 
-	</tag>
+    </tag>
 
 There are a few number of tags that do not have a closing tag because they do not wrap any content.  Older versions of HTML required that all tags be opened and closed.  This is no longer the case although you may still see a self-closing tag `<tag />` in code examples.  
 
@@ -77,11 +77,11 @@ Sometimes a tag will need additional information to perform correctly.  Adding a
 
 ###One Attribute
 
-	<tag attribute="value">content</tag>
+    <tag attribute="value">content</tag>
 
 ###Two Attributes
 
-	<tag attribute="value" attribute="value">content</tag>
+    <tag attribute="value" attribute="value">content</tag>
 
 ##Block-level vs inline
 
@@ -112,30 +112,30 @@ If we think about html as the building blocks of a webpage we will have to nest 
 
 Think about it this way.  If we were to build a house we might start to build the ground floor.  We might add a kitchen, bathroom and living room all with in the ground floor.  We would not finish the floor until all the rooms are done.  
 
-	House
-		Floor
-			Kitchen
-			Bathroom
-			Living room
-		Floor
-			Bed Room
-			Bed Room
-			Bathroom
+    House
+        Floor
+            Kitchen
+            Bathroom
+            Living room
+        Floor
+            Bed Room
+            Bed Room
+            Bathroom
 
 If this was HTML it might look something like this
 
-	<house>
-		<floor>
-			<kitchen></kitchen>
-			<bathroom></bathroom>
-			<living></living>
-		</floor>
-		<floor>
-			<bed></bed>
-			<bed></bed>
-			<bathroom></bathroom>
-		</floor>
-	</house>
+    <house>
+        <floor>
+            <kitchen></kitchen>
+            <bathroom></bathroom>
+            <living></living>
+        </floor>
+        <floor>
+            <bed></bed>
+            <bed></bed>
+            <bathroom></bathroom>
+        </floor>
+    </house>
 
 You can see we open the house tag but do not close it until both floors are done.  
 
