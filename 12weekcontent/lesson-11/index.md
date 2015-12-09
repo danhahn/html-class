@@ -4,141 +4,136 @@ author: Dan Hahn
 date: 12/9/2015 15:00
 template: article.jade
 ---
+---
+title: Lesson 8
+author: Dan Hahn
+date: 7/22/2015 15:00
+template: article.jade
+---
 
-This week we will be working on the final project. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we work on the in class final.  
 
 <span class="more"></span>
 
-# Start to work on final
+#Final Project
 
-* [Getting Started]()
-* [Download Content](content.html)
-* [Download Images](images.html)
-* [View](view.html)
+* [Final Project]()
+* [Full Image](full.html)
 
-This week we will start to work on the class final.  The final will pull from all the lessons of this session.  Nothing should be a surprise to you.   You can use your class notes, lesson examples or any other resource you need to finish the final.  The final must be sent to me by the end of the last class at 10:00.
+The final is due at the end of class on July 22, 2015.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
 
-You will be responsible for creating all the markup and css for the whole site.   You are free to work any way that you want to complete the project.
-
----
-
-##I would recommend working this way.
-
-1. Get the basic HTML structure set up.
-2. Get a basic css file in place to ensure the links work
-3. Get all the all the pages in place and ensure they link together
-4. Finish the CSS
-5. Fill in the rest of the content
-6. Add finishing touches
-
-I have include everything you will need to build the page.
-
----
-
-## PSD
-
-The PSD is a great place to get started.  This can give you all the info you will need to build out the HTML and css.  I like to use the PSD to get the sizes and colors of the different elements.
-
-<a href='final.psd' class='btn'>Download PSD</a>
-
----
+<a href="summer-2015.psd" class="btn">Download PSD</a>
 
 ## Colors
 
-Below are a list of the colors needed to build the pages.
+* \#333333
+* \#ffffff
+* \#808080
+* \#a8383b
+* \#236167
+* \#cccccc
+* \#a7a7a7
+* \#30858d
+* \#000000
+* \#de9b9d
 
-<div style="display:flex;">
-  <div class="col-4 sm-col-3 lg-col-2 p2" style="width: 75px;">
-    <div class="mb1">
-      <svg viewBox="0 0 64 64" width="64" height="64" style="display:block;width:100%;height:auto">
-        <rect width="64" height="64" fill="#c81b00"></rect>
-      </svg>
-    </div>
-    <div class="h6 break-word">#c81b00</div>
-  </div>
-  <div class="col-4 sm-col-3 lg-col-2 p2" style="width: 75px;">
-    <div class="mb1">
-      <svg viewBox="0 0 64 64" width="64" height="64" style="display:block;width:100%;height:auto">
-        <rect width="64" height="64" fill="#fcca75"></rect>
-      </svg>
-    </div>
-    <div class="h6 break-word">#fcca75</div>
-  </div>
-  <div class="col-4 sm-col-3 lg-col-2 p2" style="width: 75px;">
-    <div class="mb1">
-      <svg viewBox="0 0 64 64" width="64" height="64" style="display:block;width:100%;height:auto">
-        <rect width="64" height="64" fill="#002a86"></rect>
-      </svg>
-    </div>
-    <div class="h6 break-word">#002a86</div>
-  </div>
-  <div class="col-4 sm-col-3 lg-col-2 p2" style="width: 75px;">
-    <div class="mb1">
-      <svg viewBox="0 0 64 64" width="64" height="64" style="display:block;width:100%;height:auto">
-        <rect width="64" height="64" fill="#4354c7"></rect>
-      </svg>
-    </div>
-    <div class="h6 break-word">#4354c7</div>
-  </div>
-  <div class="col-4 sm-col-3 lg-col-2 p2" style="width: 75px;">
-      <div class="mb1">
-        <svg viewBox="0 0 64 64" width="64" height="64" style="display:block;width:100%;height:auto">
-          <rect width="64" height="64" fill="#fb2200"></rect>
-        </svg>
-      </div>
-      <div class="h6 break-word">#fb2200</div>
-    </div>
+## fonts
 
+    @import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Homemade Apple', cursive;
 
-</div>
+## header
 
----
+###### Swatches
 
-## Sizes
+* \#ffffff
 
-Below are some of the key sizes needed to build the pages.
+New York State {font size 60px}<br>
+The Empire State {font size 20px}
 
-<div class="">
-      <div class="bold truncate mb1" style="font-size:60px">
-        Font Size 60px
-      </div>
-      <div class="bold truncate mb1" style="font-size:45px">
-        Font Size 45px
-      </div>
-      <div class="bold truncate mb1" style="font-size:25px">
-        Font Size 25px
-      </div>
-      <div class="bold truncate mb1" style="font-size:20px">
-        Font Size 20px
-      </div>
-      <div class="bold truncate mb1" style="font-size:15px">
-        Font Size 15px
-      </div>
-      <div class="bold truncate mb1" style="font-size:12px">
-        Font Size 12px
-      </div>
-  </div>
+## Nav
 
----
+###### Swatches
 
-## Fonts
+* \#a8383b
+* \#30858d
+* \#ffffff
 
-Below are the font size and family you will need to use to build the pages.
+### Nav Items
 
+* Home(index.html)
+* History(history/index.html)
+* Geography(geography/index.html)
+* Major cities(cities/index.html)
+* Demographics(demographics/index.html)
+* Transportation(transportation/index.html)
+* Sports(sports/index.html)
 
-<div class="h3 bold break-word mb1" style="font-family:arial">
-  arial
-</div>
-<div class="h3 bold break-word mb1" style="font-family:'Montserrat', sans-serif">
-  'Montserrat', sans-serif
-</div>
-<div class="h3 bold break-word mb1" style="font-family:'Homemade Apple', cursive">
-  'Homemade Apple', cursive
-</div>
+## Content
 
----
+###### Swatches
 
-**Note:** you will need to include this at the op of your css file `@import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);`
+* \#236167
+* \#333333
+* \#808080
+* \#ffffff
+* \#a8383b
+
+##New York
+
+New York is a state in the Northeastern and Mid-Atlantic regions of the United States **[1]**. New York is the 27th-most extensive, the third-most populous, and the seventh-most densely populated of the 50 United States. New York is bordered by New Jersey and Pennsylvania to the south and by Connecticut, Massachusetts, and Vermont to the east. The state has a maritime border with Rhode Island east of Long Island, as well as an international border with the Canadian provinces of Quebec to the north and Ontario to the west and north. The state of New York is often referred to as New York State to distinguish it from New York City, its largest city.
+
+*Photo 1*
+
+New York City **[2]**, with a Census-estimated population of over 8.4 million in 2013, is the most populous city in the United States and the nucleus of the premier gateway for legal immigration to the United States—the New York City Metropolitan Area, one of the most populous urban agglomerations in the world. New York City is also known for being the location of Ellis Island, the largest historical gateway for immigration in the history of the United States. A global power city, New York City exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. The home of the United Nations Headquarters, New York City is an important center for international diplomacy and has been described as the cultural and financial capital of the world. New York City alone makes up over 40 percent of the population of New York State, while two-thirds of the state's population resides within the New York City Metropolitan Area, and Long Island is home to nearly 40% of New York State's population. Both the state and New York City were named for the 17th century Duke of York, future King James II of England.
+
+*Photo 2*
+
+New York was inhabited by various tribes of Algonquian and Iroquoian speaking Native Americans at the time Dutch settlers moved into the region in the early 17th century. In 1609, the region was first claimed by Henry Hudson for the Dutch. Fort Nassau was built near the site of the present-day capital of Albany in 1614. The Dutch soon also settled New Amsterdam and parts of the Hudson River Valley, establishing the colony of New Netherland. The British annexed the colony from the Dutch in 1664. The borders of the British colony, the Province of New York, were quite similar to those of the present-day state.
+
+About one third of all the battles of the Revolutionary War took place in New York. The state constitution was enacted in 1777. New York became the 11th state to ratify the United States Constitution, on July 26, 1788.
+
+## Links
+
+* United States[1] -> http://www.whitehouse.gov
+* New York City[2] -> http://www.nyc.gov
+
+## images
+
+<a href="images.zip" class="btn">Download images</a>
+
+**1**
+<img src="images/index1.jpg" alt="">
+<p>Capital Building</p>
+**2**
+<img src="images/index2.jpg" alt="">
+<p>New York State</p>
+
+## Side Bar
+
+###### Swatches
+
+* \#a7a7a7
+* \#a8383b
+* \#ffffff
 
 
+Governor<br>
+Andrew Cuomo (D)
 
+Lieutenant Governor<br>
+Robert Duffy (D)
+
+Population<br>
+Total - 19,651,127<br>
+Density - 416.42/sq mi
+
+## Footer
+
+###### Swatches
+
+* \#de9b9d
+* \#ffffff
+
+© 2015 SVA HTML
