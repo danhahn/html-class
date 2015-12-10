@@ -9,7 +9,7 @@ This week we work on the in class final.
 
 <span class="more"></span>
 
-#Final Project
+# Final Project
 
 * [Final Project]()
 * [Full Image](full.html)

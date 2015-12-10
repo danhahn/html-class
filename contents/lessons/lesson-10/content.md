@@ -1,6 +1,6 @@
-#Homepage
+# Homepage
 
-##Verizon Will Focus on Credit Rating, Network After Vodafone Deal
+## Verizon Will Focus on Credit Rating, Network After Vodafone Deal
 
 Verizon Communications Inc. (VZ) will focus on bolstering its mobile network and credit rating after the $130 billion deal to take control of its wireless business closes next year, Chief Financial Officer Fran Shammo said.
 
@@ -18,9 +18,9 @@ Verizon plans to participate in spectrum auctions in the U.S. and is still recep
 
 ______
 
-#News
+# News
 
-##Just roll with it 
+## Just roll with it 
 
 The astounding sums of money shelled out last week in the city's sale of 200 yellow taxi medallions prove that New York is ready for a cab revolution that can benefit both drivers and riders.
 
@@ -46,9 +46,9 @@ There has to be more. Going down that road, the Taxi and Limousine Commission un
 
 -----
 
-#Entertainment
+# Entertainment
 
-##Lady Gaga to close out New York City's famed Roseland Ballroom
+## Lady Gaga to close out New York City's famed Roseland Ballroom
 
 Lady Gaga will lead the last dance at Roseland Ballroom with a string of special shows starting Mar. 28.
 Reports first circulated back in October that the legendary midtown venue would close by early 2014. But the Gaga announcement offers the first official confirmation of the shuttering.
@@ -68,9 +68,9 @@ The first of Gaga's closing performances, on Mar. 28, will coincide with her 28t
 
 -----
 
-#Sports
+# Sports
 
-##Golson seeks readmission to school
+## Golson seeks readmission to school
 
 Suspended Notre Dame quarterback Everett Golson has submitted a request to be readmitted to Notre Dame.
 
@@ -106,9 +106,9 @@ Kelly said it's important for the Irish offense to get some first downs to help 
 
 -----
 
-#Weather 
+# Weather 
 
-##Denver weather forecast goes from 60 degrees to snow
+## Denver weather forecast goes from 60 degrees to snow
 
 Denver will enjoy high temperatures of 64 degrees Tuesday and 61 on Wednesday, before things get ugly - with possibly 3 inches of snow and temperatures in the teens for the back end of the work week, according to the National Weather Service.
 

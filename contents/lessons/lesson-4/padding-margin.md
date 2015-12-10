@@ -5,7 +5,7 @@ date: 10/21/2015 15:00
 template: article.jade
 ---
 
-#Padding and Margin
+# Padding and Margin
 
 * [Font Properties]()
 * [Text Properties](text.html)
@@ -28,7 +28,7 @@ There is often a little confusion when to use margin or padding with paragraph t
 
 <a href="margin-padding-paragraph/" class="btn">See Example</a>
 
-##Values
+## Values
 
 The margin and padding property can have from one to four values.
 

@@ -32,31 +32,31 @@ Make sure you have a local copy of the two images.
     <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700italic' rel='stylesheet' type='text/css'>
     font-family: 'Lobster Two', cursive;
 
-##page title – New York
+## page title – New York
 
 State Golden Snowball Award Contest
 
-###div
+### div
 
   add class “site”
   set width to 800px
 
-###header
+### header
 
   New York State Golden Snowball Award Contest
 
     background-color - #70A7FF
 
 
-###p
+### p
 
 The Golden Snowball Award(link to http://www.goldensnowball.com/) is a contest between 5 cities in CNY – Upstate New York. The contest is based on which city receives the most snowfall for the snow season. The cities that compete are Albany(link to http://www.albanyny.org/), Buffalo (link to http://www.buffalo.com), Binghamton(link to http://www.cityofbinghamton.com/), Rochester (link to http://www.visitrochester.com/) and last years Champion, Syracuse (link to http://www.syracuse.com). A trophy is awarded to the winning city every year.
 
-###h2
+### h2
 
 Golden Snowball Totals for the 2007 – 2008 Snowfall Season
 
-###table
+### table
 
 add class “chart” to table
 
@@ -140,7 +140,7 @@ td (class – row)
 * 62.4
 * 24.5
 
-###h2
+### h2
 
 Lake-effect snow
 
@@ -153,7 +153,7 @@ Lake-effect snow
     color - gray
     font-size - 10px
 
-###p
+### p
 
 Lake-effect snow (link to http://en.wikipedia.org/wiki/Lake_effect_snow) is produced in the winter when cold, arctic winds move across long expanses of warmer lake water, providing energy and picking up water vapor which freezes and is deposited on the lee shores. The same effect over bodies of salt water is called ocean effect snow, sea effect snow, or even bay effect snow. The effect is enhanced when the moving air mass is uplifted by the orographic effect of higher elevations on the downwind shores. This uplifting can produce narrow, but very intense bands of precipitation, which deposit at a rate of many inches of snow each hour and often bringing copious snowfall totals. The areas affected by lake-effect snow are called snowbelts. This effect occurs in many locations throughout the world, but is best known in the populated areas of the Great Lakes of North America.
 

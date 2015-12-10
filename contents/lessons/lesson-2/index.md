@@ -33,7 +33,7 @@ The anchor tag can also be used to set a point on a page where the page can be l
 
 Please note there is not a link tag.  If someone askes you to create a link they are talking about the anchor tag. 
 
-##Example
+## Example
 `<a href=”http://www.sva.edu”>http://www.sva.edu</a>`
 
 **or**
@@ -41,7 +41,7 @@ Please note there is not a link tag.  If someone askes you to create a link they
 `<a name="pointname">Page Content</a>`
 
 
-###Description
+### Description
 
 
 Attributes|Value|Description
@@ -76,31 +76,31 @@ If you want a link to be on its own line it would need to wrapped with a Block-L
 
 ---
 
-##Linking to a file in the same folder
+## Linking to a file in the same folder
 
 When you link to a file that is in the same folder just add the file name to the HREF attribute.
 
 `<a href="filename.html">Link Text</a>`
 
-##Linking to a file in a sub folder
+## Linking to a file in a sub folder
 
 When linking to a file in a sub folder you need to declare what folder you are navigating to then add the file.
 
 `<a href="folder/filename.html">Link Text</a>`
 
-##Linking to a file in a parent folder
+## Linking to a file in a parent folder
 
 When linking a file in a parent folder you need to add `"../"` for each folder you want to navigate up.  You do not need the folder name when navigating up.
 
 `<a href="../filename.html">Link Text</a>`
 
-##Linking to an outside site
+## Linking to an outside site
 
 When linking to an outside site you need to add the full URL including the `http://`.
 
 `<a href="http://www.svahtml.com">Link Text</a>`
 
-##Linking to a point with a page.
+## Linking to a point with a page.
 
 The link add the "#" that says look on the page for a A tag with a name that matches the text after the #.
 
@@ -110,9 +110,9 @@ The point on the page you are linking to.
 
 `<a name="sectionName"></a>`
 
-##Images as a link
+## Images as a link
 
-###Example
+### Example
 `<a href=”http://www.cnn.com”><img src=”/images/cnnlogo.png” alt=”link to cnn” border=”0”/></a>`
 
 ## Adding Target

@@ -5,7 +5,7 @@ date: 10/21/2015 15:00
 template: article.jade
 ---
 
-#Borders
+# Borders
 
 * [Font Properties]()
 * [Text Properties](text.html)
@@ -24,7 +24,7 @@ The makeup of any border has three parts.
 
 When creating a border only the *style* is **required***.  If not set the *color* of the border will be **whatever the current color is**.  If no *size* is defined the size will be `3px`.
 
-###Border
+### Border
 
 Property             | Values
 ---------------------|--------------------------------------------------------------------------------------------

@@ -5,14 +5,14 @@ date: 11/25/2015 15:00
 template: article.jade
 ---
 
-#Setting up your own website
+# Setting up your own website
 
 * [Understanding index]()
 * [Setting up your site](hosting.html)
 
 
 
-##Getting your domain
+## Getting your domain
 
 You will need to register your domain name with a company on the web.  There is a fee for your domain each year.  The cost depends on the company that you use.  It might be as low as free or as high as $15 a year.  Most are $7 to $10 a year.  All this does is give you a domain name, but does not give you hosting.
 
@@ -28,7 +28,7 @@ The steps to getting your own domain.
 
 At this point you only have a domain name but not a full website.
 
-##Hosting
+## Hosting
 
 Once you have your domain name you will also need to get hosting.  This is a server that will store your website.  There is also a cost for hosting.  Often it will be a monthly cost ranging from $1 to $20 but most will be around $5 a month.  Some companies will both sell you the domain and provide hosting this is a nice option.  You do not need to use the same company of both.
 
@@ -50,7 +50,7 @@ Some key things to look for are.
 
 Don't be fooled with all the free stuff they are giving you.  Everyone gives basically the same stuff.
 
-##Control Panels
+## Control Panels
 
 Most hosting site will give you some web control panel that will allow you to change some simple settings on the site.  As you get more comfortable you can do lots of cool things.  Each hosts control panel will be a little different.
 
@@ -60,7 +60,7 @@ Be sure to
 * Read reviews of the host from many different sources.  Ask your friends how they use.  Call the support number and ask question.
 * Remember that you do not have to host with the same company that you got your domain from but it might be a good idea.  One bill is always better than two.
 
-##Getting the files to your site
+## Getting the files to your site
 
 Once you are all set up you will need to move your files to the external server.  This is done with an FTP program.  When you get your hosting setup they will give you a user and password for the site.
 

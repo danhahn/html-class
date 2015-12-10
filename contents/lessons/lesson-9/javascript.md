@@ -11,7 +11,7 @@ template: article.jade
 * [Class Work](classwork.html)
 * [Intro to JS and Jquery](javascript.html)
 
-##What is JavaScript?
+## What is JavaScript?
 
 Javascript is the action layer of web development.  Javascript allows for things on the page to change after the page has loaded.  
  

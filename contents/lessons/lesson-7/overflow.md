@@ -22,44 +22,44 @@ Value                            | Description
 [scroll](overflow.html#scroll)   | The overflow is clipped, but a scroll-bar is added to see the rest of the content
 [auto](overflow.html#auto)       | If overflow is clipped, a scroll-bar should be added to see the rest of the content
 
-##Visible
+## Visible
 When visible is set the extra content will overflow the element and is seen in the screen. It may overlap other content below it.
 
   overflow: visible;
 
-###Example
+### Example
 
 <div class="overflow">Messenger bag Austin umami, Godard Truffaut Shoreditch photo booth gentrify American Apparel Intelligentsia fixie sriracha vegan pop-up PBR&B. Actually Austin cliche bicycle rights, authentic sriracha cred fixie lo-fi hoodie tattooed street art cray kitsch. Banjo photo booth post-ironic, scenester deep v Shoreditch Intelligentsia occupy meh biodiesel mixtape try-hard. Pinterest Carles before they sold out mlkshk. Tofu McSweeney's tousled, occupy 90's kogi tattooed farm-to-table stumptown quinoa single-origin coffee. Lo-fi fixie pickled, gluten-free scenester retro ethical photo booth cardigan slow-carb chambray literally bitters direct trade. Sartorial shabby chic small batch Wes Anderson, twee cornhole stumptown four dollar toast.</div>
 
-##Hidden
+## Hidden
 
 When hidden is she the extra content will not be seen. The element will just be the size but if the content is greater than the size the user will not be able to see it.
 
   overflow: hidden;
 
-###Example
+### Example
 
 <div class="overflow" style="overflow: hidden">Messenger bag Austin umami, Godard Truffaut Shoreditch photo booth gentrify American Apparel Intelligentsia fixie sriracha vegan pop-up PBR&B. Actually Austin cliche bicycle rights, authentic sriracha cred fixie lo-fi hoodie tattooed street art cray kitsch. Banjo photo booth post-ironic, scenester deep v Shoreditch Intelligentsia occupy meh biodiesel mixtape try-hard. Pinterest Carles before they sold out mlkshk. Tofu McSweeney's tousled, occupy 90's kogi tattooed farm-to-table stumptown quinoa single-origin coffee. Lo-fi fixie pickled, gluten-free scenester retro ethical photo booth cardigan slow-carb chambray literally bitters direct trade. Sartorial shabby chic small batch Wes Anderson, twee cornhole stumptown four dollar toast.</div>
 
 
-##Auto
+## Auto
 
 Like hidden the content that is greater than the element will not be seen but if they are needed scrollbars will appear.
 
   overflow: auto;
 
-###Example
+### Example
 
 <div class="overflow" style="overflow: auto">Messenger bag Austin umami, Godard Truffaut Shoreditch photo booth gentrify American Apparel Intelligentsia fixie sriracha vegan pop-up PBR&B. Actually Austin cliche bicycle rights, authentic sriracha cred fixie lo-fi hoodie tattooed street art cray kitsch. Banjo photo booth post-ironic, scenester deep v Shoreditch Intelligentsia occupy meh biodiesel mixtape try-hard. Pinterest Carles before they sold out mlkshk. Tofu McSweeney's tousled, occupy 90's kogi tattooed farm-to-table stumptown quinoa single-origin coffee. Lo-fi fixie pickled, gluten-free scenester retro ethical photo booth cardigan slow-carb chambray literally bitters direct trade. Sartorial shabby chic small batch Wes Anderson, twee cornhole stumptown four dollar toast.</div>
 
 
-##Scroll
+## Scroll
 
 In this case scroll bars will be present at all times even if they are not needed.
 
   overflow: scroll;
 
-###Example
+### Example
 
 <div class="overflow" style="overflow: scroll">Messenger bag Austin umami, Godard Truffaut Shoreditch photo booth gentrify American Apparel Intelligentsia fixie sriracha vegan pop-up PBR&B. Actually Austin cliche bicycle rights, authentic sriracha cred fixie lo-fi hoodie tattooed street art cray kitsch. Banjo photo booth post-ironic, scenester deep v Shoreditch Intelligentsia occupy meh biodiesel mixtape try-hard. Pinterest Carles before they sold out mlkshk. Tofu McSweeney's tousled, occupy 90's kogi tattooed farm-to-table stumptown quinoa single-origin coffee. Lo-fi fixie pickled, gluten-free scenester retro ethical photo booth cardigan slow-carb chambray literally bitters direct trade. Sartorial shabby chic small batch Wes Anderson, twee cornhole stumptown four dollar toast.</div>
 

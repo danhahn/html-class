@@ -5,7 +5,7 @@ date: 10/14/2015 15:00
 template: article.jade
 ---
 
-#CSS2 Reference
+# CSS2 Reference
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
@@ -13,7 +13,7 @@ template: article.jade
 * [CSS2 Reference](css.html)
 * [Homework](homework.html)
 
-###Selectors
+### Selectors
 
 Pattern|Matches
 -|-
@@ -24,7 +24,7 @@ F ** E|any E element that is a child of an F element
 F + E|any E element that immediately follows an F element
 x, y|grouping: any element that matches x or y
 
-###Font
+### Font
 Property|Values
 -|-
 font:* <br>required|style variant weight size */line-height  family *<br>example: font:bold 10px/12px verdana,"Lithos Regular",sans-serif;
@@ -35,7 +35,7 @@ font-size: *|length, percent
 line-height:|normal, **number**, **length**, **percent**
 font-family: *|**family-name**, serif (Times), sans-serif (Helvetica), cursive (Zapf-Chancery), fantasy (Western), monospace (Courier)
 
-###Text
+### Text
 Property|Possible Values
 -|-
 color:|color
@@ -49,7 +49,7 @@ text-transform:|none, capitalize, uppercase, lowercase
 white-space:|normal, pre, nowrap
 word-spacing:|normal, length
 
-###Background
+### Background
 Property|Values
 -|-
 background:|**color**   **image**   **repeat**   **attachment**   **position**<br>example: background:transparent url(dot.gif) left top;
@@ -59,7 +59,7 @@ background-repeat:|repeat, repeat-x, repeat-y, no-repeat
 background-attachment:|scroll, fixed
 background-position:|[0% 0%], [**length** **length**], [top, center, bottom] + [left, center, right]
 
-###Border
+### Border
 Property|Values
 -|-
 border:|**border-width**  **border-style**   **border-color**<br>example: border:1px solid #000066;
@@ -83,7 +83,7 @@ border-left-width:|border-width
 border-left-style: |border-style
 border-left-color: |border-color
 
-###List and Marker
+### List and Marker
 Property|Values
 -|-
 list-style:|**list-style-type**   **list-style-position**   **list-style-image**
@@ -91,7 +91,7 @@ list-style-type:|disc, none, circle, square, decimal,  decimal-leading-zero, low
 list-style-position:|outside, inside
 list-style-image:|none, **url**
 
-###Margin
+### Margin
 Property|Values
 -|-
 margin:|Top   Right   Bottom   Left
@@ -100,7 +100,7 @@ margin-right:|auto, **length**, **percent**
 margin-bottom:|auto, **length**, **percent**
 margin-left:|auto, **length**, **percent**
 
-###Padding
+### Padding
 Property|Values
 -|-
 padding:|Top   Right   Bottom   Left
@@ -109,7 +109,7 @@ padding-right:|**length**, **percent**
 padding-bottom:|**length**, **percent**
 padding-left:|**length**, **percent**
 
-###Positioning
+### Positioning
 Property|Values
 -|-
 position:|static, relative, absolute, fixed
@@ -126,7 +126,7 @@ vertical-align:|baseline, sub, super, top, text-top, middle, bottom, text-bottom
 z-index:|auto, number
 
 
-###Dimension
+### Dimension
 Property|Values
 -|-
 width:|auto, **length**, **percent**
@@ -137,17 +137,17 @@ max-width:|none, **length**, **percent**
 min-height:|**length**, **percent**
 min-width:|**length**, **percent**
 
-###Classification
+### Classification
 Property|Values
 -|-
 cursor:|auto, url, crosshair, default, pointer, move, e-resize, ne-resize, nw-resize, n-resize, se-resize, sw-resize, s-resize, w-resize, text,wait, help
 
-###Table
+### Table
 Property|Values
 -|-
 border-collapse:|collapse,separate
 
-###Pseudo-Classes
+### Pseudo-Classes
 Name|Applies to|Example
 -|-|-
 a:link|anchor|A:link, A.classname:link
@@ -155,7 +155,7 @@ a:active|anchor|A:active, A.classname:active
 a:visited|anchor|A:visited, A.classname:visited
 e:hover|all|P:hover, P.classname:hover
 
-###Pseudo Elements
+### Pseudo Elements
 Pseudo-elements|Applies to
 -|-|-
 E:before|block
@@ -164,7 +164,7 @@ E:first-letter|block
 E:first-line|block
 
 
-###CSS Units
+### CSS Units
 Unit|Description
 -|-
 %|a percentage of something
@@ -176,7 +176,7 @@ pt|point (1 pt is the same as 1/72 inch)
 pc|pica (1 pc is the same as 12 points)
 px|pixels (a dot on the computer screen)
 
-###Colors
+### Colors
 Unit|Description
 -|-
 color_name|A color name (red)

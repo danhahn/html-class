@@ -9,5 +9,5 @@ template: article.jade
 
 
 
-##site-bg.jpg
+## site-bg.jpg
 ![](images-final/site-bg.jpg)

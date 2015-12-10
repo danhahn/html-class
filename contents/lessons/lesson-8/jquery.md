@@ -7,13 +7,13 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 
 ##A Brief Look
 
-###DOM Traversal and Manipulation
+### DOM Traversal and Manipulation
 
 Get the `<button>` element with the class 'continue' and change its HTML to 'Next Step...'
 
 	$( "button.continue" ).html( "Next Step..." )
 
-###Event Handling
+### Event Handling
 
 Show the #banner-message element that is hidden with  display:none in its CSS when any button in #button-container is clicked.
 

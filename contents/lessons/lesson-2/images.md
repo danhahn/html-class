@@ -5,7 +5,7 @@ date: 10/7/2015 15:00
 template: article.jade
 ---
 
-#Images
+# Images
 
 * [Link Tag]()
 * [Folder](folders.html)
@@ -21,11 +21,11 @@ Attributes|Values
 `alt=""` **\*required**|The alt tag is where you can put text that will show up when the image is loading or when the user hovers the mouse over that image.
 `title=""`|Displays the value of the attribute in a small box over the image when the mouse hovers over the image.
 
-##Example
+## Example
 
 `<img src=”logo.gif”>`
 
-##Adding the Alt Attribute
+## Adding the Alt Attribute
 
 HTML **requires** that you add an alt attribute to all images tags.  This attribute is used for persons with visual impairments and use screen readers to view the internet.  If there is text with in an image that text must be placed with the alt attribute.  While the attribute is required there is no need to place text within the value unless there is text on the image.  This can be a little misleading.  
 
@@ -35,7 +35,7 @@ HTML **requires** that you add an alt attribute to all images tags.  This attrib
 
 `<img src="image.png" alt="">`
 
-##Formats
+## Formats
 
 There are **3 image types** that are supported by current browsers.
 
@@ -43,12 +43,12 @@ There are **3 image types** that are supported by current browsers.
 *JPG – Allows for Millions of colors compressed. (Most commonly used for photos)
 *PNG – Like the JPG but allows for opacities. (Supported by all newer browsers after IE 6)
 
-##Transparency
+## Transparency
 Transparency is an important for two reasons. They allow for complex designs by layers images. They also allow for non-rectangular designs.
 
 The only image type that support transparency are GIF and PNG.
 
-##Animation
+## Animation
 
 GIF are able to display multiple images with in the same saved files.
 

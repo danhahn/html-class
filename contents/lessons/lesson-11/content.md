@@ -13,16 +13,16 @@ template: article.jade
 
 Once you have the the HTML in place you can start to add the content.  Below are PDF of all the pages that you will need to create.
 
-###Header Content
+### Header Content
 
 	New York State
 	The Empire State
 
-###Search box
+### Search box
 
 	Submit
 
-###Footer
+### Footer
 
 	(c) 2014 SVA HTML
 

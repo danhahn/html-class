@@ -9,7 +9,7 @@ How to set up your own HTML website including how to choose where to host and ho
 
 <span class="more"></span>
 
-#Understanding the Index.html
+# Understanding the Index.html
 
 * [Understanding index]()
 * [Setting up your site](hosting.html)
@@ -17,7 +17,7 @@ How to set up your own HTML website including how to choose where to host and ho
 [Download Notes  <i class="icon-download-alt icon-white"></i>](week10-notes.zip)
 [Download Starter File  <i class="icon-download-alt icon-white"></i>](week10.zip)
 
-##Building a full site
+## Building a full site
 
 **The magic of the index.html**
 
@@ -38,7 +38,7 @@ This way you can look at the markup to know what page you are on.
 
 It should also be noted that you can not replace one index with an other since all the links where set for that page and the content would be wrong.
 
-##Your site might be something like this
+## Your site might be something like this
 
 	Homepage
 	- News
@@ -56,11 +56,11 @@ Every subsection on your site should be broken into its own folder.
 
 We have 5 index.html files.
 
-##But what if we have to have more than one file In a folder?
+## But what if we have to have more than one file In a folder?
 
 In that case any other file can be named whatever you want. It would be linked to from the index.html using the link tag **(href=&rdquo;filename.html&rdquo;)**.
 
-##For example
+## For example
 
 	/news/index.html
 	/news/yesterday.html
