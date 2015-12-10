@@ -4,14 +4,11 @@ author: Dan Hahn
 date: 11/4/2015 15:00
 template: article.jade
 
-tags: {
-  'css': {
-    'label': 'css',
-    'icon': 'fa fa-css3',
+tags:
+  'css':
+    'label': 'css'
+    'icon': 'fa fa-css3'
     'data' : ['float', 'clear', 'box-sizing']
-  }
-}
-
 ---
 
 This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>

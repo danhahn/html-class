@@ -3,13 +3,12 @@ title: Lesson 1
 author: the-wintersmith
 date: 9/30/2015 15:00
 template: article.jade
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags: 
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['html','head','title','body']
-  }
-}
+
 ---
 
 #Setting up the HTML template

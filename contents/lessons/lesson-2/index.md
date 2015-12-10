@@ -4,13 +4,11 @@ author: Dan Hahn
 date: 10/7/2015 15:00
 template: article.jade
 
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags:
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['strong', 'em', 'a', 'img']
-  }
-}
 
 ---
 

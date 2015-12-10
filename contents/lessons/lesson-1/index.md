@@ -6,13 +6,11 @@ template: article.jade
 localcss: buckets.css
 localjs: buckets.js
 
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags: 
+  'html': 
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['html','head','title','body','p','h1','h2','h3','h4','h5','h6', 'br', 'blockquote', 'ol', 'ul', 'li', 'div', 'section', 'article', 'header', 'footer']
-  }
-}
 ---
 
 Introduction to HTML, Web Browsers, Standards <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span></div>

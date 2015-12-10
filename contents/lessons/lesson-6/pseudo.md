@@ -4,14 +4,11 @@ author: Dan Hahn
 date: 11/4/2015 15:00
 template: article.jade
 
-tags: {
-  'css': {
-    'label': 'css',
-    'icon': 'fa fa-css3',
+tags:
+  'css':
+    'label': 'css'
+    'icon': 'fa fa-css3'
     'data' : [':link', ':visited', ':hover', ':active', ':focus']
-  }
-}
-
 ---
 
 #Pseudo class

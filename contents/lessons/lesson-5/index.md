@@ -3,23 +3,19 @@ title: Lesson 5
 author: Dan Hahn
 date: 10/28/2015 15:00
 template: article.jade
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags:
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['table', 'tr', 'td', 'tbody', 'thead']
-  },
-  'css': {
-      'label': 'css',
-      'icon': 'fa fa-css3',
-      'data' : ['border-collapse']
-    },
-  'attribute': {
-      'label': 'attribute',
-      'icon': 'fa fa-quote-right',
-      'data' : ['colspan', 'rowspan']
-    }
-}
+  'css':
+    'label': 'css'
+    'icon': 'fa fa-css3'
+    'data' : ['border-collapse']
+  'attribute':
+    'label': 'attribute'
+    'icon': 'fa fa-quote-right'
+    'data' : ['colspan', 'rowspan']
 ---
 
 This week we will talk about Table and all the good and bad that goes with it. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
