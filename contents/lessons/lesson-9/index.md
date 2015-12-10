@@ -23,22 +23,22 @@ This week we will be talking about how to use HTML forms. <div><span class="labe
 
 Note: The display of form elements vary from browser to browser and operating system to operating system.  Very little style changes can applied to form elements.
 
-##form Tag - `<form></form>`
+## form Tag - `<form></form>`
 
 The `<form>` tag is used to create an HTML form for user input.
 
-###Required Attributes
+### Required Attributes
 Attribute|Value|Description
 ---|---|---
 action|URL|A URL that defines where to send the data when the submit button is pushed
 
-###Optional Attributes
+### Optional Attributes
 Attribute|Value|Description
 ---|---|---
 method|get<br>post|The HTTP method for sending data to the action URL. Default is get.method="get": This method sends the form contents in the URL: URL?name=value&name=value.Note: If the form values contains non-ASCII characters or exceeds 100 characters you MUST use method="post".method="post": This method sends the form contents in the body of the request.Note: Most browsers are unable to bookmark post requests.
 name|form_name|Defines a unique name for the form
 
-###Example
+### Example
 
 	<form action="/contact/form.jsp" method="get" name="contactUs">
 	    Content and form elements
@@ -86,7 +86,7 @@ value|value|Defines the default value of the element.
 
 <input type="text" name="name" disabled="disabled" value="value">
 
-##type="password"
+## type="password"
 
 Defines a password element
 
@@ -99,7 +99,7 @@ size|number_of_char|Defines the size of the input element. Note: Cannot be used 
 value|value|Defines the default value of the element.
 
 
-####Example
+#### Example
 
 	<input type="password" name="name">
 
@@ -118,7 +118,7 @@ value|value|Defines the default value of the element.
 <input type="password" name="name" disabled="disabled" value="value">
 
 
-##type="radio" (Radio Buttons)
+## type="radio" (Radio Buttons)
 
 Radio Buttons are used when you want the user to select one of a limited number of choices.
 
@@ -132,7 +132,7 @@ Attribute Optional|Value|Description
 checked|checked|Indicates that the input element should be checked when it first loads (only used with type="checkbox" and type="radio")
 disabled|disabledDisables the input element when it first loads so that the user can not write text in it, or select it (cannot be used with type="hidden")
 
-####Example
+#### Example
 
 	<form>
 		<input type="radio" name="sex" value="male"> Male<br>
@@ -144,7 +144,7 @@ disabled|disabledDisables the input element when it first loads so that the user
 	<input type="radio" name="sex" value="female"> Female
 </form>
 
-##type="checkbox" - (Checkbox)
+## type="checkbox" - (Checkbox)
 
 Checkboxes are used when you want the user to select one or more options of a limited number of choices.
 
@@ -158,7 +158,7 @@ Attribute Optional|Value|Description
 checked|checked|Indicates that the input element should be checked when it first loads (only used with type="checkbox" and type="radio")
 disabled|disabled|Disables the input element when it first loads so that the user can not write text in it, or select it (cannot be used with type="hidden")Note: Attributes are the same of both checkbox and radio buttons
 
-##Button Tag
+## Button Tag
 The `<button>` tag defines a push button.  The button tag creates a button displayed on the page.  It is a standard HTML tag so the value of the button is wrapped with the button tag.
 
 The button tag can be used in place of the INPUT type button/reset/submit.
@@ -185,7 +185,7 @@ submit|form is submitted to the url in the action
 reset|form is change back to the default values when page loaded
 button|when clicked nothing happens often used for javascript
 
-##type="submit"
+## type="submit"
 When the user clicks on the "Submit" button, the content of the form is sent to the server. The form's action attribute defines the name of the file to send the content to. The file defined in the action attribute usually does something with the received input.
 
 Attribute|Value|Description
@@ -198,7 +198,7 @@ Example
 
 <input type="submit">
 
-##type="reset" - (reset button)
+## type="reset" - (reset button)
 
 When the user clicks on the "Reset" button, the content in the form is reloaded to the values they had when the page loaded.
 
@@ -210,7 +210,7 @@ value|value|Button label.  Default value "reset"
 
 <input type="reset">
 
-##type="file"
+## type="file"
 
 Used to create a form element to update a file.  There needs to back end support for uploading the file.  We will not cover the back end support.
 
@@ -218,17 +218,17 @@ Used to create a form element to update a file.  There needs to back end support
 
 <input type="file">
 
-##type="button"
+## type="button"
 
 Just alike a submit or reset but when the user clicks nothing happens
 
 Attribute|Value|Description
 value|value|Button label.  Default value "reset"
 
-##type="hidden"
+## type="hidden"
 Used to set a value of a form element that needs to be passed along with out making it viewable to the end user. An example of this would be setting the users language on the page the user cannot change it but it needed by the next page to handle the information.  
 
-##Select Box - (`<select>`, `<option>`)
+## Select Box - (`<select>`, `<option>`)
 
 The `<select>` tag is used to create a select list (drop-down list).
 
@@ -260,7 +260,7 @@ value*|text|Specifies the value to be sent to a server when a form is submitted
 
 **\*required**
 
-####Example
+#### Example
 
 	<select name="cars">
 	  <option value="Volvo">Volvo</option>
@@ -276,7 +276,7 @@ value*|text|Specifies the value to be sent to a server when a form is submitted
   <option value="Audi">Audi</option>
 </select>
 
-##Textarea - `<textarea>``</textarea>`
+## Textarea - `<textarea>``</textarea>`
 
 Defines a text-area (a multi-line text input control)
 
@@ -293,13 +293,13 @@ Attribute Optional|Value|Description
 disabled|disabled|Specifies that a text-area should be disabled
 readonly|readonly|Specifies that a text-area should be read-only
 
-####Example
+#### Example
 
 	<textarea name="message" rows="2" cols="30">`With test inside</textarea>
 
 <textarea name="message" rows="2" cols="30">`With test inside</textarea>
 
-##Label - `<label>``</label>`
+## Label - `<label>``</label>`
 
 Defines the text form element.  Label is an option inline that can be used to help organize the text with the form element.
 

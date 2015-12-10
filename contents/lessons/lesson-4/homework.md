@@ -26,24 +26,24 @@ When a value has a `?` you will need to figure out what the value should be.
 
 **Note:** Be sure to send all HTML, CSS and images in a zip file.
 
-##body
+## body
 
 	background-color - #c0c0c0
 	font - ? arial
 	
 
-##\#container
+## \#container
 
 	width - 800px
 	background-color - white
 	
 
-##article
+## article
 
 	padding - ?
 
 
-##h1
+## h1
 
 	font-size - 30px
 	text-transform - uppercase
@@ -51,12 +51,12 @@ When a value has a `?` you will need to figure out what the value should be.
 	color - #1e336a
 
 
-##.byline
+## .byline
 
 	font-size - ?
 
 
-##.main-image
+## .main-image
 
 	background-color - #a0b3f7
 	margin - 0
@@ -64,7 +64,7 @@ When a value has a `?` you will need to figure out what the value should be.
 	text-align - center
 
 
-##blockquote
+## blockquote
 
 	color - #2c478b
 	margin - 20px
@@ -73,31 +73,31 @@ When a value has a `?` you will need to figure out what the value should be.
 	font-weight - bold
 
 
-##blockquote p
+## blockquote p
 
 	line-height - 10px
 	letter-spacing - -1px
 
 
-##h2
+## h2
 
 	color - #2c47b8
 
 
-##.note
+## .note
 
 	font-size - 10px
 	font-style - italic
 	margin - 0
 
-##\#global-footer
+## \#global-footer
 
 	background-color - black
 	color - white
 	? - 20px
 
 
-##\#global-footer a
+## \#global-footer a
 	color - white
 	font-weight - bold
 	text-decoration - none

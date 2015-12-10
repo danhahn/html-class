@@ -5,7 +5,7 @@ date: 10/14/2015 15:00
 template: article.jade
 ---
 
-#CSS Selectors
+# CSS Selectors
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
@@ -15,11 +15,11 @@ template: article.jade
 
 Selectors are the way that the HTML and CSS connect to each other.   There are **3 basic types** of selectors, `tag`, `class` and `id`.
 
-##Tag Name Selector
+## Tag Name Selector
 
 Tag name selectors use HTML tags as the connection.  *Any* HTML element can be used as a selector. Although not all HTML elements can be styled.
 
-###Example
+### Example
 
 CSS
 
@@ -44,13 +44,13 @@ h1.exmaple {
 
 ----
 
-##Class Name selector
+## Class Name selector
 
 Class name selectors require an attribute of `class=""` to be added to an HTML element.  A class **name** must be given and that **name** will be used to connect the HTML and CSS.
 
 Many elements on a page may use the same class name.
 
-###Example
+### Example
 
 	<style>
 	.className {
@@ -73,11 +73,11 @@ h1.exmaple2 {
 
 ----
 
-##ID Name selector
+## ID Name selector
 
 An ID name selectors require an attribute of `id=""` to be added to an HTML element.  An ID **name** must be given and that name will be used to connect the HTML and CSS.  Only **one element per page can use an ID name** although there can be many different ID names on the same page.
 
-###Example
+### Example
 
 CSS
 
@@ -103,7 +103,7 @@ HTML
 
 ----
 
-##Limiting the scope
+## Limiting the scope
 Because classes can be applied to many elements on a page there could be a case where the same class name is used on two or more different elements.  One way to ensure that styles are applied only to the elements intended is limit the scope.  For example you may have a class name of "firstLine" that is applied to both a P tag and an LI tag.  The style you create would apply to both at the same time.
 
 Since they are not the same it may be the case that you want to style each differently.  By combining two of the basic selectors you can ensure that only the intended element is styled.

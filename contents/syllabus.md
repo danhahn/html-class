@@ -6,7 +6,7 @@ template: single.jade
 subject: TEST
 ---
 
-#Getting started with Web Languages: HTML and CSS
+# Getting started with Web Languages: HTML and CSS
 
 **8 weeks**<br>
 Wednesday **6:00-10:00 pm**<br>
@@ -15,7 +15,7 @@ September 30 tp December 16 2015<br>
 
 Daniel Hahn - dan@svahtml.com
 
-##Class web site
+## Class web site
 
 http://html.svahtml.com
 
@@ -25,11 +25,11 @@ All class work, materials, and assignments will be given though the class web si
     User Name : svanyc
     Password : svanyc
 
-##Attendance:
+## Attendance:
 Every class is very important and will build off of the class before; therefore you must attend class every week. If you do miss a class, you are expected to make up the work before the next class. If you know in advance that you will miss a class, please contact me 24 hours before the class. Missing TWO or more classes will result in failure of the course.
 
 
-##Class Format
+## Class Format
 The class will be broken up the following way.
 
 Time|Task
@@ -39,11 +39,11 @@ Time|Task
 7:45 - 8:00 |Break
 8:00 - 10:00  |Weeks lesson part 2
 
-##Purpose of class
+## Purpose of class
 This is a hands-on course that will use HTML in new and complex ways. The course will begin with an overview of the Internet and how it functions creatively and as a utility. Students will write HTML and learn how to format text, incorporate images, build tables, create links, host and upload a Web site and utilize JavaScript. Students will design and implement their own websites or enhance an existing one, as well as participate in design discussions and critiques of student and professional work.
 
-##Syllabus:
-###Introduction
+## Syllabus:
+### Introduction
 
 * What is HTML?
 * History of HTML
@@ -56,7 +56,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Doctypes
 * Workflow
 
-###Lesson 1
+### Lesson 1
 
 * Minimal HTML Document
     * HTML
@@ -79,7 +79,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
     * Nested list
 * HTML5 Tags
 
-###Lesson 2
+### Lesson 2
 
 * Path names
 * Linking Documents
@@ -94,7 +94,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Alternative Text for Images
 * Images as links
 
-###Lesson 3
+### Lesson 3
 * Introduction to CSS
 * CSS Format
 * Inline vs. embedded
@@ -104,7 +104,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Styles based on id name
 * Introduction to all styles
 
-###Lesson 4
+### Lesson 4
 * Introduction to Tables
 * Parts of the Table
 * Table
@@ -118,7 +118,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 * Bgcolor
 * CSS with Tables
 
-###Lesson 5
+### Lesson 5
 * CSS Properties
 * Text
 * font
@@ -133,7 +133,7 @@ This is a hands-on course that will use HTML in new and complex ways. The course
 ### Lesson 7
 * CSS Layouts
 
-###Lesson 8
+### Lesson 8
 * Final Project
 
 Instructor reserves the right to alter the syllabus if/when needed

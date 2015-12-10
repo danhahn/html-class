@@ -7,7 +7,7 @@ template: single.jade
 
 <a href="./" class="btn"><i class="glyphicon glyphicon-circle-arrow-left icon-white"></i> Back</a>
 
-##Homepage
+## Homepage
 ![](pages/homepage.png)
 ---
 ## History

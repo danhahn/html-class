@@ -7,7 +7,7 @@ subject: TEST
 ---
 
 
-##The Original Sixteen (16) Predefined Colors
+## The Original Sixteen (16) Predefined Colors
 
 <table>
 <tbody>
@@ -110,7 +110,7 @@ subject: TEST
 </tbody>
 </table>
 
-##Non Standard Colors
+## Non Standard Colors
 
 <table>
 <tbody>

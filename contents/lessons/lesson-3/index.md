@@ -3,30 +3,26 @@ title: Lesson 3
 author: Dan Hahn
 date: 10/14/2015 15:00
 template: article.jade
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags:
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['style', 'link']
-  },
-  'css': {
-      'label': 'css',
-      'icon': 'fa fa-css3',
+  'css':
+      'label': 'css'
+      'icon': 'fa fa-css3'
       'data' : ['color']
-    },
-  'attribute': {
-      'label': 'attribute',
-      'icon': 'fa fa-quote-right',
+  'attribute':
+      'label': 'attribute'
+      'icon': 'fa fa-quote-right'
       'data' : ['href', 'class', 'id']
-    }
-}
 ---
 
 This week we start to talk about CSS. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-#Lesson 3 - CSS
+# Lesson 3 - CSS
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
@@ -38,7 +34,7 @@ This week we start to talk about CSS. <div><span class="label label-default html
 
 <a href="https://docs.google.com/presentation/d/1mYirjj8tdvtriYiZJl5F97xVhJFnOiWnf0cp1JKqO9M/edit?pli=1#slide=id.p" target="_blank" class="btn">View Presentation</a>
 
-##What is CSS
+## What is CSS
 
 * CSS stands for *Cascading Style Sheets*
 * Styles define how to display HTML elements
@@ -47,7 +43,7 @@ This week we start to talk about CSS. <div><span class="label label-default html
 * External Style Sheets are stored in CSS files
 * Multiple style definitions will cascade into one
 
-##Locations of Styles
+## Locations of Styles
 
 Styles can be written in 3 different location.  Where they style is defined will impact how an element will be displayed.
 
@@ -55,7 +51,7 @@ Styles can be written in 3 different location.  Where they style is defined will
 2. Embedded or Internal style sheet local to HTML file
 3. Inline style that is added directly to an HTML element
 
-##Weight of locations
+## Weight of locations
 
 The location impacts the presentation of the HTML element.
 
@@ -68,7 +64,7 @@ In the case where two elements have the same style applied the more specific the
 
 The efficiency of a style often time is the opposed of how specific it is.  This is because you often want to reuse a style across may elements or page with in your site.
 
-##Selectors
+## Selectors
 
 In CSS, selectors are used to declare which of the markup elements a style applies to, a kind of match expression.  In other words it is the instruction to the CSS on what HTML elements should be styled but not how they should be styled.  
 
@@ -78,13 +74,13 @@ There are 3 basic selectors each has its own weight that defines how an element 
 2. Class Name Selector
 3. ID Name Selector
 
-##Tag Name Selector
+## Tag Name Selector
 
 Because HTML has a standard set of tags use CSS can use there names to connect the HTML and CSS.  A tag name selector will apply the style to all elements on a page that match that tag name.  
 
 For example if a html page use the paragraph tag CSS can style all P tags on the page to look the same way.  This is very efficient to style a large number of elements at one time.  Because the HTML tag is the reference there is no need to add any addiction mark up.
 
-##Class Name Selectors
+## Class Name Selectors
 
 Often times a style will need to be applied to one or more elements on a page but not all elements.  To allow of a style to be applied to one more more elements on a page a class is created and added to the HTML element.  
 
@@ -93,7 +89,7 @@ Often times a style will need to be applied to one or more elements on a page bu
 * A class attribute must be added to an HTML element.  `class=”className”`
 * Class names are case sensitive
 
-##ID Name Selectors
+## ID Name Selectors
 
 Like the class selectors ID selector are applied to an element within the document but unlike a class an ID name can only be used once.
 
@@ -102,33 +98,33 @@ Like the class selectors ID selector are applied to an element within the docume
 * An ID attribute must be added to an HTML element `id=”idName”`
 * ID names are case sensitive
 
-##Weight of selectors
+## Weight of selectors
 
 The more specific a selector is the more weight it has.  An ID has the the most weight because it is used on a page only once.  A class has more weight than a tag selector because it defines what elements it is applied to.
 
 Any time you put effort in to connecting the HTML and the CSS it will have more weight than if you do nothing to the HTML.
 
-###Order of weight
+### Order of weight
 1. ID Name
 2. Class Name
 3. Tag Name
 
-###Inline Styles
+### Inline Styles
 
 Inline style are effect way of applying a style to one element.  The down side is that it is not reusable.  If you where apply that style a second time you would need to create that style a second time.  
 
-###How to use
+### How to use
 Inline styles are applied to an HTML element with an attribute of style.  The attribute is HTML but the value is CSS.
 
 	<h1 style=”property:value;”>HTML Text</h1>
 
-##Internal and External Styles
+## Internal and External Styles
 
 The more common way to use CSS is to add the style to an external file or internal style block.  This creates a clear separation between the HTML and the CSS.  If the CSS is written in an external file that file can used on many pages with in your site and if a change needs to be made it is made in once place an applied to all pages at the same time.  
 
-###How to use
+### How to use
 
-####HTML
+#### HTML
 
 On each element that a class is applied you need to add the class attribute with a value of the class name.  
 
@@ -143,7 +139,7 @@ or
 		<p>HTML Text</p>
 	</div>
 
-####CSS - internal style sheet
+#### CSS - internal style sheet
 The style block will be added with the HEAD tag.  Adding a style tag.
 
 To define a class use the class name defined in the HTML and add a period (.) in front of it. .className
@@ -162,11 +158,11 @@ To define an id use the id name defined in the HTML and add a number symbol (#) 
 	}
 	</style>
 
-##CSS Syntax
+## CSS Syntax
 
 The syntax for css is very different than HTML syntax.  
 
-###Basic format
+### Basic format
 
 * Declaration - The whole style including the selector and properties and values.
 * Selector - How the HTML and CSS are connected
@@ -177,7 +173,7 @@ The syntax for css is very different than HTML syntax.
 
 **Note:** Inline style - when using an inline style you will only use the property and value.
 
-###Basic format
+### Basic format
 
 	selector {
 		property: value;

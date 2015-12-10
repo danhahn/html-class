@@ -4,17 +4,14 @@ author: Dan Hahn
 date: 11/4/2015 15:00
 template: article.jade
 
-tags: {
-  'css': {
-    'label': 'css',
-    'icon': 'fa fa-css3',
+tags:
+  'css':
+    'label': 'css'
+    'icon': 'fa fa-css3'
     'data' : [':link', ':visited', ':hover', ':active', ':focus']
-  }
-}
-
 ---
 
-#Pseudo class
+# Pseudo class
 
 * [Box Model]()
 * [Pseudo Class](pseudo.html)
@@ -24,7 +21,7 @@ tags: {
 
 Pseudo class selectors are CSS selectors with a colon preceding them.
 
-##Link related pseudo class selectors
+## Link related pseudo class selectors
 
 `:link` - Perhaps the most confusion-causing link-related pseudo selector. Aren't all `<a>`'s links? Well not if they don't have an href attribute. This selects only those that do, thus is essentially the same as a[href]. This selector will become a lot more useful should any-element linking become reality.
 

@@ -3,30 +3,26 @@ title: Lesson 5
 author: Dan Hahn
 date: 10/28/2015 15:00
 template: article.jade
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags:
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['table', 'tr', 'td', 'tbody', 'thead']
-  },
-  'css': {
-      'label': 'css',
-      'icon': 'fa fa-css3',
-      'data' : ['border-collapse']
-    },
-  'attribute': {
-      'label': 'attribute',
-      'icon': 'fa fa-quote-right',
-      'data' : ['colspan', 'rowspan']
-    }
-}
+  'css':
+    'label': 'css'
+    'icon': 'fa fa-css3'
+    'data' : ['border-collapse']
+  'attribute':
+    'label': 'attribute'
+    'icon': 'fa fa-quote-right'
+    'data' : ['colspan', 'rowspan']
 ---
 
 This week we will talk about Table and all the good and bad that goes with it. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-#Tables
+# Tables
 
 * [Intro to Tables]()
 * [Build a table](table-example/index.html)
@@ -71,7 +67,7 @@ Tables are defined with the `<table>` tag. A table is divided into rows (with th
 	</tbody>
 </table>
 
-##Table Tag
+## Table Tag
 
 `<table></table>`
 
@@ -83,7 +79,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ----
 
-##Table Row
+## Table Row
 
 `<tr></tr>`
 
@@ -97,7 +93,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ---
 
-##Table Data
+## Table Data
 
 `<td></td>`
 
@@ -111,7 +107,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ----
 
-##Table Header
+## Table Header
 
 `<th></th>`
 
@@ -125,7 +121,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ---
 
-##Table Head
+## Table Head
 `<thead></thead>`
 
 **table head** Defines an *optional* area within the table as the header of that table. `<thead>` is descendant of the `<table>`.
@@ -140,7 +136,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ---
 
-##Table Body
+## Table Body
 `<tbody></tbody>`
 
  **table body** Defines an *optional* area within the table as the body of that table. `<thead>` is descendant of the `<table>`.
@@ -155,7 +151,7 @@ The **table** tag defines the starting and stopping points of the table. After t
 
 ---
 
-###Examples
+### Examples
 Normal table with header
 
 	<table>
@@ -200,7 +196,7 @@ Normal table with header
 
 The `colspan` attribute is a way to make on `<td>` take up the space of two or more columns.  This is very useful when you have a title or other content that need to span over two or more columns.
 
-###Table with colspan
+### Table with colspan
 
 	<table border="1">
 	<tr>
@@ -224,7 +220,7 @@ The `colspan` attribute is a way to make on `<td>` take up the space of two or m
 
 The `rowspan` attribute is like the `colspan` but the cell will span from one row to the next.
 
-###Table with rowspan
+### Table with rowspan
 
 	<table border="1">
 	<tr>
@@ -248,12 +244,12 @@ The `rowspan` attribute is like the `colspan` but the cell will span from one ro
 
 **Note:** that you would never put a colspan or rowspan on the last td in the row or column.
 
-##Nested Tables
+## Nested Tables
 A nested is one table that is coded within another table.   All HTML elements in a table must be coded within the <td> tag.  Almost all HTML elements can be code in a table including another table.
 
 When nesting a table within another table be aware that you will now have a `<table></table>` for each table.  So if you have two tables (one inside the other) you will need to have two sets of table tags.
 
-####Adding a comment <!-- -->
+#### Adding a comment <!-- -->
 
 One way to help organized and limit the number of errors is to add a HTML comment.  A comment is a snippet of code that is ignored by the browser.  It used to leave a note in the code.
 
@@ -263,7 +259,7 @@ Anything between the two tags will not seen on the screen.
 
 Adding comments before and after a nested table helps keep the two table straight and can limit the number of errors.
 
-###Setting up a nested table
+### Setting up a nested table
 
 	<table>
 		<tr>

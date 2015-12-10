@@ -5,7 +5,7 @@ date: 9/30/2015 15:00
 template: article.jade
 ---
 
-#Homework – Lesson 1
+# Homework – Lesson 1
 
 * [Intro]()
 * [Editors](editors.html)
@@ -23,14 +23,14 @@ Create a new HTML document form the template that we created in class. Save the 
 2. See how pages look without any CSS(styles) applied
 3. Take content and add markup.
 
-##Coding the page
+## Coding the page
 
 * Use a `<div>` to wrap all content on the page
 * Ues a `<header>` to define part of the page as the header
 * Use a `<article>` to define the content of this page
 * Use a `<footer>` to define the footer of this page
 
-###Page Title
+### Page Title
 
 	New York City
 

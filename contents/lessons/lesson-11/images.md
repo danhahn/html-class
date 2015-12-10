@@ -17,14 +17,14 @@ template: article.jade
 
 Below are a few images needed to style the site.  You will need to download all the images in the zip file on the left.
 
-##site-bg.jpg
+## site-bg.jpg
 ![](images-final/site-bg.jpg)
 
-##header.png
+## header.png
 ![](images-final/header.png)
 
 
-##ny-seal.png
+## ny-seal.png
 ![](images-final/ny-seal.png)
 
 <style>

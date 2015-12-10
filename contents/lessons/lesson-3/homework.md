@@ -5,7 +5,7 @@ date: 10/14/2015 15:00
 template: article.jade
 ---
 
-#Homework 3 – Intro to css
+# Homework 3 – Intro to css
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
@@ -29,7 +29,7 @@ template: article.jade
 In this homework you will be writing styles support the HTML that was provided. There is
 no need to make any changes to HTML.
 
-##Use HTML template
+## Use HTML template
 
 Copy the HTML form the text file provided and Paste in the body of your template.
 Add Style tag with in the Head tag. (all styles will be added here)
@@ -37,7 +37,7 @@ Add the following style to the Style tag that was just added.
 
 ---
 
-###Tag name selectors
+### Tag name selectors
 
 body
 
@@ -68,7 +68,7 @@ a
 
 ---
 
-###ID name selector
+### ID name selector
 
 \#container
 
@@ -97,7 +97,7 @@ a
 
 ---
 
-###class name selector
+### class name selector
 
 .navItem
 

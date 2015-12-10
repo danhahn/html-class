@@ -18,7 +18,7 @@ When you are writing HTML you can use a simple text editor to write your HTML bu
 
 Below are some options for better HTML editors.  In class we will be using **Sublime Text**.
 
-##[Atom](http://atom.io/)
+## [Atom](http://atom.io/)
 
 [![](images/Atom.png)](http://atom.io/)
 
@@ -30,7 +30,7 @@ Developer: GitHub
 
 ---
 
-##[Brackets](http://brackets.io/)
+## [Brackets](http://brackets.io/)
 
 [![](images/Brackets.png)](http://brackets.io/)
 
@@ -44,7 +44,7 @@ Developer: Adobe
 
 ---
 
-##[Sublime Text](http://www.sublimetext.com/)
+## [Sublime Text](http://www.sublimetext.com/)
 
 [![](images/sublime.png)](http://www.sublimetext.com/)
 
@@ -60,7 +60,7 @@ Developer: John Skinner
 
 ---
 
-##[TextWrangler](http://www.barebones.com/products/textwrangler/)
+## [TextWrangler](http://www.barebones.com/products/textwrangler/)
 
 [![](images/text-w.png)](http://www.barebones.com/products/textwrangler/)
 
@@ -74,7 +74,7 @@ Developer: Bare Bones Software
 
 ---
 
-##[Coda 2](http://panic.com/coda/)
+## [Coda 2](http://panic.com/coda/)
 
 [![](images/coda-icon.jpg)](http://panic.com/coda/)
 

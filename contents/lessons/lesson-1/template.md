@@ -3,16 +3,15 @@ title: Lesson 1
 author: the-wintersmith
 date: 9/30/2015 15:00
 template: article.jade
-tags: {
-  'html': {
-    'label': 'html',
-    'icon': 'fa fa-html5',
+tags: 
+  'html':
+    'label': 'html'
+    'icon': 'fa fa-html5'
     'data' : ['html','head','title','body']
-  }
-}
+
 ---
 
-#Setting up the HTML template
+# Setting up the HTML template
 
 * [Intro]()
 * [Editors](editors.html)
@@ -25,7 +24,7 @@ All HTML pages are based on the same HTML template that will be used to create e
 
 As we talked about earlier we can nest tag within one another and we will be doing that here.
 
-##Version of HTML
+## Version of HTML
 Over the years there have been many different versions of HTML.  Starting with HTML 1 we are now on HTML 5.  To use any version of HTML you need to tell the browser by setting the DOCTYPE.
 
 The DOCTYPE will be the very first line of your HTML document and tells the browser.  In fact the DOCTYPE is not part of HTML at all.
@@ -36,7 +35,7 @@ In the past a DOCTYPE was very complicated and could take up to two lines of cod
 
 The two are the same and can either can be used.
 
-##HTML Template
+## HTML Template
 
 Once the version of HTML is set we need to build the template.
 

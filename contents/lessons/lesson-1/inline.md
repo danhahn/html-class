@@ -5,7 +5,7 @@ date: 9/30/2015 15:00
 template: article.jade
 ---
 
-#Inline Elements
+# Inline Elements
 
 * [Intro]()
 * [Editors](editors.html)

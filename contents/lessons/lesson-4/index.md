@@ -23,7 +23,7 @@ This week We will dive back into CSS and talk about test, font, borders, margin 
 
 When styling fonts with CSS they are broken into two types.  **Font** properties and **Text** properties. The two are very similar, the **Font** deals more with the character set and the **Text** is more about changing the way the font looks.
 
-##Font Properties
+## Font Properties
 Property|Values
 -|-
 font:\* <br>required|style variant weight size/line-height family<br> example: `font:bold 12px/2 verdana, "Lithos Regular", sans-serif;`
@@ -78,7 +78,7 @@ Since we **can’t** measure what an inch is on a computer screen we can’t use
 	font-size: 2em;
 	font-size: 200%;
 
-###CSS Units
+### CSS Units
 Unit|Description
 -|-
 %|a percentage of something
