@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 10/7/2015 15:00
+date: 2/03/2016 15:00
 template: article.jade
 
 tags:
@@ -29,9 +29,9 @@ This week we will talk about how to create links and embed images. <div><span cl
 
 The anchor tag or the `<a>` tag is most commonly used to create a link to an other file or page.  The anchor tag by default will not act as a link without the `href` attribute.  
 
-The anchor tag can also be used to set a point on a page where the page can be linked to.  You might see this on an FAQ page where you have a list of questions at the top and the answers at the bottom. 
+The anchor tag can also be used to set a point on a page where the page can be linked to.  You might see this on an FAQ page where you have a list of questions at the top and the answers at the bottom.
 
-Please note there is not a link tag.  If someone askes you to create a link they are talking about the anchor tag. 
+Please note there is not a link tag.  If someone askes you to create a link they are talking about the anchor tag.
 
 ## Example
 `<a href=”http://www.sva.edu”>http://www.sva.edu</a>`
@@ -64,13 +64,13 @@ There are two parts to create a link
 
 #### Breaking it down
 
-Lets start with the `<a>` which is added to create the anchor.  Next we need to add the `href` **attribute** to make the anchor act as a *link*. Then we wrap the text we want the user to click on with the `<a>`. Last we add the location of the page we want to link to. 
+Lets start with the `<a>` which is added to create the anchor.  Next we need to add the `href` **attribute** to make the anchor act as a *link*. Then we wrap the text we want the user to click on with the `<a>`. Last we add the location of the page we want to link to.
 
 If we had the text **HTML at SVA** and wanted to link to the web page *http://www.svahtml.com* the link would look like this.
 
 `<a href="http://www.svahtml.com">HTML at SVA</a>`
 
-Keep in mind that the `<a>` is an inline element so it can be placed next to other text. 
+Keep in mind that the `<a>` is an inline element so it can be placed next to other text.
 
 If you want a link to be on its own line it would need to wrapped with a Block-Level element like a `<p>`.
 

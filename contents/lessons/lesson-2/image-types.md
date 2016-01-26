@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 10/7/2015 15:00
+date: 2/03/2016 15:00
 template: article.jade
 localjs: resize.js
 ---

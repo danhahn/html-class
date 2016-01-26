@@ -1,13 +1,13 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 9/30/2015 15:00
+date: 1/27/2016 15:00
 template: article.jade
 localcss: buckets.css
 localjs: buckets.js
 
-tags: 
-  'html': 
+tags:
+  'html':
     'label': 'html'
     'icon': 'fa fa-html5'
     'data' : ['html','head','title','body','p','h1','h2','h3','h4','h5','h6', 'br', 'blockquote', 'ol', 'ul', 'li', 'div', 'section', 'article', 'header', 'footer']
