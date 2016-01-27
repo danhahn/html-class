@@ -3,13 +3,13 @@
     "url": "http://localhost:8080",
     "name": "SVA HTML",
     "owner": "Daniel Hahn",
-    "description": "Fall 2015",
+    "description": "Spring 2016",
     "date": "January 27, 2016 to April 20, 2016",
     "totalItems" : 12,
     "startDate": "January 27, 2016",
     "endDate": "April 20, 2016",
-    "classnote" : "Please enter your Name, Email and Phone here ->",
-    "classaction" : null
+    "classnote" : "Please enter your Name, Email and Phone Number here -> ",
+    "classaction" : "https://docs.google.com/forms/d/1H69EdofcAy04f6D8TePOmcK96BqTxYBtWTsgomH1iZo/viewform?c=0&w=1"
     },
     "plugins": [
         "./plugins/paginator.coffee",
