@@ -9,7 +9,7 @@
     "startDate": "January 27, 2016",
     "endDate": "April 20, 2016",
     "classnote" : "Please enter your Name, Email and Phone Number here -> ",
-    "classaction" : "https://docs.google.com/forms/d/1H69EdofcAy04f6D8TePOmcK96BqTxYBtWTsgomH1iZo/viewform?c=0&w=1"
+    "classaction" : null
     },
     "plugins": [
         "./plugins/paginator.coffee",

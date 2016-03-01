@@ -436,7 +436,7 @@ p.date {
     h2 {
       font-size: 4em;
       line-height: 1em;
-      margin-bottom: .2em;
+      margin-bottom: 0;
       a {
         color: @alt;
       }
@@ -556,7 +556,7 @@ footer {
 .date {
   font-weight: 100;
   color: @alt;
-  font-size: .75em;
+  font-size: .85em;
   span, i {
     padding-right: 5px;
   }
@@ -903,6 +903,8 @@ pre {
 
 
   .lesson-item {
+      display: flex;
+      flex-wrap: wrap;
     .well {
       min-height: 250px;
       h2 {
