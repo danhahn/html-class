@@ -1,0 +1,42 @@
+body {
+  background: #c6cbcc;
+  font: 15px arial;
+  margin: 20px;
+}
+
+h1, h2, h3, h4, p, ul, figure {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  border: 10px solid red;
+  /*padding: 10px;*/
+  background-color: #fff;
+}
+.promos:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.promos li {
+
+  width: 325px;
+  padding-bottom: 40px;
+  /*border-right: 12px solid teal;*/
+  margin-right: 12px;
+}
+.promos li:last-child {
+
+}
+.promos h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.promos p {
+  line-height: 1.8em;
+}

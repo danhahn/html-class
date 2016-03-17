@@ -5,7 +5,7 @@ date: 4/20/2016 15:00
 template: article.jade
 ---
 
-Continure to work on final <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+Continue to work on final <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
