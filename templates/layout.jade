@@ -16,8 +16,7 @@ html(lang='en')
       link(rel='stylesheet', href='/css/bootstrap.css')
       link(rel='stylesheet', href='/css/flat-ui.css')
       link(rel='stylesheet', href='/css/main.css')
-      link(rel='icon', sizes='192x192', href='/images/favicon.png')
-      meta(name='theme-color', content='#2980b9')
+      link(rel='icon', sizes='192x192', href='/images/favicon.png')      
       block addlocalcss
       script(src='/js/highlight.pack.js')
       script(src='/js/jquery.min.js')
@@ -48,7 +47,8 @@ html(lang='en')
             ul.nav.navbar-nav
               li
                 a(href="/")
-                  i.fa.fa-home= " Home"
+                  i.fa.fa-home
+                  = " Home"
                 ul
                   - var navItem = 0;
                   while navItem < locals.totalItems
