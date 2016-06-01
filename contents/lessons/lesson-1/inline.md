@@ -10,51 +10,55 @@ template: article.jade
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Block-Level](block-level.html)
+* [Block Elements](block-level.html)
 * [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 
-HTML elements are usually "inline" elements or "block-level" elements. An inline element occupies only the space bounded by the tags that define the inline element.
+An inline element is an element that when the content is wrapped with that tag does not display on its own line.
 
-In other words inline elements will not format the text to its own line instead the text will remain "inline" with the rest of text.  
+Inline elements must be wrapped with a block element or can not be a child of another inline elements.
 
-**Note:** inline elements always need to be wrapped with a block-level element.  
+## strong
 
-## Here are a few inline tags we will use.
+The HTML Strong Element `<strong>` gives text strong importance, and is typically displayed in bold.
 
-* `<em>` - The HTML Emphasis Element (`<em>`) marks text that has stress emphasis.
-* `<strong>` - The HTML Strong Element (`<strong>`) gives text strong importance, and is typically displayed in bold.
-* `<span>` - The HTML `<span>` element is a generic inline container for phrasing content, which does not inherently represent anything. *It should be used only when no other semantic element is appropriate.*
-* `<code>` - The HTML Code Element (`<code>`) represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.
+### Example
 
-### example
-`<em>`
+```
+<p>A <strong>polar vortex</strong> also known as a polar cyclone, polar low, or a circumpolar whirl.</p>
+```
 
-    <p>In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.</p>
+<p>A <strong>polar vortex</strong> also known as a polar cyclone, polar low, or a circumpolar whirl.</p>
 
-In HTML 5, what was previously called *block-level* content is now called *flow* content.
+## em
 
----
+The HTML element emphasis  `<em>` marks text that has stress emphasis.
 
-`<strong>`
+### Example
 
-    <p>When doing x it is <strong>imperative</strong> to do y before proceeding.</p>
+```
+<p>In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.</p>
+```
 
-When doing x it is **imperative** to do y before proceeding.
+<p>In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.</p>
 
----
+## code
 
-`<span>`
+The HTML Code Element (`<code>`) represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.
 
-    <p><span>Some text</span></p>
+```
+<p>This is how we would show an <code>&lt;html&gt;</code> tag to a reader of this article.</p>
+```
 
-Some text
+<p>This is how we would show an <code>&lt;html&gt;</code> tag to a reader of this article.</p>
 
----
+## span
 
-`<code>` Example
+The HTML `<span>` element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate. `<span>` is very much like a `<div>` element, but `<div>` is a block-level element whereas a `<span>` is an inline element.
 
-    <p>Regular text. <code>This is code.</code> Regular text.</p>
+```
+<p>We can use a <span>span to wrap</span> text</p>
+```
 
-Regular text. <code>This is code</code>. Regular text.
+<p>We can use a <span>span to wrap</span> text</p>

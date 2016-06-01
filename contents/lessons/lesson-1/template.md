@@ -3,7 +3,7 @@ title: Lesson 1
 author: the-wintersmith
 date: 1/27/2016 15:00
 template: article.jade
-tags: 
+tags:
   'html':
     'label': 'html'
     'icon': 'fa fa-html5'
@@ -11,65 +11,81 @@ tags:
 
 ---
 
-# Setting up the HTML template
+# Building a HTML template
 
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Block-Level](block-level.html)
+* [Block Elements](block-level.html)
+* [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
 
-All HTML pages are based on the same HTML template that will be used to create every HTML going forward.
+We want to build a template to once so we do not have to write it every time.  
 
-As we talked about earlier we can nest tag within one another and we will be doing that here.
+## Saving
 
-## Version of HTML
-Over the years there have been many different versions of HTML.  Starting with HTML 1 we are now on HTML 5.  To use any version of HTML you need to tell the browser by setting the DOCTYPE.
+To create any `html` file you need to `save as` `.html` to make the file in to an html file.
 
-The DOCTYPE will be the very first line of your HTML document and tells the browser.  In fact the DOCTYPE is not part of HTML at all.
+### Steps
 
-In the past a DOCTYPE was very complicated and could take up to two lines of code to define everything.  With HTML5 the DOCTYPE was simplified greatly to just one very simple line.
+1. `File` > `New File`
+2. `File` > `Save As...`
+3. Enter `template.html` in the `Save As` box.
+3. Select location to save (in our case **Documents/your_name**).
+4. Add the code below.
+5. Click `Save` Button
 
-`<!DOCTYPE html>` or `<!doctype html>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
 
-The two are the same and can either can be used.
+</body>
+</html>
+```
+We will use this as our starting point for all `html` files that we need to create going forward.  
 
-## HTML Template
+## Using the template
 
-Once the version of HTML is set we need to build the template.
+Now what we have the template created we just need to save a copy of it.
 
-`<html>` - defines the start and stop of HTML.  All other HTML tags will be nested within the `<html>` tag.
+### Steps
 
-`<head>` - defines the start and stop of the head section.
+1. `File` > `Open...`
+2. `File` > `Save As...`
+3. Enter a name for your file in the `Save As` box.  
+4. Ensure that the name has no spaces, is all lowercase and has `.html` as an extension.
+5. Select location to save.
+6. Click `Save` button
 
-**Notes about the `<head>`**
+## Parts of the template
 
-* `<title>` - defines the title of the document that appears in the toolbar or tab and should be child of the `<head>`
-* Head is used to define information for the page but not the content of the page.
-* All CSS and JavaScript should be placed within the `<head>`.
+### DOCTYPE
 
-`<body>` - defines the start and stop of the body section.
+`<!DOCTYPE>` informs the browser which version of HTML you used to write the document. Doctype is a declaration, not a tag.
 
-**Notes about the `<body>`**
+### html
 
-* All page content should be placed within the `<body>`
-* Make sure you put the content in the body sometimes people mistakenly put the content between the `<head>` and `<body>`.  The content my display but may not be styled or function correctly.
+The `<html>` element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element.
 
-## The Template
+It may have an attribute of `lang="en"` to define the language that is used on the page. In our case we are sending it to english.
 
-	<!doctype html>
-	<html>
-	<head>
-		<title></title>
-	</head>
-	<body>
+### head
 
-	</body>
-	</html>
+The `<head>` element provides general information (metadata) about the document, including its title and links to/definitions of scripts and style sheets. The `<head>` is a child of `<html>`.
+
+### body
+
+The `<body>` element represents the content of an HTML document. There can be only one <body> element in a document. The `<body>` is a child of `<html>`.
+
+### title
+
+The `<title>` element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored.  The `<title>` is a child of `<head>`.
+
 
 [Download a copy of the template](template.txt)
-
-
-
-

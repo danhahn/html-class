@@ -3,7 +3,7 @@ title: Lesson 2
 author: Dan Hahn
 date: 2/03/2016 15:00
 template: article.jade
-localjs: resize.js
+localjs: ['resize.js']
 ---
 
 # Image Types

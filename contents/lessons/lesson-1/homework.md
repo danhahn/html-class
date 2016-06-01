@@ -10,7 +10,7 @@ template: article.jade
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Block-Level](block-level.html)
+* [Block Elements](block-level.html)
 * [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)
@@ -90,7 +90,3 @@ Create a new HTML document form the template that we created in class. Save the 
 
 
 <div class="homework-view" data-lesson="lesson1"></div>
-
-
-
-

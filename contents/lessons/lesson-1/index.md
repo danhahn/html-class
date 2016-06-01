@@ -4,7 +4,7 @@ author: the-wintersmith
 date: 1/27/2016 15:00
 template: article.jade
 localcss: buckets.css
-localjs: buckets.js
+localjs: ['buckets.js']
 
 tags:
   'html':

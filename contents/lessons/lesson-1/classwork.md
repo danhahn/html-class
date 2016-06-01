@@ -10,7 +10,7 @@ template: article.jade
 * [Intro]()
 * [Editors](editors.html)
 * [HTML Template](template.html)
-* [Block-Level](block-level.html)
+* [Block Elements](block-level.html)
 * [Inline](inline.html)
 * [Classwork](classwork.html)
 * [Homework](homework.html)

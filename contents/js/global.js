@@ -134,7 +134,7 @@ $(function() {
     h1.find("span").replaceWith(h1.find("span").html());
     var simpleH1 = h1.html().replace("&nbsp;", " ")
     var headerText = simpleH1.split(" ");
-    console.log(headerText)
+    // console.log(headerText)
     var newHeader = "";
     headerText[0] = "<span class='caps'>"+ headerText[0] +"</span>"
     for(var i=0;i<headerText.length;i++){
@@ -170,6 +170,7 @@ $(function() {
         if(checkHex(liText)) {
           $(this).parent().addClass('hasSwatches');
           var $newSwatch = $template.clone();
+          $newSwatch.attr('data-clipboard-text', liText);
           if(hasTitle) {
             $newSwatch.find('.swatch').attr('title', liText);
           };
