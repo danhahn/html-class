@@ -1,7 +1,7 @@
 ---
 title: Lesson 7
 author: Dan Hahn
-date: 3/16/2016 15:00
+date: 7/20/2016 15:00
 template: article.jade
 ---
 

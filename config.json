@@ -3,11 +3,11 @@
     "url": "http://localhost:8080",
     "name": "SVA HTML",
     "owner": "Daniel Hahn",
-    "description": "Spring 2016",
+    "description": "Summer 2016",
     "date": "January 27, 2016 to April 20, 2016",
     "totalItems" : 12,
-    "startDate": "January 27, 2016",
-    "endDate": "April 20, 2016",
+    "startDate": "June 8, 2016",
+    "endDate": "July 27, 2016",
     "classnote" : "Please enter your Name, Email and Phone Number here -> ",
     "classaction" : null
     },
@@ -28,6 +28,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 12
+  "perPage": 8
   }
 }
