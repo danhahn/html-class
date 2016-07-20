@@ -10,7 +10,7 @@ subject: TEST
 
 **8 weeks**<br>
 Wednesday **6:00-10:00 pm**<br>
-September 30 tp December 16 2015<br>
+June 8, 2016 to July 27, 2016<br>
 2nd Floor – Room 214
 
 Daniel Hahn - dan@svahtml.com
@@ -21,7 +21,7 @@ http://html.svahtml.com
 
 All class work, materials, and assignments will be given though the class web site.  In addition any announcement may be made on the site. The site will also provide back lesson and class presentations will be found there for you to review.
 
-    Login for both lab computers
+    Login for lab computers
     User Name : svanyc
     Password : svanyc
 

@@ -1,7 +1,7 @@
 ---
-title: Lesson 6
+title: Lesson 5
 author: Dan Hahn
-date: 7/13/2016 15:00
+date: 7/6/2016 15:00
 template: article.jade
 
 tags:
@@ -54,7 +54,7 @@ Pseudo class selectors are CSS selectors with a colon preceding them.
       font-style: italic;
     }
 
-While the order does not matter in most cases, here the selector weights are all the same so having `:active` last means it will override `:hover` and display when clicked. 
+While the order does not matter in most cases, here the selector weights are all the same so having `:active` last means it will override `:hover` and display when clicked.
 
 ## Form pseudo class
 

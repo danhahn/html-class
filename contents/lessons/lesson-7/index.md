@@ -5,90 +5,101 @@ date: 7/20/2016 15:00
 template: article.jade
 ---
 
-This week we will be talking about CSS Layouts.  How to build them without tables. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-# Basic Layouts
+# Understanding the Index.html
 
-* [Basic Layouts]()
-* [Overflow](overflow.html)
-* [Responsive](responsive.html)
+* [Understanding index]()
+* [Setting up your site](hosting.html)
 
 [Download Notes  <i class="icon-download-alt icon-white"></i>](week7-notes.zip)
 [Download Starter File  <i class="icon-download-alt icon-white"></i>](week7.zip)
 
-CSS layouts have changed the way that we are able to design websites. At one time all layouts were done with the `<table>`. This was both slow and hard to manage.
+## Building a full site
 
-*Table free* layouts have been used for almost a decade now while they are an improvement over the `<table>` they have flaws.
+**The magic of the index.html**
 
-## Structure
+When building a site that is hosted on a web server there needs to be a default file to serve. In most cases this is  **index.html**. When you have a folder and put only one file in that folder it should be index.html since it will be served by just requesting the site or any subfolder of that site.
 
-In this example we are looking the the most basic layout. Assume that this page is a standard content page that has a `header`, `navigation`, `content` area and `footer`.
+For example you may go to a site named http://www.svahtml.com but you just ask for the site you never say what file you want. The server knows to give you the default file, index.html. to make life easy it just gives you it and the file is never displayed in the URL. But what happens when you go to a sub folder like? Again you are not saying what file you want so the server needs to give you the default file which is index.html.
 
-    <header></header>
-    <nav></nav>
-    <article></article>
-    <footer></footer>
+<img height="36" src="images/image04.png" width="624">
 
-The issue now is that we have no way to limit the width of the elements. One option would be with set the width on each element there are some issue that come along with that. The box model kicks in when a width is set.
+So far we have two files in two folders each named **index.html**. For every folder that we have on the site it will have it&#39;s own index.html. As you might imagine there could be a lot of index.htmls.
 
----
+Because of this we need to be very careful about the file we are working on. One way to help keep track of the file that you are editing it is very useful to update the for each page on your site. It might be something like this.
 
-## Add Wrapper
+* For you homepage - Site Name | Home
+* A sub folder for your gallery might be - Site Name | Gallery
 
-The other option is to wrap all the element with an other element like a `<div>`. This will allow you to define a `width` on it.
+This way you can look at the markup to know what page you are on.
 
-    <div>
-      <header></header>
-      <nav></nav>
-      <article></article>
-      <footer></footer>
-    </div>
+It should also be noted that you can not replace one index with an other since all the links where set for that page and the content would be wrong.
 
----
+## Your site might be something like this
 
-## Adding class
+	Homepage
+	- News
+	- Sport
+	- Weather
+	- Gallery
 
-While the structure is correct at this point we want to add an id or class to help identify this `<header>` from any other `<header>` that may be on the page.
+Every subsection on your site should be broken into its own folder.
 
-There are some who say you should never use an id because they are too specific. I disagree with this. I feel that a well place id can help identify which element you are targeting.
+	/index.html
+	/news/index.html
+	/sports/index.html
+	/weather/index.html
+	/gallery/index.html
 
-    <div class="container">
-      <header class="globalHeader"></header>
-      <nav class="globalNav"></nav>
-      <article class="contentArea"></article>
-      <footer class="gloablFooter"></footer>
-    </div>
+We have 5 index.html files.
 
----
+## But what if we have to have more than one file In a folder?
 
-## Styles
+In that case any other file can be named whatever you want. It would be linked to from the index.html using the link tag **(href=&rdquo;filename.html&rdquo;)**.
 
-Now that we have the structure in place we need to write the `css` to support the markup.
+## For example
 
-### Fixed width
+	/news/index.html
+	/news/yesterday.html
+	/news/breakingnews.html
+	/news/fun-stories.html
 
-In this example we are setting up a page that is a fixed width of `800px`.
+In this example we have four files all in the **/news/** folder.
 
-    .container {
-      width: 800px;
-    }
+<img height="354" src="images/image00.png" width="624">
 
-    .gloablNav, .contentArea {
-       float: left;
-    }
+When you have your files on a web server you are able to use absolute paths to make the paths from one section or folder to another.
 
-    .gloablNav {
-      width: 200px;
-    }
+If you wanted to link from the news page to the weather page there are two ways to do this.
 
-    .contentArea {
-       width: 600px;
-    }
+1. Use a relative path. **../weather/**
+2. Use an absolute path **/weather/**
 
-    .footer {
-       clear: both;
-    }
+The reason option 2 is better is because it will be the same path for all files on the site regardless of where you are.
 
-This will create a fixed two column layout. The width can be adjusted any value just note that the `.globalNav` and `.contentArea` must add up to the width of the `.container`.
+## Dev Local
+
+The big problem with this way is it will not work when viewing your files from a local directory.
+
+If you want to still develop locally you will need to set up a local server. One great one is MAMP. it is very easy to setup and use and will allow you to have the same setup as your web server.
+
+<img height="345" src="images/image01.png" width="427">
+
+You just need to set the &ldquo;Document Root&rdquo; by clicking the Preferences button then clicking Apache.
+
+<img height="349" src="images/image05.png" width="432">
+
+Then set the folder of your project and click OK.
+
+Once that is done you need to click Start Servers. It may ask you to enter your username and password. In almost all cases this will be the same as when you logged in to the computer.
+
+if everything works your app will have two green lights
+
+<img height="348" src="images/image03.png" width="430">
+
+Then you need to go to http://localhost:8888/
+
+This will act as a real web server but you can continue to develop locally.
