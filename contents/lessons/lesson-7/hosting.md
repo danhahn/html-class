@@ -9,6 +9,7 @@ template: article.jade
 
 * [Understanding index]()
 * [Setting up your site](hosting.html)
+* [Background](background.html)
 
 
 

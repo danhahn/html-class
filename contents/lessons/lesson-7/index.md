@@ -13,6 +13,7 @@ How to set up your own HTML website including how to choose where to host and ho
 
 * [Understanding index]()
 * [Setting up your site](hosting.html)
+* [Background](background.html)
 
 [Download Notes  <i class="icon-download-alt icon-white"></i>](week7-notes.zip)
 [Download Starter File  <i class="icon-download-alt icon-white"></i>](week7.zip)
