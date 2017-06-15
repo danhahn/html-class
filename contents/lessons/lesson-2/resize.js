@@ -7,15 +7,10 @@ $(function() {
 
   for (var i = 0; i < sizes.length; i++) {
     var size = sizes[i];
-    var $button = $('<button>')
+    var $button = $('<button class="btn">')
       .html(size)
       .click(function() {
-        $('.content img')
-          .css(
-            {
-              'width': $(this).html()
-            }
-          )
+        $('.content img').css({ 'width': $(this).html() });
       });
     $button.appendTo($list);
   }

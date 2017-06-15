@@ -65,7 +65,7 @@ $(function() {
     }
     else if (url.indexOf("homework.html") > -1) {
       //el.addClass("btn");
-      el.append(' <i class="fa fa-download"></i>');
+      el.append(' <i class="fa fa-cog"></i>');
     }
   });
 

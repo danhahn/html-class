@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 6/15/2016 15:00
+date: 6/14/2017 15:00
 template: article.jade
 
 tags:
@@ -19,9 +19,11 @@ This week we will talk about how to create links and embed images. <div><span cl
 # Anchor Tag (inline element)
 
 * [Link Tag]()
+* [Inline](inline.html)
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
+* [Embed](embed.html)
 * [Homework](homework.html)
 
 [Download Notes <i class="icon-download-alt icon-white"></i>](week2-notes.zip)[Download Stater File <i class="icon-download-alt icon-white"></i>](week2.zip)

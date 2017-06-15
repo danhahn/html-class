@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 6/15/2016 15:00
+date: 6/14/2017 15:00
 template: article.jade
 localjs: ['resize.js']
 ---
@@ -9,12 +9,14 @@ localjs: ['resize.js']
 # Image Types
 
 * [Link Tag]()
+* [Inline](inline.html)
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
+* [Embed](embed.html)
 * [Homework](homework.html)
 
-On the web today we use 3 types of images. Each has an advatage and disadvantage over the other types. It is import to use the correct image type in the right situation to ensure fast page loads.
+On the web today we use 3 types of images. Each has an advantage and disadvantage over the other types. It is import to use the correct image type in the right situation to ensure fast page loads.
 
 ---
 
@@ -63,7 +65,7 @@ The PNG dates back to 1996 but was not supported on the web until the mid 2000. 
 
 ## Image Resizing
 
-<p id="resize">In the event that an image needs to be resized each image type dislay different. </p>
+<p id="resize">In the event that an image needs to be resized each image type display different. </p>
 
 ## Optimization
 Optimizing images is a very import step to ensure that pages load quickly. Images in their default state are often much later than they need to be. While you can control the display size of an image with HTML or CSS it will not change the actual size of the image and you may end up downloading something much larger than you need.

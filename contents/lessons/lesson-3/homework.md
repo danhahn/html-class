@@ -1,7 +1,7 @@
 ---
 title: Lesson 3
 author: Dan Hahn
-date: 6/22/2016 15:00
+date: 6/21/2017 15:00
 template: article.jade
 ---
 
@@ -24,7 +24,7 @@ template: article.jade
 
 
 
-<a href="homework3-text.txt" class="btn" target="_new">Homework Content</a>
+<a href="homework3-text.txt" class="btn" target="\_target">Homework Content</a>
 
 In this homework you will be writing styles support the HTML that was provided. There is
 no need to make any changes to HTML.
@@ -37,71 +37,75 @@ Add the following style to the Style tag that was just added.
 
 ---
 
-### Tag name selectors
+### Tag Name Selectors
 
 body
-
-	background-color – #7D2B44
-	font-family – arial
-	font-size – 12px
-	color – #666666
-
+<pre style="white-space:pre-line;padding: 1em;">
+background-color – <span style="color:#7D2B44">#7D2B44</span>
+font-family – arial
+font-size – 12px
+color – <span style="color:#666666">#666666</span>
+</pre>
 h1
-
-	color – white
-	font-size – 20px
-
+<pre style="white-space:pre-line;padding: 1em;">
+color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
+font-size – 20px
+</pre>
 h2
-
-	color – #B34236
-	font-style – italic
-
+<pre style="white-space:pre-line;padding: 1em;">
+color – <span style="color:#B34236;">#B34236</span>
+font-style – italic
+</pre>
 h3
-
-	color – #6B2621
-	font-style – italic
-
+<pre style="white-space:pre-line;padding: 1em;">
+color – <span style="color:#6B2621;">#6B2621</span>
+font-style – italic
+</pre>
 a
-
-	text-decoration – none
-	color – white
-
----
-
-### ID name selector
-
-\#container
-
-	width – 800px
-
-\#header
-
-	padding – 10px
-	background-color – #CA9A2D
-
-\#navigation
-
-	padding: 20px
-	background-color – #685759
-
-\#content
-
-	background-color – #ffffff
-	padding – 20px
-
-\#footer
-
-	background-color – #7B6F57
-	color – white
-	padding – 10px
+<pre style="white-space:pre-line;padding: 1em;">
+text-decoration – none
+color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
+</pre>
 
 ---
 
-### class name selector
+### Class Name Selector
+.container
+<pre style="white-space:pre-line;padding: 1em;">
+width – 800px
+</pre>
+
+
+.header
+<pre style="white-space:pre-line;padding: 1em;">
+padding – 10px
+background-color – <span style="color:#CA9A2D;">#CA9A2D</span>
+</pre>
+
+.navigation
+<pre style="white-space:pre-line;padding: 1em;">
+padding: 20px
+background-color – <span style="color:#685759;">#685759</span>
+</pre>
+
+.content
+<pre style="white-space:pre-line;padding: 1em;">
+background-color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
+padding – 20px
+</pre>
+
+.footer
+<pre style="white-space:pre-line;padding: 1em;">
+background-color – <span style="color:#7B6F57;">#7B6F57</span>
+color – white
+padding – 10px
+</pre>
 
 .navItem
+<pre style="white-space:pre-line;padding: 1em;">
+color – <span style="color:#CD7F32;">#CD7F32</span>
+</pre>
 
-	color – #CD7F32
 
 ---
 

@@ -475,6 +475,11 @@ footer {
       margin: 0;
     }
   }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .btn-group {
@@ -974,6 +979,18 @@ pre {
 
   p {
     text-align: left;
+  }
+  .main-content {
+    order: 2;
+  }
+  .side-nav {
+    order: 1;
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+      border: 1px solid;
+    }
+  }
+  .tags {
+    display: none;
   }
 }
 

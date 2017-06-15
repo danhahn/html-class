@@ -1,23 +1,25 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 6/15/2016 15:00
+date: 6/14/2017 15:00
 template: article.jade
 ---
 
 # Image Examples
 
 * [Link Tag]()
+* [Inline](inline.html)
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
+* [Embed](embed.html)
 * [Homework](homework.html)
 
 There are three image types used on the web today
 
 ## GIF
 
-The GIF file is the CompuServe image format and is best used for images with flat colors. It offers the ability to “index” colors on your images to make sure that they contain only Web safe colors or a small palette of colors and (with flat colored images) make the images smaller. 
+The GIF file is the CompuServe image format and is best used for images with flat colors. It offers the ability to “index” colors on your images to make sure that they contain only Web safe colors or a small palette of colors and (with flat colored images) make the images smaller.
 
 ### No transparency – 14k
 <img src="images/gif_notrans.gif" alt="">

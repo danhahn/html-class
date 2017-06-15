@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 6/8/2016 15:00
+date: 6/7/2017 15:00
 template: article.jade
 tags:
   'html':
@@ -41,7 +41,9 @@ To create any `html` file you need to `save as` `.html` to make the file in to a
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
 </head>
 <body>
 

@@ -1,18 +1,22 @@
-<div id="container">
-	<div id="header">
+<main class="container">
+	<header class="header">
 		<h1>New York</h1>
-	</div>
-	<div id="navigation">
+	</header>
+	<nav class="navigation">
 		<a href="http://www.syracuse.com"class="navItem">Syracuse</a>
+		|
 		<a href="http://www.rochester.com"class="navItem">Rochester</a>
+		|
 		<a href="http://www.buffalo.com"class="navItem">Buffalo</a>
+		|
 		<a href="http://www.binghamton.com"class="navItem">Binghamton</a>
+		|
 		<a href="http://www.albany.com"class="navItem">Albany</a>
-	</div>
-	<div id="content">
+	</nav>
+	<article class="content">
 		<h2>Climate</h2>
 
-		<p>The climate of New York State is broadly representative of the humid continental type that prevails in the northeastern United States, but its diversity is not usually encountered within an area of comparable size. The Great Lakes, ocean, rivers, and mountains give New York interesting weather. Masses of cold, dry air frequently arrive from the northern interior of the continent. Prevailing winds from the south and southwest transport warm, humid air, which has been conditioned by the Gulf of Mexico and  adjacent subtropical waters. These two air masses provide the dominant continental characteristics of the climate. A third great air mass flows inland from the North Atlantic Ocean and produces cool, cloudy, and damp weather conditions. </p>
+		<p>The climate of New York State is broadly representative of the humid continental type that prevails in the northeastern United States, but its articleersity is not usually encountered within an area of comparable size. The Great Lakes, ocean, rivers, and mountains give New York interesting weather. Masses of cold, dry air frequently arrive from the northern interior of the continent. Prevailing winds from the south and southwest transport warm, humid air, which has been conditioned by the Gulf of Mexico and  adjacent subtropical waters. These two air masses provide the dominant continental characteristics of the climate. A third great air mass flows inland from the North Atlantic Ocean and produces cool, cloudy, and damp weather conditions. </p>
 		<p>Nearly all storm and frontal systems moving eastward across the continent pass through or come close in proximity to New York State. Storm systems often move northward along the Atlantic coast and have an important influence on the weather and climate of Long Island and the lower Hudson Valley. Frequently, areas deep in the interior of the state feel the effects of such coastal storms. </p>
 
 		<h3>Winters</h3>
@@ -21,8 +25,8 @@
 		<h3>Summers</h3>
 		<p>The summer climate is cool in the Adirondacks, Catskills, and higher elevations of the Southern Plateau. The New York City area and lower portions of the Hudson Valley have rather warm summers by comparison, with some periods of high, uncomfortable humidity. The remainder of New York State enjoys pleasantly warm summers, marred by only occasional, brief intervals of sultry conditions. Summer daytime temperatures usually range from the upper 70s to mid 80s&deg;F (25 to 30&deg;C) over much of the State, producing an atmospheric environment favorable to many athletic, recreational, and other outdoor activities. </p>
 		<p>New York ranks 46th among the 50 states in the amount of greenhouse gases generated per person. This efficiency is primarily due to the state's relatively higher rate of mass transit use. </p>
-	</div>
-	<div id="footer">
-		<p>&copy; 2009 Sva HTML </p>
-	</div>
-</div>
+	</article>
+	<footer class="footer">
+		<p>&copy; 2017 SVA HTML </p>
+	</footer>
+</main>

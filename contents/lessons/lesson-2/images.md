@@ -1,25 +1,27 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 6/15/2016 15:00
+date: 6/14/2017 15:00
 template: article.jade
 ---
 
 # Images
 
 * [Link Tag]()
+* [Inline](inline.html)
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
+* [Embed](embed.html)
 * [Homework](homework.html)
 
 The image tag or `<img>` is used to embed an image within an `HTML` document.  At the time the page is rendered the browser will set aside a space on the page for an image to load.  The browser then need to find and load the image in that space.  If the iamge can't be found than it will not show up.  There are two required attribute.
 
 Attributes|Values
 --|--
-`src=""` **\*required**|The source of the image that you want to place on the page.
-`alt=""` **\*required**|The alt tag is where you can put text that will show up when the image is loading or when the user hovers the mouse over that image.
-`title=""`|Displays the value of the attribute in a small box over the image when the mouse hovers over the image.
+`src=""` **\*required** | The source of the image that you want to place on the page.
+`alt=""` **\*required** | The alt tag is where you can put text that will show up when the image is loading or when the user hovers the mouse over that image.
+`title=""` | Displays the value of the attribute in a small box over the image when the mouse hovers over the image.
 
 ## Example
 
@@ -39,9 +41,9 @@ HTML **requires** that you add an alt attribute to all images tags.  This attrib
 
 There are **3 image types** that are supported by current browsers.
 
-*GIF – Limited to 256 Colors but one color can be transparent. (Used for Text based images ie Logos or headers)
-*JPG – Allows for Millions of colors compressed. (Most commonly used for photos)
-*PNG – Like the JPG but allows for opacities. (Supported by all newer browsers after IE 6)
+* GIF – Limited to 256 Colors but one color can be transparent. (Used for Text based images ie Logos or headers)
+* JPG – Allows for Millions of colors compressed. (Most commonly used for photos)
+* PNG – Like the JPG but allows for opacities. (Supported by all newer browsers after IE 6)
 
 ## Transparency
 Transparency is an important for two reasons. They allow for complex designs by layers images. They also allow for non-rectangular designs.

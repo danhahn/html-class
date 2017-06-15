@@ -1,16 +1,18 @@
 ---
 title: Lesson 2
 author: Dan Hahn
-date: 6/15/2016 15:00
+date: 6/14/2017 15:00
 template: article.jade
 ---
 
 # Linking files
 
 * [Link Tag]()
+* [Inline](inline.html)
 * [Folder](folders.html)
 * [Images](images.html)
 * [Image Types](image-types.html)
+* [Embed](embed.html)
 * [Homework](homework.html)
 
 ## Linking to a file in the same folder
@@ -27,7 +29,7 @@ If the file you wish to link to is a sub folder you can not link to the file dir
 
 <img src="images/image00.png">
 
-When linking to a file in a sub folder you need to know the folder name.  Because it possible to have more than one sub folder it is necessary to know the folder name. 
+When linking to a file in a sub folder you need to know the folder name.  Because it possible to have more than one sub folder it is necessary to know the folder name.
 
 ### Example
 `<a href=”subFolder/file2.html”>link</a>`

@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 author: the-wintersmith
-date: 6/8/2016 15:00
+date: 6/7/2017 15:00
 template: article.jade
 ---
 
