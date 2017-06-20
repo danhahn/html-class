@@ -21,26 +21,8 @@ Tag name selectors use HTML tags as the connection.  *Any* HTML element can be u
 
 ### Example
 
-CSS
-
-	<style>
-	h1 {
-		color: red;
-	}
-	</style>
-
-	<h1>Tag Name Selector</h1>
-
-HTML
-<div class="well">
-<style>
-h1.exmaple {
-    color: red;
-}
-</style>
-
-<h1 class="exmaple">Tag Name Selector</h1>
-</div>
+<iframe height='265' scrolling='no' title='tag name selector' src='//codepen.io/danhahn/embed/MommxP/?height=265&theme-id=light&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/MommxP/'>tag name selector</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ----
 
@@ -52,24 +34,8 @@ Many elements on a page may use the same class name.
 
 ### Example
 
-	<style>
-	.className {
-		color: orange;
-	}
-	</style>
-
-	<h1 class="className">Class Name Selector</h1>
-
-HTML
-<div class="well">
-<style>
-h1.exmaple2 {
-    color: orange;
-}
-</style>
-
-<h1 class="exmaple2">Class Name Selector</h1>
-</div>
+<p data-height="265" data-theme-id="light" data-slug-hash="awWWee" data-default-tab="css,result" data-user="danhahn" data-embed-version="2" data-pen-title="class name selector" class="codepen">See the Pen <a href="https://codepen.io/danhahn/pen/awWWee/">class name selector</a> by Dan Hahn (<a href="https://codepen.io/danhahn">@danhahn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ----
 
@@ -79,27 +45,8 @@ An ID name selectors require an attribute of `id=""` to be added to an HTML elem
 
 ### Example
 
-CSS
-
-	<style>
-	#idName {
-		color: green;
-	}
-	</style>
-
-	<h1 id="idName">ID Name Selector</h1>
-
-HTML
-
-<div class="well">
-	<style>
-	#idName {
-		color: green;
-	}
-	</style>
-
-	<h1 id="idName">ID Name Selector</h1>
-</div>
+<p data-height="265" data-theme-id="light" data-slug-hash="QgvgLr" data-default-tab="css,result" data-user="danhahn" data-embed-version="2" data-pen-title="id name selector" class="codepen">See the Pen <a href="https://codepen.io/danhahn/pen/QgvgLr/">id name selector</a> by Dan Hahn (<a href="https://codepen.io/danhahn">@danhahn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ----
 
@@ -108,124 +55,29 @@ Because classes can be applied to many elements on a page there could be a case 
 
 Since they are not the same it may be the case that you want to style each differently.  By combining two of the basic selectors you can ensure that only the intended element is styled.
 
-tag.className
+`tag.className`
 
 When two selectors are combined without a space, as with the example above, the class will only applied to the HTML tag that has the class name.
-Example
 
-	<style>
-	p.firstLine {
-		color: red;
-	}
-	</style>
-	
-	<p class="firstLine">Example Text</p>
-	<ul>
-		<li class="firstLine">List Text</li>
-	</ul>
+### Example
 
-<div class="well">
-<style>
-	p.firstLine {
-		color: red;
-	}
-	</style>
-
-	<p class="firstLine">Example Text</p>
-	<ul>
-		<li class="firstLine">List Text</li>
-	</ul>
-</div>
+<p data-height="265" data-theme-id="light" data-slug-hash="pwPwvx" data-default-tab="css,result" data-user="danhahn" data-embed-version="2" data-pen-title="Limit scope" class="codepen">See the Pen <a href="https://codepen.io/danhahn/pen/pwPwvx/">Limit scope</a> by Dan Hahn (<a href="https://codepen.io/danhahn">@danhahn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 In this example you can see there are two elements that have the class name of "firstLine".  To limit the class "firstLine" only to P tags, we start with a tag name selector and append the class name.
 
 This idea will work with any combination of the three basic selectors
 
-	tag.className
-	tag#idName
-	#id.className
-	.className.className2
+```css
+tag.className {}
+tag#idName {}
+#id.className {}
+.className.className2 {}
+```
 
-Context Selectors
+## Context Selectors
+
 Context selectors use the HTML structure to target elements to be styled.  Context selectors can use any combination of the three basic selectors.
 
-	<style>
-	/* case 1 */
-	div h1 {
-		color: red;
-	}
-	/* or */
-	#example h1 {
-		color: red
-	}
-
-	/* case 2 */
-	div div p {
-		color: blue;
-	}
-	/* or */
-	.repetElement p {
-		color: blue;
-	}
-	/* or */
-	#example div p {
-		color: blue;
-	}
-	</style>
-
-
-	<div id="example">
-		<h1>Example text</h1><!-- case 1 -->
-		<p>Main content Intro. <a href="page.html">Main content Intro</a>. Main content Intro. Main content Intro. </p>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<img src="images/image.gif" alt=""/>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text. Content Text.</p><!-- case 2 -->
-		</div>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<img src="images/image.gif" alt=""/>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text. Content Text.</p><!-- case 2 -->
-		</div>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<img src="images/image.gif" alt=""/>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text.Content Text.</p><!-- case 2 -->
-		</div>
-	</div>
-
-<div class="well">
-	<style>
-	#example h1 {
-		color: red
-	}
-
-	div#example div p {
-		color: blue;
-	}
-	#example .repetElement p {
-		color: blue;
-	}
-	#example div p {
-		color: blue;
-	}
-	</style>
-
-
-	<div id="example">
-		<h1>Example text</h1><!-- case 1 -->
-		<p>Main content Intro. <a href="page.html">Main content Intro</a>. Main content Intro. Main content Intro. </p>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text. Content Text.</p><!-- case 2 -->
-		</div>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text. Content Text.</p><!-- case 2 -->
-		</div>
-		<div class="repeatElement">
-			<h2><a href="url.html">Repeat Text</a></h2>
-			<p>Content Text. Content Text. <a href="url">Content Text</a>. Content Text.Content Text.</p><!-- case 2 -->
-		</div>
-	</div>
-</div>
+<iframe height='663' scrolling='no' title='context selector' src='//codepen.io/danhahn/embed/ZyKyeN/?height=663&theme-id=light&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/ZyKyeN/'>context selector</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>

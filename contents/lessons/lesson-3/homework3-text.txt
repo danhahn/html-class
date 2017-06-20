@@ -14,6 +14,11 @@
 		<a href="http://www.albany.com"class="navItem">Albany</a>
 	</nav>
 	<article class="content">
+
+		<figure class="hero-image">
+			<img src="http://www.svahtml.com/images/nys.jpg" alt="" />
+		</figure>
+
 		<h2>Climate</h2>
 
 		<p>The climate of New York State is broadly representative of the humid continental type that prevails in the northeastern United States, but its articleersity is not usually encountered within an area of comparable size. The Great Lakes, ocean, rivers, and mountains give New York interesting weather. Masses of cold, dry air frequently arrive from the northern interior of the continent. Prevailing winds from the south and southwest transport warm, humid air, which has been conditioned by the Gulf of Mexico and  adjacent subtropical waters. These two air masses provide the dominant continental characteristics of the climate. A third great air mass flows inland from the North Atlantic Ocean and produces cool, cloudy, and damp weather conditions. </p>

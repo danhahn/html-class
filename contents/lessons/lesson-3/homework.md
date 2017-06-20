@@ -15,13 +15,11 @@ template: article.jade
 
 ## Goals of this homework
 
-1. Use HTML tags from other homewoks
+1. Use HTML tags from other homework
 2. Start to get comfortable with the format of CSS
 3. Use tag name selector
 4. Use class name selector
 5. Use id name selector
-
-
 
 
 <a href="homework3-text.txt" class="btn" target="\_target">Homework Content</a>
@@ -41,30 +39,31 @@ Add the following style to the Style tag that was just added.
 
 body
 <pre style="white-space:pre-line;padding: 1em;">
-background-color – <span style="color:#7D2B44">#7D2B44</span>
-font-family – arial
-font-size – 12px
-color – <span style="color:#666666">#666666</span>
+  font-family - arial
+  font-size - 16px
+  background-color - <span style="color: #3a7f7f;">#3a7f7f</span>
 </pre>
+
 h1
 <pre style="white-space:pre-line;padding: 1em;">
-color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
-font-size – 20px
+  color - <span style="color: #ffffff;;background-color:#000;padding:2px;">#ffffff</span>
+  margin - 0
 </pre>
+
 h2
 <pre style="white-space:pre-line;padding: 1em;">
-color – <span style="color:#B34236;">#B34236</span>
-font-style – italic
+  color - <span style="color: #3a7f7f;">#3a7f7f</span>
 </pre>
+
 h3
 <pre style="white-space:pre-line;padding: 1em;">
-color – <span style="color:#6B2621;">#6B2621</span>
-font-style – italic
+  color - <span style="color: #4b4b4b;">#4b4b4b</span>
 </pre>
-a
+
+p
 <pre style="white-space:pre-line;padding: 1em;">
-text-decoration – none
-color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
+  line-height - 1.5em
+  color - <span style="color: #333333;">#333333</span>
 </pre>
 
 ---
@@ -72,40 +71,45 @@ color – <span style="color:#fff;background-color:black;padding:2px;">white</sp
 ### Class Name Selector
 .container
 <pre style="white-space:pre-line;padding: 1em;">
-width – 800px
+  width - 1000px
 </pre>
-
 
 .header
 <pre style="white-space:pre-line;padding: 1em;">
-padding – 10px
-background-color – <span style="color:#CA9A2D;">#CA9A2D</span>
+  background-color - <span style="color: #4b4b4b;">#4b4b4b</span>
+  padding - 1em
 </pre>
 
 .navigation
 <pre style="white-space:pre-line;padding: 1em;">
-padding: 20px
-background-color – <span style="color:#685759;">#685759</span>
-</pre>
-
-.content
-<pre style="white-space:pre-line;padding: 1em;">
-background-color – <span style="color:#fff;background-color:black;padding:2px;">white</span>
-padding – 20px
-</pre>
-
-.footer
-<pre style="white-space:pre-line;padding: 1em;">
-background-color – <span style="color:#7B6F57;">#7B6F57</span>
-color – white
-padding – 10px
+  background-color - <span style="color: #ead967;">#ead967</span>
+  padding - 1em
 </pre>
 
 .navItem
 <pre style="white-space:pre-line;padding: 1em;">
-color – <span style="color:#CD7F32;">#CD7F32</span>
+  color - <span style="color: #4b4b4b;">#4b4b4b</span>
+  text-decoration - none
+  font-weight - bold
 </pre>
 
+.hero-image
+<pre style="white-space:pre-line;padding: 1em;">
+  margin - 0
+</pre>
+
+.content
+<pre style="white-space:pre-line;padding: 1em;">
+  background-color - <span style="color: #e8e8e8;background-color:#000;padding:2px;">#e8e8e8</span>
+  padding - 1em
+</pre>
+
+.footer
+<pre style="white-space:pre-line;padding: 1em;">
+  background-color - <span style="color: #ff9060;">#ff9060</span>
+  padding - 1em
+  text-align - right
+</pre>
 
 ---
 
