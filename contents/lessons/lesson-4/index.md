@@ -13,6 +13,7 @@ This week We will dive back into CSS and talk about text, font, borders, margin 
 
 * [Font Properties]()
 * [Text Properties](text.html)
+* [Include CSS File](include.html)
 * [Borders](borders.html)
 * [Padding and Margin](padding-margin.html)
 * [Homework](homework.html)

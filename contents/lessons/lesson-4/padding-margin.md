@@ -9,6 +9,7 @@ template: article.jade
 
 * [Font Properties]()
 * [Text Properties](text.html)
+* [Include CSS File](include.html)
 * [Borders](borders.html)
 * [Padding and Margin](padding-margin.html)
 * [Homework](homework.html)
@@ -17,10 +18,8 @@ Padding is the amount of space from the border in to the content.
 
 Margin is the amount of space from the borer out to the next element.
 
-
-<div class="box" style="background: url('http://www.svahtml.com/images/padding.gif') no-repeat; width: 400px; height: 200px; overflow: hidden;margin-bottom:10px;">
-<div style="margin: 10px; border: 10px solid transparent; padding: 10px; height: 140px;"><span style="background-color: red; display: block;font-size:12px;line-height:1em;">Box</span></div>
-</div>
+<iframe height='573' scrolling='no' title='Padding' src='//codepen.io/danhahn/embed/MoQYeQ/?height=573&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/MoQYeQ/'>Padding</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Working With Paragraphs
 
@@ -32,28 +31,28 @@ There is often a little confusion when to use margin or padding with paragraph t
 
 The margin and padding property can have from one to four values.
 
-	margin: 25px 50px 75px 100px;
+	padding: 25px 50px 75px 100px;
 
-* top margin is 25px
-* right margin is 50px
-* bottom margin is 75px
-* left margin is 100px
-
-
-	margin: 25px 50px 75px;
-
-* top margin is 25px
-* right and left margins are 50px
-* bottom margin is 75px
+* top padding is 25px
+* right padding is 50px
+* bottom padding is 75px
+* left padding is 100px
 
 
-	margin: 25px 50px;
+	padding: 25px 50px 75px;
+
+* top padding is 25px
+* right and left paddings are 50px
+* bottom padding is 75px
 
 
-* top and bottom margins are 25px
-* right and left margins are 50px
+	padding: 25px 50px;
 
 
-	margin: 25px;
+* top and bottom paddings are 25px
+* right and left paddings are 50px
 
-* all four margins are 25px
+
+	padding: 25px;
+
+* all four paddings are 25px

@@ -10,7 +10,7 @@ template: article.jade
 * [Intro to CSS]()
 * [Selectors](selectors.html)
 * [Include File](include.html)
-* [CSS2 Reference](css.html)
+* [ CSS3 Reference](css.html)
 * [Homework](homework.html)
 
 ## Goals of this homework

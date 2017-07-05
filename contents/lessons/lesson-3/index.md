@@ -27,7 +27,7 @@ This week we start to talk about CSS. <div><span class="label label-default html
 * [Intro to CSS]()
 * [Selectors](selectors.html)
 * [Include File](include.html)
-* [CSS2 Reference](css.html)
+* [ CSS3 Reference](css.html)
 * [Homework](homework.html)
 
 [Download Notes <i class="icon-download-alt icon-white"></i>](week3-notes.zip)[Download Stater File <i class="icon-download-alt icon-white"></i>](week3.zip)

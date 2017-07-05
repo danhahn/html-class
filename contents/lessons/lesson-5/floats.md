@@ -26,22 +26,8 @@ When an element is floated they go into a state that is not inline or block.  A 
 | float | left  | float an item to the left and content will wrap around it  | `float: left;`  |
 | float | right | float an item to the right and content will wrap around it | `float: right;` |
 
-    <style>
-        img {
-            float: left;
-        }
-    </style>
-    <div>
-        <h2>Example</h2>
-        <p>Content. Content. Content. Content. Content. Content. </p>
-        <img src="image.jpg">
-        <p>Content. Content. Content. Content. Content. Content. </p>
-        <p>Content. Content. Content. Content. Content. Content. </p>
-    </div>
-
-### Example
-
-<div id="basic_float"></div>
+<iframe height='1069' scrolling='no' title='Floats Explained' src='//codepen.io/danhahn/embed/NgyEJG/?height=1069&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/NgyEJG/'>Floats Explained</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 **Note:** Elements that are floated will move to the far left or right of the container and the content will wrap around the floated element.
 
@@ -62,31 +48,6 @@ The the clear float must be added to an element after the floated element.
 
 In this example the content in the second element is not affected by the the float because it has a clear:left; on it.
 
-### Example
-#### HTML
-
-    <style>
-        img {
-            float: left;
-        }
-        h3 {
-            clear: left;
-        }
-    </style>
-    <div>
-      <h2>Story Title</h2>
-      <p>Content. Content. Content. Content. Content. Content. </p>
-      <img src="image.jpg">
-      <p>Content. Content. Content. Content. Content. Content. </p>
-      <h3>Next Section</h3>
-      <p>Content. Content. Content. Content. Content. Content. </p>
-      <p>Content. Content. Content. Content. Content. Content. </p>
-    </div>
-
-#### Output
-
- <div id="basic_clear"></div>
-
  **Note:** When the clearing an element it will clear that element and all the elements after.
 
 ## Stacking Floats
@@ -97,20 +58,8 @@ When two or more consecutive elements are floated in the same direction they wil
 
 ### Example
 
-    <style>
-      li {
-        float: left;
-        list-style:none;
-      }
-    </style>
-    <ul>
-      <li>Nav Item 1</li>
-      <li>Nav Item 2</li>
-      <li>Nav Item 3</li>
-      <li>Nav Item 4</li>
-    </ul>
-
-<div id="stacking_content"></div>
+<iframe height='514' scrolling='no' title='Stacking Floats' src='//codepen.io/danhahn/embed/dRdrRm/?height=514&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/dRdrRm/'>Stacking Floats</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 
 [More Info](http://css-tricks.com/all-about-floats/)

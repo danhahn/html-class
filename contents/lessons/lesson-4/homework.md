@@ -9,6 +9,7 @@ template: article.jade
 
 * [Font Properties]()
 * [Text Properties](text.html)
+* [Include CSS File](include.html)
 * [Borders](borders.html)
 * [Padding and Margin](padding-margin.html)
 * [Homework](homework.html)
@@ -27,80 +28,101 @@ When a value has a `?` you will need to figure out what the value should be.
 **Note:** Be sure to send all HTML, CSS and images in a zip file.
 
 ## body
+<pre style="white-space:pre-line;padding: 1em;">
+	background-color: #c0c0c0;
+	font: 16px arial;
+</pre>
 
-	background-color - #c0c0c0
-	font - ? arial
-	
 
-## \#container
+## .container
+<pre style="white-space:pre-line;padding: 1em;">
+	width: 800px;
+	background-color: white;
+</pre>
 
-	width - 800px
-	background-color - white
-	
 
 ## article
-
-	padding - ?
+<pre style="white-space:pre-line;padding: 1em;">
+	padding: ?em;
+</pre>
 
 
 ## h1
-
-	font-size - 30px
-	text-transform - uppercase
-	margin - 0
-	color - #1e336a
+<pre style="white-space:pre-line;padding: 1em;">
+	font-size: ?em;
+	text-transform: uppercase;
+	margin: 0;
+	color: #1e336a;
+</pre>
 
 
 ## .byline
-
-	font-size - ?
+<pre style="white-space:pre-line;padding: 1em;">
+	font-size: 11px;
+</pre>
 
 
 ## .main-image
+<pre style="white-space:pre-line;padding: 1em;">
+	background-color: #a0b3f7;
+	margin: ?;
+	padding: ?;
+	text-align: center;
+</pre>
 
-	background-color - #a0b3f7
-	margin - 0
-	padding - 10px
-	text-align - center
+
+## .content-area p
+<pre style="white-space:pre-line;padding: 1em;">
+	line-height: 1.5?;
+</pre>
 
 
 ## blockquote
-
-	color - #2c478b
-	margin - 20px
-	padding - 0
-	font-size - 13px
-	font-weight - bold
+<pre style="white-space:pre-line;padding: 1em;">
+	color: #2c478b;
+	margin: 0;
+	padding: .?em ?;
+	font-weight: bold;
+	border-left: ? ? #2c478b;
+</pre>
 
 
 ## blockquote p
-
-	line-height - 10px
-	letter-spacing - -1px
+<pre style="white-space:pre-line;padding: 1em;">
+	line-height: 1em;
+	letter-spacing: -1px;
+	margin: 0;
+</pre>
 
 
 ## h2
-
-	color - #2c47b8
+<pre style="white-space:pre-line;padding: 1em;">
+	color: #2c47b8;
+</pre>
 
 
 ## .note
-
-	font-size - 10px
-	font-style - italic
-	margin - 0
-
-## \#global-footer
-
-	background-color - black
-	color - white
-	? - 20px
+<pre style="white-space:pre-line;padding: 1em;">
+	font-size: 10px;
+	font-style: italic;
+	margin: ?;
+</pre>
 
 
-## \#global-footer a
-	color - white
-	font-weight - bold
-	text-decoration - none
+## .global-footer
+<pre style="white-space:pre-line;padding: 1em;">
+	background-color: black;
+	color: white;
+	padding: ?px;
+</pre>
+
+
+## .global-footer a
+<pre style="white-space:pre-line;padding: 1em;">
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+</pre>
+
 
 <div class="homework-view" data-lesson="lesson4"></div>
-	

@@ -9,6 +9,7 @@ template: article.jade
 
 * [Font Properties]()
 * [Text Properties](text.html)
+* [Include CSS File](include.html)
 * [Borders](borders.html)
 * [Padding and Margin](padding-margin.html)
 * [Homework](homework.html)

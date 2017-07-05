@@ -40,19 +40,32 @@ If we have an element that needs to fit in to a space that is `400px` and it has
 
 ### Example
 
-<button id="fixWidth" class="btn" style="float: right;">Fix Width</button>
+<iframe height='800' scrolling='no' title='Box Model' src='//codepen.io/danhahn/embed/MoQNbO/?height=734&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/MoQNbO/'>Box Model</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-<ul id="cntrBoxModel" class="btn-group">
-  <li class="btn" data-total="400" id="total">width: 400px;</li>
-  <li class="btn" data-size="20">padding: 20px;</li>
-  <li class="btn" data-size="10">border: 10px solid #1abc9c;</li>
-  <li class="btn" data-size="30">margin: 30px;</li>
-</ul>
+## Box Sizing
 
-<div id="displayBoxModel" class="box-container">
-  <div class="box-model">
-    Box Model Element.
-  </div>
-</div>
+In CSS, by default, the width and height you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the width and height to arrive at the size of the box that's rendered on the screen. This means that when you set width and height you have to adjust the value you give to allow for any border or padding that may be added. This is especially tricky when implementing a responsive design.
 
-<script src="lesson-5.js"></script>
+The `box-sizing `property can be used to adjust this behavior:
+
+```
+.example {
+  box-sizing: border-box;
+}
+```
+
+* `content-box` is the default, and gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width.
+* `border-box` tells the browser to account for any border and padding in the value you specify for width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.
+
+## Apply to all elements
+
+The `*` selector will apply a style to all elements. `box-sizing` is a great example of time to use it.
+
+```
+* {
+  box-sizing: border-box;
+}
+```
+
+Now all elements on the page will size based on a `border-box`.
