@@ -26,13 +26,13 @@ This week we start to talk about CSS. <div><span class="label label-default html
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
-* [Include File](include.html)
-* [ CSS3 Reference](css.html)
+* [CSS3 Reference](css.html)
 * [Homework](homework.html)
 
-[Download Notes <i class="icon-download-alt icon-white"></i>](week3-notes.zip)[Download Stater File <i class="icon-download-alt icon-white"></i>](week3.zip)
+[Download Notes <i class="icon-download-alt icon-white"></i>](week3-notes.zip)
+[Download Stater File <i class="icon-download-alt icon-white"></i>](week3.zip)
 
-<a href="https://docs.google.com/presentation/d/1mYirjj8tdvtriYiZJl5F97xVhJFnOiWnf0cp1JKqO9M/edit?pli=1#slide=id.p" target="_blank" class="btn">View Presentation</a>
+<a href="https://docs.google.com/presentation/d/1mYirjj8tdvtriYiZJl5F97xVhJFnOiWnf0cp1JKqO9M/edit?pli=1#slide=id.p" class="btn">View Presentation</a>
 
 ## What is CSS
 
@@ -115,9 +115,9 @@ Inline style are effect way of applying a style to one element.  The down side i
 
 ### How to use
 Inline styles are applied to an HTML element with an attribute of style.  The attribute is HTML but the value is CSS.
-
-	<h1 style=”property:value;”>HTML Text</h1>
-
+```html
+<h1 style=”property:value;”>HTML Text</h1>
+```
 ## Internal and External Styles
 
 The more common way to use CSS is to add the style to an external file or internal style block.  This creates a clear separation between the HTML and the CSS.  If the CSS is written in an external file that file can used on many pages with in your site and if a change needs to be made it is made in once place an applied to all pages at the same time.  
@@ -129,16 +129,16 @@ The more common way to use CSS is to add the style to an external file or intern
 On each element that a class is applied you need to add the class attribute with a value of the class name.  
 
 **Note:** that class name can be anything you want it it be.  The example below use a generic className but it could be almost anything.  The same thing goes for the ID name.
-
-	<h1 class=”className”>HTML Text</h1>
-	<p class=”className”>HTML Text</p>
-
+```html
+<h1 class=”className”>HTML Text</h1>
+<p class=”className”>HTML Text</p>
+```
 or
-
-	<div id=”idName”>
-		<p>HTML Text</p>
-	</div>
-
+```html
+<div id=”idName”>
+	<p>HTML Text</p>
+</div>
+```
 #### CSS - internal style sheet
 The style block will be added with the HEAD tag.  Adding a style tag.
 
@@ -146,18 +146,17 @@ To define a class use the class name defined in the HTML and add a period (.) in
 
 To define an id use the id name defined in the HTML and add a number symbol (#) in front of it. #idName
 
+```html
+<style type=”text/css”>
+.className {
+	property: value;
+}
 
-	<style type=”text/css”>
-
-	.className {
-		property: value;
-	}
-
-	#idName {
-		property: value;
-	}
-	</style>
-
+#idName {
+	property: value;
+}
+</style>
+```
 ## CSS Syntax
 
 The syntax for css is very different than HTML syntax.  
@@ -174,15 +173,16 @@ The syntax for css is very different than HTML syntax.
 **Note:** Inline style - when using an inline style you will only use the property and value.
 
 ### Basic format
-
-	selector {
-		property: value;
-	}
-
+```css
+selector {
+	property: value;
+}
+```
 
 More than one property - declarations can have many properties defined
-
-	selector {
-		property1: value;
-		property2: value2;
-	}
+```css
+selector {
+	property1: value;
+	property2: value2;
+}
+```

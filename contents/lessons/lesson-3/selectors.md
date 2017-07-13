@@ -9,8 +9,7 @@ template: article.jade
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
-* [Include File](include.html)
-* [ CSS3 Reference](css.html)
+* [CSS3 Reference](css.html)
 * [Homework](homework.html)
 
 Selectors are the way that the HTML and CSS connect to each other.   There are **3 basic types** of selectors, `tag`, `class` and `id`.

@@ -30,29 +30,30 @@ There is often a little confusion when to use margin or padding with paragraph t
 ## Values
 
 The margin and padding property can have from one to four values.
-
-	padding: 25px 50px 75px 100px;
-
+```css
+padding: 25px 50px 75px 100px;
+```
 * top padding is 25px
 * right padding is 50px
 * bottom padding is 75px
 * left padding is 100px
 
-
-	padding: 25px 50px 75px;
+```css
+padding: 25px 50px 75px;
+```
 
 * top padding is 25px
 * right and left paddings are 50px
 * bottom padding is 75px
 
-
-	padding: 25px 50px;
-
+```css
+padding: 25px 50px;
+```
 
 * top and bottom paddings are 25px
 * right and left paddings are 50px
 
-
-	padding: 25px;
-
+```css
+padding: 25px;
+```
 * all four paddings are 25px

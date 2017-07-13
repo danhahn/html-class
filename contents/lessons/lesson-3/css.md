@@ -9,7 +9,6 @@ template: article.jade
 
 * [Intro to CSS]()
 * [Selectors](selectors.html)
-* [Include File](include.html)
 * [CSS3 Reference](css.html)
 * [Homework](homework.html)
 

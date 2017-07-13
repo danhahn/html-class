@@ -109,32 +109,32 @@ Generally speaking, you can put any block element inside another block element. 
 If we think about html as the building blocks of a webpage we will have to nest elements within in each other to build the page correctly.  
 
 Think about it this way.  If we were to build a house we might start to build the ground floor.  We might add a kitchen, bathroom and living room all with in the ground floor.  We would not finish the floor until all the rooms are done.  
-
-    House
-        Floor
-            Kitchen
-            Bathroom
-            Living room
-        Floor
-            Bed Room
-            Bed Room
-            Bathroom
-
+```html
+House
+    Floor
+        Kitchen
+        Bathroom
+        Living room
+    Floor
+        Bed Room
+        Bed Room
+        Bathroom
+```
 If this was HTML it might look something like this
-
-    <house>
-        <floor>
-            <kitchen></kitchen>
-            <bathroom></bathroom>
-            <living></living>
-        </floor>
-        <floor>
-            <bed></bed>
-            <bed></bed>
-            <bathroom></bathroom>
-        </floor>
-    </house>
-
+```html
+<house>
+    <floor>
+        <kitchen></kitchen>
+        <bathroom></bathroom>
+        <living></living>
+    </floor>
+    <floor>
+        <bed></bed>
+        <bed></bed>
+        <bathroom></bathroom>
+    </floor>
+</house>
+```
 You can see we open the house tag but do not close it until both floors are done.  
 
 First in, last out. The first tag you open is the last tag you close.  

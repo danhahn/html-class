@@ -36,7 +36,9 @@ To set the width of an element you take the desired width and subtract the `padd
 
 If we have an element that needs to fit in to a space that is `400px` and it has `padding: 20px` and `border: 5px solid black` the calculation to find the size would look like this.
 
-  400px - 20px -20px - 5px - 5px = 350px
+```html
+400px - 20px -20px - 5px - 5px = 350px
+```
 
 ### Example
 
@@ -49,7 +51,7 @@ In CSS, by default, the width and height you assign to an element is applied onl
 
 The `box-sizing `property can be used to adjust this behavior:
 
-```
+```css
 .example {
   box-sizing: border-box;
 }
@@ -62,7 +64,7 @@ The `box-sizing `property can be used to adjust this behavior:
 
 The `*` selector will apply a style to all elements. `box-sizing` is a great example of time to use it.
 
-```
+```css
 * {
   box-sizing: border-box;
 }

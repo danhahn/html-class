@@ -106,8 +106,6 @@ $(function() {
 
   })
 
-  hljs.initHighlightingOnLoad();
-
   var homework = function(data) {
     var compiled = _.template('<div><a href="images/<%= imageName %>.png" target="_blank"><img src="images/<%= imageName %>-sm.png" class="img-circle"></a></div>' +
       '<div>' +

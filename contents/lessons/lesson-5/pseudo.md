@@ -31,28 +31,30 @@ Pseudo class selectors are CSS selectors with a colon preceding them.
 
 `:active` - Selects when the link while it is being activated (being clicked on or otherwise activated). For example, for the "pressed" state of a button-style link or to make all links feel more button-like.
 
-    a {
-      color: maroon;
-      text-decoration: none;
-    }
+```css
+a {
+  color: maroon;
+  text-decoration: none;
+}
 
-    a:link {
-     color: teal;
-    }
+a:link {
+ color: teal;
+}
 
-    a:visited {
-      color: orangered;
-    }
+a:visited {
+  color: orangered;
+}
 
-    a:hover {
-      color: hotpink;
-      text-decoration: underline;
-    }
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
 
-    a:active {
-      color: forestgreen;
-      font-style: italic;
-    }
+a:active {
+  color: forestgreen;
+  font-style: italic;
+}
+```
 
 While the order does not matter in most cases, here the selector weights are all the same so having `:active` last means it will override `:hover` and display when clicked.
 
@@ -60,18 +62,20 @@ While the order does not matter in most cases, here the selector weights are all
 
 `:focus` - Applied when a curser is placed within a form element.
 
-    input {
-        border: 2px solid gray;
-        padding: 5px;
-        width: 200px;
-        outline: none;
-        transition: width 1s;
-    }
+```css
+input {
+  border: 2px solid gray;
+  padding: 5px;
+  width: 200px;
+  outline: none;
+  transition: width 1s;
+}
 
-    input:focus {
-        width: 400px;
-        border-color: gold;
-        background-color: lightyellow;
-    }
+input:focus {
+  width: 400px;
+  border-color: gold;
+  background-color: lightyellow;
+}
+```
 
 **Note:** `:hover` can be applied to any element.

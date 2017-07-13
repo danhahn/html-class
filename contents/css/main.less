@@ -57,7 +57,9 @@ a.btn, a.btn:hover{
 
 code {
   color: @primary;
-  background-color: lighten(@primary, 43%);
+  background-color: lighten(@primary, 50%);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  padding: 2px 6px;
 }
 
 article {
@@ -342,19 +344,18 @@ p.date {
 }
 
 .table {
-  border: 1px solid #ddd;
-  background-color: rgba(221,221,221,.2);
+  border: 1px solid #e7e7e7;
   tbody, thead {
     tr{
       td, th {
-        padding: .5em 2em;
+        padding: .5em 1em;
+        border-color: #e7e7e7;
       }
     }
   }
 }
 
 .table th {
-
   color: @alt;
 }
 

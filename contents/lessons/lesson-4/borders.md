@@ -80,45 +80,48 @@ border-radius: | length, percent
 
 Borders can be set on all four sides of the table by using `border-style`, `border-width`, `border-color`.
 
-    border-style: solid;
-    border-color: red;
-    border-width: 10px;
+```css
+border-style: solid;
+border-color: red;
+border-width: 10px;
+```
 
 CSS also allows for a *shorthand* way of writing borders.  By using `border` you can set all **three** properties on one line.  
 
 The order matters when defining but there are two current valid ways to define.
 
 The old way was to define the size, style then color.
-
-    border: 10px solid black;
-
+```css
+border: 10px solid black;
+```
 The new way is to set the style, color then size.
-
-    border: solid black 10px;
-
+```css
+border: solid black 10px;
+```
 Both are valid but you should use the later since it is the current defined way to set a border.
 
 ## Border-*
 
 If you need to set or change a border on just one side of a box you can do so by using `border-*` where * would be left, right, top or bottom.
-
-    border-top: solid blue 20px;
-    border-right: dotted green 2px;
-    border-bottom: double;
-    border-left: solid #ff0033 1px;
-
+```css
+border-top: solid blue 20px;
+border-right: dotted green 2px;
+border-bottom: double;
+border-left: solid #ff0033 1px;
+```
 If you want to change just one aspect of a border on just one side of the box you can do so.
-
-    border-left-color: red;
-    border-bottom-size: 30px;
-    border-top-style: dotted;
+```css
+border-left-color: red;
+border-bottom-size: 30px;
+border-top-style: dotted;
+```
 
 ## border-radius
 
 Border Radius will add rounded corners to an element
-
-    border-radius: 10px;
-
+```css
+border-radius: 10px;
+```
 
 <style>
 table tr td:nth-child(1){width:40%}
