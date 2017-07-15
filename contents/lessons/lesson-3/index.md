@@ -18,7 +18,7 @@ tags:
       'data' : ['href', 'class', 'id']
 ---
 
-This week we start to talk about CSS. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we start to talk about CSS. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

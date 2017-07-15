@@ -5,7 +5,7 @@ date: 7/12/2017 15:00
 template: article.jade
 ---
 
-This week we will talk about the new CSS3 flex box layout. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about the new CSS3 flex box layout. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

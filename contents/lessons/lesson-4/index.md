@@ -5,7 +5,7 @@ date: 6/28/2017 15:00
 template: article.jade
 ---
 
-This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

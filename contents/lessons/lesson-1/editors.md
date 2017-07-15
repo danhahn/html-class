@@ -3,17 +3,18 @@ title: Lesson 1
 author: the-wintersmith
 date: 6/7/2017 15:00
 template: article.jade
+
+nav:
+  Intro: index.html
+  Editors: editors.html
+  HTML Template: template.html
+  Block-Level: block-level.html
+  Inline: inline.html
+  Classwork: classwork.html
+  Homework: homework.html
 ---
 
 # HTML Editors
-
-* [Intro]()
-* [Editors](editors.html)
-* [HTML Template](template.html)
-* [Block Elements](block-level.html)
-* [Inline](inline.html)
-* [Classwork](classwork.html)
-* [Homework](homework.html)
 
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.
 

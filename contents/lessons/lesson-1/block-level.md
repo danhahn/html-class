@@ -5,24 +5,23 @@ date: 6/7/2017 15:00
 template: article.jade
 
 tags:
-  'html':
-    'label': 'html'
-    'icon': 'fa fa-html5'
-    'data' : ['p','h1','h2','h3','h4','h5','h6', 'br', 'blockquote', 'ol', 'ul', 'li', 'div', 'section', 'article', 'header', 'footer']
+  html:
+    label: html
+    icon: fa fa-html5
+    data : [p,h1,h2,h3,h4,h5,h6, br, blockquote, ol, ul, li, div, section, article, header, footer]
 
-
+nav:
+  Intro: index.html
+  Editors: editors.html
+  HTML Template: template.html
+  Block-Level: block-level.html
+  Inline: inline.html
+  Classwork: classwork.html
+  Homework: homework.html
 
 ---
 
 # Block Elements
-
-* [Intro]()
-* [Editors](editors.html)
-* [HTML Template](template.html)
-* [Block Elements](block-level.html)
-* [Inline](inline.html)
-* [Classwork](classwork.html)
-* [Homework](homework.html)
 
 In this lesson we will be talking about block elements. A block element is any element that when rapping content is content will be displayed on his online.  Block elements are able to display padding on the top and the bottom, have a width set on them.
 

@@ -1,0 +1,31 @@
+.brand {
+  &__svg {
+    width: 115px;
+    height: 35px;
+    .slash {
+      fill: #60db94;
+    }
+    .tag {
+      fill: #cccccc;
+    }
+    .letter {
+      fill: #ffffff;
+    }
+  }
+}
+
+.homepage {
+  .brand {
+    &__svg {
+      width: 287.5px;
+      height: 87.5px;
+      @media only screen
+      and (min-device-width : 768px)
+      and (max-device-width : 1024px)
+      and (orientation : portrait) {
+        width: 115px;
+        height: 35px;
+      }
+    }
+  }
+}

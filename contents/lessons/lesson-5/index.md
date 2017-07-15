@@ -11,7 +11,7 @@ tags:
     'data' : ['float', 'clear', 'box-sizing']
 ---
 
-This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

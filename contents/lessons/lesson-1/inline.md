@@ -3,17 +3,19 @@ title: Lesson 1
 author: the-wintersmith
 date: 6/7/2017 15:00
 template: article.jade
+
+nav:
+  Intro: index.html
+  Editors: editors.html
+  HTML Template: template.html
+  Block-Level: block-level.html
+  Inline: inline.html
+  Classwork: classwork.html
+  Homework: homework.html
+
 ---
 
 # Inline Elements
-
-* [Intro]()
-* [Editors](editors.html)
-* [HTML Template](template.html)
-* [Block Elements](block-level.html)
-* [Inline](inline.html)
-* [Classwork](classwork.html)
-* [Homework](homework.html)
 
 An inline element is an element that when the content is wrapped with that tag does not display on its own line.
 

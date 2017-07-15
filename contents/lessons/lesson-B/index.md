@@ -18,7 +18,7 @@ tags:
     'data' : ['colspan', 'rowspan']
 ---
 
-This week we will talk about Table and all the good and bad that goes with it. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about Table and all the good and bad that goes with it. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 

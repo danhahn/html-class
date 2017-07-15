@@ -5,7 +5,7 @@ date: 3/09/2020 15:00
 template: article.jade
 ---
 
-This week we will have an introduction to JavaScript and JQuery. <div><span class="label label-default js"><i class="fa fa-laptop"></i>JavaScript</span></div>
+This week we will have an introduction to JavaScript and JQuery. <div><span class="badge badge--js"><i class="fa fa-laptop"></i>JavaScript</span></div>
 
 <span class="more"></span>
 

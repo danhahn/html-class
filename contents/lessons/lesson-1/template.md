@@ -4,22 +4,23 @@ author: the-wintersmith
 date: 6/7/2017 15:00
 template: article.jade
 tags:
-  'html':
-    'label': 'html'
-    'icon': 'fa fa-html5'
-    'data' : ['html','head','title','body']
+  html:
+    label: html
+    icon: fa fa-html5
+    data : [html,head,title,body]
+
+nav:
+  Intro: index.html
+  Editors: editors.html
+  HTML Template: template.html
+  Block-Level: block-level.html
+  Inline: inline.html
+  Classwork: classwork.html
+  Homework: homework.html
 
 ---
 
 # Building a HTML template
-
-* [Intro]()
-* [Editors](editors.html)
-* [HTML Template](template.html)
-* [Block Elements](block-level.html)
-* [Inline](inline.html)
-* [Classwork](classwork.html)
-* [Homework](homework.html)
 
 We want to build a template to once so we do not have to write it every time.  
 

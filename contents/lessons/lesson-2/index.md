@@ -5,29 +5,35 @@ date: 6/14/2017 15:00
 template: article.jade
 
 tags:
-  'html':
-    'label': 'html'
-    'icon': 'fa fa-html5'
-    'data' : ['strong', 'em', 'a', 'img']
+  html:
+    label: html
+    icon: fa fa-html5
+    data : [strong, em, a, img]
+
+downloads:
+  Download Stater File:
+    file: week2.zip
+    btn: primary
+  Download Notes:
+    file: week1-notes.zip
+    btn: null
+
+nav:
+  Link Tag: index.html
+  Inline: inline.html
+  Folder: folders.html
+  Images: images.html
+  Image Types: image-types.html
+  Embed: embed.html
+  Homework: homework.html
 
 ---
 
-This week we will talk about how to create links and embed images. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span></div>
+This week we will talk about how to create links and embed images. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
 
 <span class="more"></span>
 
 # Anchor Tag (inline element)
-
-* [Link Tag]()
-* [Inline](inline.html)
-* [Folder](folders.html)
-* [Images](images.html)
-* [Image Types](image-types.html)
-* [Embed](embed.html)
-* [Homework](homework.html)
-
-[Download Notes <i class="icon-download-alt icon-white"></i>](week2-notes.zip)[Download Stater File <i class="icon-download-alt icon-white"></i>](week2.zip)
-
 
 The anchor tag or the `<a>` tag is most commonly used to create a link to an other file or page.  The anchor tag by default will not act as a link without the `href` attribute.  
 
