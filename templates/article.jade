@@ -33,6 +33,7 @@ block content
 
         if page.metadata.nav
           ul.sidenav
+            .trigger &#8250;
             each href, key in page.metadata.nav
               li.sidenav__item
                 a(href=href).sidenav__link #{key}

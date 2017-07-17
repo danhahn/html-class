@@ -4,12 +4,46 @@
   grid-template-areas:
     "p p p p p p p p p s s s";
   grid-column-gap: 1em;
+  @media only screen
+  and (max-width : 768px) {
+    grid-template-areas:
+      "p p p p p p p p s s s s";
+  }
+  @media only screen
+  and (max-width : 600px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "s"
+      "p";
+  }
+  h3 {
+    @media only screen
+    and (max-width : 600px) {
+      display: none;
+    }
+  }
   &__primary {
     grid-area: p;
     padding: 2em 1em;
+    @media only screen
+    and (max-width : 768px) {
+      padding: 1em;
+    }
+    @media only screen
+    and (max-width : 414px) {
+      padding: 1em 1em 1em 30px;
+    }
   }
   &__secondary {
     grid-area: s;
     padding: 2em 0;
+    @media only screen
+    and (max-width : 768px) {
+      padding: 1em 1em 0;
+    }
+    @media only screen
+    and (max-width : 414px) {
+      padding: 0;
+    }
   }
 }

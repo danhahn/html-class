@@ -34,6 +34,20 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  &--header {
+    @media only screen
+    and (max-width : 768px) {
+      flex-direction: column;
+    }
+  }
+  &--brandbar {
+    @media only screen
+    and (max-width : 768px) {
+      align-items: center;
+      justify-content: space-between;
+      padding: .5em 1em;
+    }
+  }
 }
 
 .global-nav {
@@ -62,6 +76,13 @@ body {
   }
 }
 
+.side-nav-inner {
+  @media only screen
+  and (min-width : 769px) {
+    padding-right: 1em;
+  }
+}
+
 code {
   color: #27ae60;
   background-color: #ddf7e8;
@@ -74,19 +95,22 @@ code {
 .grid {
   display: grid;
   &--homepage {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
     grid-gap: 1em;
-    margin-top: 1em;
-    /* Portrait */
+    margin: 1em;
     @media only screen
-      and (min-device-width: 1024px)
-      and (max-device-width: 1366px)
-      and (orientation: portrait)
-      and (-webkit-min-device-pixel-ratio: 1.5) {
-        grid-template-rows: 272px;
-        grid-auto-rows: 271px;
+    and (min-width: 600px)  {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 300px;
+      grid-auto-rows: 300px;
+    }
+    @media only screen
+    and (max-width : 1024px) {
+      grid-template-rows: 230px;
+      grid-auto-rows: 230px;
+    }
+    @media only screen
+    and (max-width: 414px) {
+      background-color: red;
     }
   }
 }
@@ -101,6 +125,10 @@ code {
   &__title {
     margin: 0;
     line-height: 1em;
+    @media only screen
+    and (max-width : 768px) {
+      font-size: 1.3em;
+    }
   }
   &__link {
     text-decoration: none;
@@ -137,5 +165,53 @@ code {
   &__button {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+.burger {
+  display: none;
+  @media only screen
+  and (max-width : 768px) {
+    display: inline-block;
+  }
+  &.active {
+    padding: 10px 4px;
+    .line {
+      margin: 0;
+      &:nth-of-type(1) {
+        transform: rotate(45deg) translate(-2px,0px);
+        width: 17px;
+        position: relative;
+        top: 2px;
+        left: 1px;
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+      &:nth-of-type(3) {
+        transform: rotate(-45deg) translate(1px,-4px);
+        width: 17px;
+        position: relative;
+        top: 2px;
+        left: 1px;
+      }
+    }
+  }
+  transition: all .2s;
+  border: 1px solid @white;
+  padding: 4px;
+  border-radius: 3px;
+  width: 25px;
+  box-sizing: border-box;
+  .display {
+    display: none;
+  }
+  .line {
+    transition: all .2s;
+    border-bottom: 1px solid @white;
+    margin-bottom: 3px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
