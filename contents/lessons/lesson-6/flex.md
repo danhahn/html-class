@@ -3,6 +3,10 @@ title: Lesson 6
 author: Dan Hahn
 date: 7/12/2017 15:00
 template: article.jade
+nav:
+  Float Layout: index.html
+  Flex Box: flex.html
+  Flex Layout: flex-layout.html
 ---
 
 # Intro to Flex box

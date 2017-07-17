@@ -3,6 +3,19 @@ title: Lesson 6
 author: Dan Hahn
 date: 7/12/2017 15:00
 template: article.jade
+
+downloads:
+  Download Stater File:
+    file: week6.zip
+    btn: primary
+  Download Notes:
+    file: week6-notes.zip
+    btn: null
+
+nav:
+  Float Layout: index.html
+  Flex Box: flex.html
+  Flex Layout: flex-layout.html
 ---
 
 This week we will talk about the new CSS3 flex box layout. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -10,13 +23,6 @@ This week we will talk about the new CSS3 flex box layout. <div><span class="bad
 <span class="more"></span>
 
 # Float Layout
-
-* [Float Layout]()
-* [Flex Box](flex.html)
-* [Flex Layout](flex-layout.html)
-
-
-[Download Starter Files <i class="icon-download-alt icon-white"></i>](week6.zip)
 
 <iframe height='589' scrolling='no' title='Float Layout' src='//codepen.io/danhahn/embed/owGKdY/?height=589&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/owGKdY/'>Float Layout</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

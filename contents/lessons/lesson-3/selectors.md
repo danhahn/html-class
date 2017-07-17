@@ -3,14 +3,14 @@ title: Lesson 3
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: article.jade
+nav:
+  Intro to CSS: index.html
+  Selectors: selectors.html
+  CSS3 Reference: css.html
+  Homework: homework.html
 ---
 
 # CSS Selectors
-
-* [Intro to CSS]()
-* [Selectors](selectors.html)
-* [CSS3 Reference](css.html)
-* [Homework](homework.html)
 
 Selectors are the way that the HTML and CSS connect to each other.   There are **3 basic types** of selectors, `tag`, `class` and `id`.
 

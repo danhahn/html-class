@@ -3,6 +3,10 @@ title: Lesson 11
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: single.jade
+nav:
+  Final Project: index.html
+  Pages: pages.html
+  Copy for pages: final-content.pdf
 ---
 
 <a href="./" class="btn"><i class="glyphicon glyphicon-circle-arrow-left icon-white"></i> Back</a>

@@ -4,6 +4,14 @@ author: Dan Hahn
 date: 7/26/2017 15:00
 template: article.jade
 localjs: ['clipboard.min.js','copy.js']
+downloads:
+  Download PSD:
+    file: final.psd
+    btn: null
+nav:
+  Final Project: index.html
+  Pages: pages.html
+  Copy for pages: final-content.pdf
 ---
 
 This week we work on the in class final.  <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -12,13 +20,7 @@ This week we work on the in class final.  <div><span class="badge badge--html"><
 
 # Final Project
 
-* [Final Project]()
-* [Pages](pages.html)
-* [Copy for pages](final-content.pdf)
-
 The final is due at the end of class on April 20, 2016.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
-
-<a href="final.psd" class="btn">Download PSD</a>
 
 ## Colors
 

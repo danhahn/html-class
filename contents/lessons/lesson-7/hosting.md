@@ -3,15 +3,13 @@ title: Lesson 7
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
+nav:
+  Understanding index: index.html
+  Setting up your site: hosting.html
+  Background: background.html
 ---
 
 # Setting up your own website
-
-* [Understanding index]()
-* [Setting up your site](hosting.html)
-* [Background](background.html)
-
-
 
 ## Getting your domain
 

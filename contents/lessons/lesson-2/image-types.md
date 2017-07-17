@@ -4,17 +4,18 @@ author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
 localjs: ['resize.js']
+
+nav:
+  Link Tag: index.html
+  Inline: inline.html
+  Folder: folders.html
+  Images: images.html
+  Image Types: image-types.html
+  Embed: embed.html
+  Homework: homework.html
 ---
 
 # Image Types
-
-* [Link Tag]()
-* [Inline](inline.html)
-* [Folder](folders.html)
-* [Images](images.html)
-* [Image Types](image-types.html)
-* [Embed](embed.html)
-* [Homework](homework.html)
 
 On the web today we use 3 types of images. Each has an advantage and disadvantage over the other types. It is import to use the correct image type in the right situation to ensure fast page loads.
 

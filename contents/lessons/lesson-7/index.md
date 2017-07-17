@@ -3,6 +3,18 @@ title: Lesson 7
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
+downloads:
+  Download Stater File:
+    file: week7.zip
+    btn: primary
+  Download Notes:
+    file: week7-notes.zip
+    btn: null
+
+nav:
+  Understanding index: index.html
+  Setting up your site: hosting.html
+  Background: background.html
 ---
 
 How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -10,13 +22,6 @@ How to set up your own HTML website including how to choose where to host and ho
 <span class="more"></span>
 
 # Understanding the Index.html
-
-* [Understanding index]()
-* [Setting up your site](hosting.html)
-* [Background](background.html)
-
-[Download Notes  <i class="icon-download-alt icon-white"></i>](week7-notes.zip)
-[Download Starter File  <i class="icon-download-alt icon-white"></i>](week7.zip)
 
 ## Building a full site
 

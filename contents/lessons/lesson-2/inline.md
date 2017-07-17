@@ -10,17 +10,18 @@ tags:
     'icon': 'fa fa-html5'
     'data' : ['strong', 'em', 'span', 'code']
 
+nav:
+  Link Tag: index.html
+  Inline: inline.html
+  Folder: folders.html
+  Images: images.html
+  Image Types: image-types.html
+  Embed: embed.html
+  Homework: homework.html
+
 ---
 
 # Inline Elements
-
-* [Link Tag]()
-* [Inline](inline.html)
-* [Folder](folders.html)
-* [Images](images.html)
-* [Image Types](image-types.html)
-* [Embed](embed.html)
-* [Homework](homework.html)
 
 An inline element is an element that when the content is wrapped with that tag does not display on its own line.
 

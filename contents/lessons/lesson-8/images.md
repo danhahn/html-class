@@ -3,15 +3,14 @@ title: Lesson 8
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: article.jade
+nav:
+  Final Project: index.html
+  Pages: pages.html
+  Copy for pages: final-content.pdf
 ---
 <span class="more"></span>
 
 # Images for all pages
-
-* [Getting Started]()
-* [Download Content](content.html)
-* [Download Images](images.html)
-* [View](view.html)
 
 <a href="images.zip" class="btn">Download all the Images</a>
 

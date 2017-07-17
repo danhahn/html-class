@@ -9,15 +9,15 @@ tags:
     'label': 'css'
     'icon': 'fa fa-css3'
     'data' : [':link', ':visited', ':hover', ':active', ':focus']
+nav:
+  Box Model: index.html
+  Pseudo Class: pseudo.html
+  Floats: floats.html
+  Clear Fix: clear-fix.html
+  Homework: homework.html
 ---
 
 # Pseudo class
-
-* [Box Model]()
-* [Pseudo Class](pseudo.html)
-* [Floats](floats.html)
-* [Clear Fix](clear-fix.html)
-* [Homework](homework.html)
 
 Pseudo class selectors are CSS selectors with a colon preceding them.
 

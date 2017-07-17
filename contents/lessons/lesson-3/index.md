@@ -16,6 +16,20 @@ tags:
       'label': 'attribute'
       'icon': 'fa fa-quote-right'
       'data' : ['href', 'class', 'id']
+
+downloads:
+  Download Stater File:
+    file: week3.zip
+    btn: primary
+  Download Notes:
+    file: week3-notes.zip
+    btn: null
+
+nav:
+  Intro to CSS: index.html
+  Selectors: selectors.html
+  CSS3 Reference: css.html
+  Homework: homework.html
 ---
 
 This week we start to talk about CSS. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -23,14 +37,6 @@ This week we start to talk about CSS. <div><span class="badge badge--html"><i cl
 <span class="more"></span>
 
 # Lesson 3 - CSS
-
-* [Intro to CSS]()
-* [Selectors](selectors.html)
-* [CSS3 Reference](css.html)
-* [Homework](homework.html)
-
-[Download Notes <i class="icon-download-alt icon-white"></i>](week3-notes.zip)
-[Download Stater File <i class="icon-download-alt icon-white"></i>](week3.zip)
 
 <a href="https://docs.google.com/presentation/d/1mYirjj8tdvtriYiZJl5F97xVhJFnOiWnf0cp1JKqO9M/edit?pli=1#slide=id.p" class="btn">View Presentation</a>
 

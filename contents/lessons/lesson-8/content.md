@@ -3,13 +3,13 @@ title: Lesson 11
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: article.jade
+nav:
+  Final Project: index.html
+  Pages: pages.html
+  Copy for pages: final-content.pdf
 ---
 
 # Content for all pages
-
-* [Getting Started]()
-* [Download Content](content.html)
-* [Download Images](images.html)
 
 Once you have the the HTML in place you can start to add the content.  Below are PDF of all the pages that you will need to create.
 
@@ -41,4 +41,3 @@ Make sure to put each section in its own folder.  Each folder has an `index.html
 Ensure that all pages link to each other.
 
 <a href="pdfs.zip" class="btn">Download all the PDFs</a>
-

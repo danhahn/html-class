@@ -3,16 +3,17 @@ title: Lesson 4
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
+
+nav:
+  Font Properties: index.html
+  Text Properties: text.html
+  Include CSS File: include.html
+  Borders: borders.html
+  Padding and Margin: padding-margin.html
+  Homework: homework.html
 ---
 
 # Padding and Margin
-
-* [Font Properties]()
-* [Text Properties](text.html)
-* [Include CSS File](include.html)
-* [Borders](borders.html)
-* [Padding and Margin](padding-margin.html)
-* [Homework](homework.html)
 
 Padding is the amount of space from the border in to the content.
 

@@ -3,17 +3,18 @@ title: Lesson 2
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
+
+nav:
+  Link Tag: index.html
+  Inline: inline.html
+  Folder: folders.html
+  Images: images.html
+  Image Types: image-types.html
+  Embed: embed.html
+  Homework: homework.html
 ---
 
 # Linking files
-
-* [Link Tag]()
-* [Inline](inline.html)
-* [Folder](folders.html)
-* [Images](images.html)
-* [Image Types](image-types.html)
-* [Embed](embed.html)
-* [Homework](homework.html)
 
 ## Linking to a file in the same folder
 If the two files are in the same folder than file 1 can call file 2 by the file name only.

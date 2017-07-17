@@ -3,15 +3,15 @@ title: Lesson 5
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
+nav:
+  Box Model: index.html
+  Pseudo Class: pseudo.html
+  Floats: floats.html
+  Clear Fix: clear-fix.html
+  Homework: homework.html
 ---
 
 # Homework
-
-* [Box Model]()
-* [Pseudo Class](pseudo.html)
-* [Floats](floats.html)
-* [Clear Fix](clear-fix.html)
-* [Homework](homework.html)
 
 [Download Stater File](homework6_yourname.zip)
 

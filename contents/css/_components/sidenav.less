@@ -3,13 +3,13 @@
   padding: 0;
   margin: 0;
   @media only screen
-  and (min-width : 415px) {
+  and (min-width : 426px) {
     .trigger {
       display: none;
     }
   }
   @media only screen
-  and (max-width : 414px) {
+  and (max-width : 425px) {
     .trigger {
       font-size: 3em;
       position: absolute;
@@ -31,14 +31,14 @@
 
   @media only screen
   and (max-width : 600px) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: -1em -1em 1em;
     border-bottom: 1px solid @primary;
     justify-content: space-around;
   }
   @media only screen
-  and (max-width : 414px) {
+  and (max-width : 425px) {
     display: list-item;
     position: fixed;
     top: 0;
@@ -58,7 +58,7 @@
   }
   &__item {
     @media only screen
-    and (max-width : 414px) {
+    and (max-width : 425px) {
       border-bottom: 1px solid @primary20;
       font-size: 1.5em;
       flex: 1;
@@ -77,14 +77,29 @@
       padding: .5em;
     }
     @media only screen
-    and (min-width : 600px) {
-      &:hover {
+    and (min-width : 601px) {
+      &.active {
+        border-left-color: @primary;
+        color: @primary;
+      }
+      &:not(.active):hover {
         border-left-color: @primary10;
         color: @primary10;
       }
     }
     @media only screen
-    and (max-width : 414px) {
+    and (max-width : 600px) {
+      &.active {
+        background-color: @primary;
+        color: @white;
+      }
+      &:not(.active):hover {
+        background-color: @primary10;
+        color: @white;
+      }
+    }
+    @media only screen
+    and (max-width : 425px) {
       padding: .5em 1em;
       color: @white;
       text-shadow: 0 1px 1px rgba(0,0,0,.5);

@@ -3,17 +3,17 @@ title: Lesson 7
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
+nav:
+  Understanding index: index.html
+  Setting up your site: hosting.html
+  Background: background.html
 ---
 
-#Background
-
-* [Understanding index]()
-* [Setting up your site](hosting.html)
-* [Background](background.html)
+# Background
 
 Backgrounds are a way to add colors and images to elements on the page.
 
-###Background Color
+###  Background Color
 ```
 background-color: color name | RGB Value | Hex Value;
 ```
@@ -22,7 +22,7 @@ Background color can be added any element on the page including both block and i
 <p data-height="200" data-theme-id="light" data-slug-hash="YWaZzb" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/YWaZzb/">background-color</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-###Background Image
+### Background Image
 ```
 background-image: url(<image path>);
 ```
@@ -31,7 +31,7 @@ Background images can be applied to any element on the page including both block
 <p data-height="400" data-theme-id="light" data-slug-hash="yJKvov" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/yJKvov/">yJKvov</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-###Background Repeat
+### Background Repeat
 ```
 background-repeat: repeat | no-repeat | repeat-x | repeat-y
 ```
@@ -49,7 +49,7 @@ repeat-y | repeat along the x axis
 <p data-height="400" data-theme-id="light" data-slug-hash="bZvLoq" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/bZvLoq/">background-repeat</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-###Background Attachment
+### Background Attachment
 
 ```
 background-attachment: scroll | fixed;
@@ -57,7 +57,7 @@ background-attachment: scroll | fixed;
 
 When a background image is applied to an element by default it will move with that element then the page scrolls. An image can be locked to one location by setting the value of background-attachment to fixed. When fixed is applied the element will no longer have its location set by the element but the body instead. The most common use of the is property is when applying a background to the BODY tag and that background image should not move when the page is scrolled.
 
-####Background Position
+### #Background Position
 ```
 background-position: (left, right or center) (top, center or bottom);
 ```
@@ -75,7 +75,7 @@ background-position: 50% 80%;
 <p data-height="400" data-theme-id="light" data-slug-hash="mExXpV" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/mExXpV/">background-position</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-###Background Shorthand
+### Background Shorthand
 ```
 background: image repeat attachment position color;
 ```

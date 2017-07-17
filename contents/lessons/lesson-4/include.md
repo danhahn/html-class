@@ -3,17 +3,18 @@ title: Lesson 4
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
+
+nav:
+  Font Properties: index.html
+  Text Properties: text.html
+  Include CSS File: include.html
+  Borders: borders.html
+  Padding and Margin: padding-margin.html
+  Homework: homework.html
+
 ---
 
 # Including a CSS File
-
-* [Font Properties]()
-* [Text Properties](text.html)
-* [Include CSS File](include.html)
-* [Borders](borders.html)
-* [Padding and Margin](padding-margin.html)
-* [Homework](homework.html)
-
 
 To include a css file in an HTML the first thing you need is a .css file.  You can create a .css file the same way you create a .html.  Go to file save as and give the file a name and add .css as the extension.
 

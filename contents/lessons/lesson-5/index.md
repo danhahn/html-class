@@ -9,6 +9,21 @@ tags:
     'label': 'css'
     'icon': 'fa fa-css3'
     'data' : ['float', 'clear', 'box-sizing']
+
+downloads:
+  Download Stater File:
+    file: week5.zip
+    btn: primary
+  Download Notes:
+    file: week5-notes.zip
+    btn: null
+
+nav:
+  Box Model: index.html
+  Pseudo Class: pseudo.html
+  Floats: floats.html
+  Clear Fix: clear-fix.html
+  Homework: homework.html
 ---
 
 This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -16,15 +31,6 @@ This week we will be talking about floating.  How to align images, build gallery
 <span class="more"></span>
 
 # CSS Box Model
-
-* [Box Model]()
-* [Pseudo Class](pseudo.html)
-* [Floats](floats.html)
-* [Clear Fix](clear-fix.html)
-* [Homework](homework.html)
-
-[Download Notes <i class="icon-download-alt icon-white"></i>](week5-notes.zip)
-[Download Starter Files <i class="icon-download-alt icon-white"></i>](week5.zip)
 
 Since Everything on in web design is a rectangular box we need to know how to size that box.  The way that CSS calculates the size of a box is not what you expect.  Rather than set the size of the box based on the outer most elements `border` or `padding` the width is set baed on the content.
 

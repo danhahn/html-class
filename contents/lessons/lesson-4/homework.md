@@ -3,17 +3,18 @@ title: Lesson 4
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
+
+nav:
+  Font Properties: index.html
+  Text Properties: text.html
+  Include CSS File: include.html
+  Borders: borders.html
+  Padding and Margin: padding-margin.html
+  Homework: homework.html
+
 ---
 
 # Homework
-
-* [Font Properties]()
-* [Text Properties](text.html)
-* [Include CSS File](include.html)
-* [Borders](borders.html)
-* [Padding and Margin](padding-margin.html)
-* [Homework](homework.html)
-
 
 Download the starter file that contains the HTML and images for this homework.
 

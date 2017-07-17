@@ -3,14 +3,16 @@ title: Lesson 3
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: article.jade
+
+nav:
+  Intro to CSS: index.html
+  Selectors: selectors.html
+  CSS3 Reference: css.html
+  Homework: homework.html
+
 ---
 
 # CSS3 Reference
-
-* [Intro to CSS]()
-* [Selectors](selectors.html)
-* [CSS3 Reference](css.html)
-* [Homework](homework.html)
 
 ### Selectors
 Selector|Example|Example description|CSS

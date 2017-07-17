@@ -3,6 +3,22 @@ title: Lesson 4
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
+
+nav:
+  Font Properties: index.html
+  Text Properties: text.html
+  Include CSS File: include.html
+  Borders: borders.html
+  Padding and Margin: padding-margin.html
+  Homework: homework.html
+
+downloads:
+  Download Stater File:
+    file: week4.zip
+    btn: primary
+  Download Notes:
+    file: week4-notes.zip
+    btn: null
 ---
 
 This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
@@ -10,17 +26,6 @@ This week We will dive back into CSS and talk about text, font, borders, margin 
 <span class="more"></span>
 
 # Basic Style Properties
-
-* [Font Properties]()
-* [Text Properties](text.html)
-* [Include CSS File](include.html)
-* [Borders](borders.html)
-* [Padding and Margin](padding-margin.html)
-* [Homework](homework.html)
-
-[Download Notes <i class="icon-download-alt icon-white"></i>](week4-notes.zip)
-[Download Starter Files <i class="icon-download-alt icon-white"></i>](week4.zip)
-
 
 When styling fonts with CSS they are broken into two types.  **Font** properties and **Text** properties. The two are very similar, the **Font** deals more with the character set and the **Text** is more about changing the way the font looks.
 
