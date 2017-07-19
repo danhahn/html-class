@@ -1,11 +1,9 @@
 ---
-title: Lesson 3
+title: CSS3 Reference
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: single.jade
 ---
-
-# CSS3 Reference
 
 ### Selectors
 Selector|Example|Example description|CSS

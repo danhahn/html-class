@@ -1,6 +1,6 @@
 ---
 title: Lesson 1
-author: the-wintersmith
+lesson: Building a HTML template
 date: 6/7/2017 15:00
 template: article.jade
 tags:
@@ -19,8 +19,6 @@ nav:
   Homework: homework.html
 
 ---
-
-# Building a HTML template
 
 We want to build a template to once so we do not have to write it every time.  
 

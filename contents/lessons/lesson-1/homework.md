@@ -1,6 +1,6 @@
 ---
 title: Lesson 1
-author: the-wintersmith
+lesson: Homework – Lesson 1
 date: 6/7/2017 15:00
 template: article.jade
 
@@ -12,9 +12,14 @@ nav:
   Inline: inline.html
   Classwork: classwork.html
   Homework: homework.html
----
+downloads:
+  Text for Homework:
+    file: homework-text.txt
+    btn: primary
+homework:
+  lesson: lesson1
 
-# Homework – Lesson 1
+---
 
 Create a new HTML document form the template that we created in class. Save the file as **homework_1_yourname.html** and send it to **dan@svahtml.com**.
 
@@ -30,8 +35,6 @@ Create a new HTML document form the template that we created in class. Save the 
 * Ues a `<header>` to define part of the page as the header
 * Use a `<article>` to define the content of this page
 * Use a `<footer>` to define the footer of this page
-
-[Download Text for Homework](homework-text.txt)
 
 or use the text below.
 
@@ -54,7 +57,7 @@ New York City
 ### Article
 
 ----
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
 New York is the most populous city in the United States and the center of the New York metropolitan area, the premier gateway for legal immigration to the United States and one of the most populous urban agglomerations in the world. The city is referred to as New York City or the City of New York to distinguish it from the State of New York, of which it is a part.
 
 On one of the world's largest natural harbors, New York City consists of five boroughs, each of which is a county of New York State. The five boroughs—the Bronx, Brooklyn, Manhattan, Queens, and Staten Island—were consolidated into a single city in 1898. With a census-estimated 2013 population of 8,405,837 distributed over a land area of just 305 square miles (790 km2), New York is the most densely populated major city in the United States.
@@ -104,8 +107,3 @@ Winters are cold and damp, and prevailing wind patterns that blow offshore minim
 ---
 
 (c) 2017 SVA HTML
-
----
-
-
-<div class="homework-view" data-lesson="lesson1"></div>

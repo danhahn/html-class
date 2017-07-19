@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Embedding Content
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -13,8 +14,6 @@ nav:
   Embed: embed.html
   Homework: homework.html
 ---
-
-# Embedding Content
 
 One of the great things about the internet is how it display it is to share content from 3rd party on your web site.
 

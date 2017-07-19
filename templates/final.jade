@@ -21,7 +21,7 @@ block header
     - const [first, ...rest] = page.title.split(' ')
     h1.titlebar__main
       span.caps= first
-      = ` ${rest.join(' ')}`
+      = ` ${rest}`
     div.titlebar__date
       ul.layout.layout--date
         li.layout__item
@@ -36,9 +36,26 @@ block content
         h1
           span.caps= lessonFirst
           = ` ${lessonRest.join(' ')}`
-      - const removeMore = page.html.split('<p><span class="more"></span></p>');
-      - const articleData = removeMore.length === 2 ? removeMore[1] : removeMore[0]
-      != typogr(articleData).typogrify()
+      != typogr(page.html).typogrify()
+
+      if page.metadata.swatches
+        ul#mainSwatches.hasSwatches
+          each swatch in page.metadata.swatches
+            li
+              .swatchWrapper
+                .swatch
+                  .swatchColor(style=`background-color: ${swatch}`)
+                  p.swatchLabel= swatch
+
+      if page.metadata.swatchesSmall
+        each small, name in page.metadata.swatchesSmall
+          ul(id=`${name}`).hasSwatches
+            each swatch in small
+              li(data-color=swatch).hasSwatches
+                .smSwatch
+                  .swatch
+                    .swatchColor(style=`background-color: ${swatch}`)= swatch
+
       if page.metadata.homework
         - const { lesson } = page.metadata.homework
         .homework-view
@@ -48,7 +65,7 @@ block content
           div
             h2 Example of Homework
             p Your coded page should look like this when you are done.
-            a(href=`${lesson}-homework.html` target="_blank").btn.btn--primary Homework Example          
+            a(href=`${lesson}-homework.html` target="_blank").btn.btn--primary Homework Example
     aside.article__secondary
       div.side-nav-inner
 

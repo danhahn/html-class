@@ -3,15 +3,15 @@ const headerNav = document.querySelector('.header-nav');
 const headerNavList = document.querySelector('.header-nav__list');
 const sideNavTrigger = document.querySelector('.trigger');
 const sidenavContaner = document.querySelector('.sidenav');
+const mainTitleBar = document.querySelector('.main-titlebar');
+const sideContainer = document.querySelector('.article__secondary');
+const side = document.querySelector('.side-nav-inner');
 const URL = window.location.pathname;
 
 let navOpen = false;
 let isSideNavOpen = false;
 
-$(".article__primary").find(".more").parent().prev().remove();
-$(".article__primary").find(".more").parent().prev().remove();
-$(".article__primary").find(".more").parent().prev().remove();
-$(".article__primary").find(".more").remove();
+
 
 navToggle.addEventListener('click', function() {
   sideNavTrigger ? sideNavTrigger.classList.toggle('hide') : () => null;
@@ -20,11 +20,27 @@ navToggle.addEventListener('click', function() {
   navOpen = !navOpen;
 });
 
-sideNavTrigger.addEventListener('click', function() {
-  sidenavContaner.classList.toggle('active');
-  navOpen = !navOpen;
-});
+if(sideNavTrigger) {
+  sideNavTrigger.addEventListener('click', function() {
+    sidenavContaner.classList.toggle('active');
+    navOpen = !navOpen;
+  });
+}
+if(sidenavContaner) {
+  sidenavContaner.querySelectorAll('.sidenav__item a').forEach((item) => {
+    item.pathname === URL ? item.classList.add('active') : null;
+  })
 
-sidenavContaner.querySelectorAll('.sidenav__item a').forEach((item) => {
-  item.pathname === URL ? item.classList.add('active') : null;
-})
+  side.style.width = `${sideContainer.offsetWidth-16}px`;
+
+  window.addEventListener('resize', () => {
+    side.style.width = `${sideContainer.offsetWidth-16}px`;
+  });
+
+  window.addEventListener('scroll', () => {
+    const { top } = mainTitleBar.getBoundingClientRect();
+    const barHeight = mainTitleBar.offsetHeight;
+    const titleBarOffset = top + barHeight;
+    titleBarOffset < 0 ? side.classList.add('fixed') : side.classList.remove('fixed');
+  })
+}

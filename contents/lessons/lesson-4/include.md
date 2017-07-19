@@ -1,5 +1,6 @@
 ---
 title: Lesson 4
+lesson: Including a CSS File
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
@@ -13,8 +14,6 @@ nav:
   Homework: homework.html
 
 ---
-
-# Including a CSS File
 
 To include a css file in an HTML the first thing you need is a .css file.  You can create a .css file the same way you create a .html.  Go to file save as and give the file a name and add .css as the extension.
 

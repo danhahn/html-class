@@ -1,5 +1,6 @@
 ---
 title: Lesson 5
+lesson: Floats
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
@@ -10,8 +11,6 @@ nav:
   Clear Fix: clear-fix.html
   Homework: homework.html
 ---
-
-# Floats
 
 Float is CSS property that is used to display content.  Floats where originally intended to get the magazine feel on the web by allowing images or other content to wrap around text within an article.  Over time floats have been used for other reason like layouts. CSS floats can be applied to any elements, both *inline* and *block*.
 

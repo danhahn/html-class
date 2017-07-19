@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Image Types
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -14,8 +15,6 @@ nav:
   Embed: embed.html
   Homework: homework.html
 ---
-
-# Image Types
 
 On the web today we use 3 types of images. Each has an advantage and disadvantage over the other types. It is import to use the correct image type in the right situation to ensure fast page loads.
 

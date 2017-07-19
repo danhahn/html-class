@@ -1,5 +1,6 @@
 ---
 title: Lesson 1
+lesson: Introduction
 author: the-wintersmith
 date: 6/7/2017 15:00
 template: article.jade
@@ -26,8 +27,6 @@ downloads:
 Introduction to HTML, Web Browsers, Standards<div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
 
 <span class="more"></span>
-
-# Introduction
 
 ## What is HTML?
 HTML or Hyper Text Markup Language is the building blocks of all web pages.  HTML uses tags to create element that are filled with content like text and images.  The elements are instructions to the web browser how to display the content on the screen.  

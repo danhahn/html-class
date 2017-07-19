@@ -1,5 +1,6 @@
 ---
 title: Lesson 3
+lesson: CSS Selectors
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: article.jade
@@ -9,8 +10,6 @@ nav:
   CSS3 Reference: css.html
   Homework: homework.html
 ---
-
-# CSS Selectors
 
 Selectors are the way that the HTML and CSS connect to each other.   There are **3 basic types** of selectors, `tag`, `class` and `id`.
 

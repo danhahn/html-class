@@ -110,3 +110,7 @@ Tag|Description
 `<var>`|Defines a variable
 `<video>`|Defines a video or movie
 `<wbr>`|Defines a possible line-break
+
+<style>
+  table {width: 100%;}
+</style>

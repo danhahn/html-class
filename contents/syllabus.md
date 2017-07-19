@@ -1,12 +1,11 @@
 ---
 title: Syllabus
+lesson: Getting started with Web Languages - HTML and CSS
 author: Dan Hahn
 date: 2013-06-05 18:00
 template: single.jade
 subject: TEST
 ---
-
-# Getting started with Web Languages: HTML and CSS
 
 **8 weeks**<br>
 Wednesday **6:00-10:00 pm**<br>

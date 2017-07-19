@@ -956,3 +956,8 @@ subject: TEST
 </tr>
 </tbody>
 </table>
+
+<style>
+  table {width: 100%;}
+  table td {width: 25%;}
+</style>

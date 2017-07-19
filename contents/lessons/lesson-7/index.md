@@ -1,5 +1,6 @@
 ---
 title: Lesson 7
+lesson: Understanding the Index.html
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
@@ -20,8 +21,6 @@ nav:
 How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
-
-# Understanding the Index.html
 
 ## Building a full site
 

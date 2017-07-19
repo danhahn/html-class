@@ -1,11 +1,14 @@
+@import "../vars.less";
 .sidenav {
   list-style: none;
   padding: 0;
   margin: 0;
-  @media only screen
-  and (min-width : 426px) {
-    .trigger {
-      display: none;
+  .trigger {
+    display: none;
+    cursor: pointer;
+    @media only screen
+    and (max-width : 425px) {
+      display: block;
     }
   }
   @media only screen
@@ -30,9 +33,9 @@
   }
 
   @media only screen
-  and (max-width : 600px) {
+  and (max-width : 768px) {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
     margin: -1em -1em 1em;
     border-bottom: 1px solid @primary;
     justify-content: space-around;
@@ -73,11 +76,12 @@
     color: @primary;
     border-left: 2px solid transparent;
     @media only screen
-    and (max-width : 600px) {
+    and (max-width : 768px) {
       padding: .5em;
+      text-align: center;
     }
     @media only screen
-    and (min-width : 601px) {
+    and (min-width : 769px) {
       &.active {
         border-left-color: @primary;
         color: @primary;
@@ -88,7 +92,7 @@
       }
     }
     @media only screen
-    and (max-width : 600px) {
+    and (min-width : 426px) and (max-width : 768px) {
       &.active {
         background-color: @primary;
         color: @white;

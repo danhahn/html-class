@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Anchor Tag (inline element)
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -32,8 +33,6 @@ nav:
 This week we will talk about how to create links and embed images. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
 
 <span class="more"></span>
-
-# Anchor Tag (inline element)
 
 The anchor tag or the `<a>` tag is most commonly used to create a link to an other file or page.  The anchor tag by default will not act as a link without the `href` attribute.  
 

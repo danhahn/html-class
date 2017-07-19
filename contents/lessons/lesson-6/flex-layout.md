@@ -1,5 +1,6 @@
 ---
 title: Lesson 6
+lesson: Flex Layout
 author: Dan Hahn
 date: 7/12/2017 15:00
 template: article.jade
@@ -8,12 +9,6 @@ nav:
   Flex Box: flex.html
   Flex Layout: flex-layout.html
 ---
-
-# Flex Layout
-
-* [Float Layout]()
-* [Flex Box](flex.html)
-* [Flex Layout](flex-layout.html)
 
 <iframe height='528' scrolling='no' title='Flex Layout (Week 6)' src='//codepen.io/danhahn/embed/owmERe/?height=528&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/owmERe/'>Flex Layout (Week 6)</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

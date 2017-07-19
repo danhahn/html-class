@@ -1,5 +1,6 @@
 ---
 title: Lesson 11
+lesson: Content for all pages
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: article.jade

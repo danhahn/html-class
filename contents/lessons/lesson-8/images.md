@@ -1,5 +1,6 @@
 ---
 title: Lesson 8
+lesson: Images for all pages
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: article.jade
@@ -8,9 +9,6 @@ nav:
   Pages: pages.html
   Copy for pages: final-content.pdf
 ---
-<span class="more"></span>
-
-# Images for all pages
 
 <a href="images.zip" class="btn">Download all the Images</a>
 

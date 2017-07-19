@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Homework – Lesson 2
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -12,9 +13,13 @@ nav:
   Image Types: image-types.html
   Embed: embed.html
   Homework: homework.html
+homework:
+  lesson: lesson2
+downloads:
+  Lesson 2 Images:
+    file: lesson2-images.zip
+    btn: primary
 ---
-
-# Homework – Lesson 2
 
 ## Goals of this homework
 
@@ -31,8 +36,6 @@ nav:
 * Write all **html** and place content to match the final design (view link at bottom of the page)
 * Remember to use the same format at in lesson 1
 * When complete **zip** file and send it to me `dan@svahtml.com`
-
-[Lesson 2 Images](lesson2-images.zip)
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/4eRy8eeq0og" frameborder="0" allowfullscreen></iframe>
 
@@ -64,7 +67,7 @@ Tourism
 </pre>
 
 ### Article
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
 Autumn (also known as fall in [North American English]{http://en.wikipedia.org/wiki/}) is one of the four temperate seasons. Autumn marks the transition from [summer]{http://en.wikipedia.org/wiki/Summer} into [winter]{http://en.wikipedia.org/wiki/Winter/}, usually in late September (northern hemisphere) or late March (southern hemisphere) when the arrival of night becomes noticeably earlier.
 
 Etymology
@@ -111,4 +114,3 @@ Tourism
 
 Although color change in leaves occurs wherever deciduous trees are found, coloured autumn foliage is most famously noted in two regions of the world: most of Canada and the United States; and Eastern Asia, including China, Korea, and Japan. It can also be very significant in Argentina, Australia, Chile and New Zealand, but not to the same degree. Eastern Canada and the New England region of the United States are famous for the brilliance of their autumnal foliage, and a seasonal tourist industry has grown up around the few weeks in autumn when the leaves are at their peak.
 </pre>
-<div class="homework-view" data-lesson="lesson2"></div>

@@ -1,5 +1,6 @@
 ---
 title: Lesson 4
+lesson: Text Properties
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
@@ -11,9 +12,6 @@ nav:
   Padding and Margin: padding-margin.html
   Homework: homework.html
 ---
-
-# Text Properties
-
 
 Text Properties like font properties alter the way fonts display but have more to do with spacing or alignment than the way the font itself displays.
 

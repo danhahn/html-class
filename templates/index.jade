@@ -5,7 +5,10 @@ block append vars
 
 block header
   div.titlebar
-    h1.titlebar__main= locals.description
+    - const [first, ...rest] = locals.description.split(' ')
+    h1.titlebar__main
+      span.caps= first
+      = ` ${rest}`
     p.titlebar__date= locals.startDate + " to " + locals.endDate
 
 block notes

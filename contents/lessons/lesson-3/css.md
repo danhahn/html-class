@@ -1,5 +1,6 @@
 ---
 title: Lesson 3
+lesson: CSS3 Reference
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: article.jade
@@ -12,13 +13,11 @@ nav:
 
 ---
 
-# CSS3 Reference
-
 ### Selectors
 Selector|Example|Example description|CSS
 ---|---|---|---
 ".class|.intro|Selects all elements with class="intro"|1
-#id|#firstname|Selects the element with id="firstname"|1
+\#id|\#firstname|Selects the element with id="firstname"|1
 \*|\*|Selects all elements|2
 element|p|Selects all <code>&lt;p&gt;</code> elements|1
 element,element|div, p|Selects all <code>&lt;div> elements and all <code>&lt;p&gt;</code> elements|1

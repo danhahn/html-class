@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Image Examples
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -13,8 +14,6 @@ nav:
   Embed: embed.html
   Homework: homework.html
 ---
-
-# Image Examples
 
 There are three image types used on the web today
 

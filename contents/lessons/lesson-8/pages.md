@@ -1,5 +1,6 @@
 ---
-title: Lesson 11
+title: Lesson 8
+lesson: View All pages
 author: Dan Hahn
 date: 7/26/2017 15:00
 template: single.jade
@@ -8,8 +9,6 @@ nav:
   Pages: pages.html
   Copy for pages: final-content.pdf
 ---
-
-# View All pages
 
 <div style="display:flex;flex-wrap: wrap;">
 	<div style="margin-right: 10px;margin-bottom: 10px;">[![](pages/sm/Home - SVA - Spring 2016 HTML.png)](examples/home.html)</div>
@@ -20,5 +19,3 @@ nav:
 	<div style="margin-right: 10px;margin-bottom: 10px;">[![](pages/sm/Transportation - SVA - Spring 2016 HTML.png)](examples/transportation.html)</div>
 	<div style="margin-right: 10px;margin-bottom: 10px;">[![](pages/sm/Sports - SVA - Spring 2016 HTML.png)](examples/sports.html)</div>
 </div>
-
-## site-bg.jpg

@@ -1,5 +1,6 @@
 ---
 title: Lesson 5
+lesson: Pseudo class
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
@@ -16,8 +17,6 @@ nav:
   Clear Fix: clear-fix.html
   Homework: homework.html
 ---
-
-# Pseudo class
 
 Pseudo class selectors are CSS selectors with a colon preceding them.
 

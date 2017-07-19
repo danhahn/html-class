@@ -1,5 +1,6 @@
 ---
 title: Lesson 4
+lesson: Basic Style Properties
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
@@ -24,8 +25,6 @@ downloads:
 This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
-
-# Basic Style Properties
 
 When styling fonts with CSS they are broken into two types.  **Font** properties and **Text** properties. The two are very similar, the **Font** deals more with the character set and the **Text** is more about changing the way the font looks.
 

@@ -1,6 +1,6 @@
 ---
 title: Lesson 1
-author: the-wintersmith
+lesson: HTML Editors
 date: 6/7/2017 15:00
 template: article.jade
 
@@ -13,8 +13,6 @@ nav:
   Classwork: classwork.html
   Homework: homework.html
 ---
-
-# HTML Editors
 
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.
 

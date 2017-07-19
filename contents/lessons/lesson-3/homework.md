@@ -1,5 +1,6 @@
 ---
 title: Lesson 3
+lesson: Homework 3 – Intro to css
 author: Dan Hahn
 date: 6/21/2017 15:00
 template: article.jade
@@ -8,9 +9,13 @@ nav:
   Selectors: selectors.html
   CSS3 Reference: css.html
   Homework: homework.html
+homework:
+  lesson: lesson3
+downloads:
+  Homework Content:
+    file: homework3-text.txt
+    btn: primary
 ---
-
-# Homework 3 – Intro to css
 
 ## Goals of this homework
 
@@ -19,9 +24,6 @@ nav:
 3. Use tag name selector
 4. Use class name selector
 5. Use id name selector
-
-
-<a href="homework3-text.txt" class="btn" target="\_target">Homework Content</a>
 
 In this homework you will be writing styles support the HTML that was provided. There is
 no need to make any changes to HTML.
@@ -37,30 +39,30 @@ Add the following style to the Style tag that was just added.
 ### Tag Name Selectors
 
 body
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   font-family - arial
   font-size - 16px
   background-color - <span style="color: #3a7f7f;">#3a7f7f</span>
 </pre>
 
 h1
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   color - <span style="color: #ffffff;;background-color:#000;padding:2px;">#ffffff</span>
   margin - 0
 </pre>
 
 h2
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   color - <span style="color: #3a7f7f;">#3a7f7f</span>
 </pre>
 
 h3
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   color - <span style="color: #4b4b4b;">#4b4b4b</span>
 </pre>
 
 p
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   line-height - 1.5em
   color - <span style="color: #333333;">#333333</span>
 </pre>
@@ -69,47 +71,43 @@ p
 
 ### Class Name Selector
 .container
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   width - 1000px
 </pre>
 
 .header
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   background-color - <span style="color: #4b4b4b;">#4b4b4b</span>
   padding - 1em
 </pre>
 
 .navigation
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   background-color - <span style="color: #ead967;">#ead967</span>
   padding - 1em
 </pre>
 
 .navItem
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   color - <span style="color: #4b4b4b;">#4b4b4b</span>
   text-decoration - none
   font-weight - bold
 </pre>
 
 .hero-image
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   margin - 0
 </pre>
 
 .content
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   background-color - <span style="color: #e8e8e8;background-color:#000;padding:2px;">#e8e8e8</span>
   padding - 1em
 </pre>
 
 .footer
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
   background-color - <span style="color: #ff9060;">#ff9060</span>
   padding - 1em
   text-align - right
 </pre>
-
----
-
-<div class="homework-view" data-lesson="lesson3"></div>

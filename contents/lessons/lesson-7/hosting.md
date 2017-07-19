@@ -1,5 +1,6 @@
 ---
 title: Lesson 7
+lesson: Setting up your own website
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
@@ -8,8 +9,6 @@ nav:
   Setting up your site: hosting.html
   Background: background.html
 ---
-
-# Setting up your own website
 
 ## Getting your domain
 

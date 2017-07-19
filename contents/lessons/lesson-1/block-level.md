@@ -1,5 +1,6 @@
 ---
 title: Lesson 1
+lesson: Block Elements
 author: the-wintersmith
 date: 6/7/2017 15:00
 template: article.jade
@@ -20,8 +21,6 @@ nav:
   Homework: homework.html
 
 ---
-
-# Block Elements
 
 In this lesson we will be talking about block elements. A block element is any element that when rapping content is content will be displayed on his online.  Block elements are able to display padding on the top and the bottom, have a width set on them.
 

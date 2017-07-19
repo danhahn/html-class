@@ -1,68 +1,57 @@
 ---
 title: Lesson 8
+lesson: Final Project
 author: Dan Hahn
 date: 7/26/2017 15:00
-template: article.jade
-localjs: ['clipboard.min.js','copy.js']
+template: final.jade
+localjs: ['move-swatch.js', 'clipboard.min.js','copy.js']
 downloads:
   Download PSD:
     file: final.psd
-    btn: null
+  Download images:
+    file: images.zip
 nav:
   Final Project: index.html
   Pages: pages.html
   Copy for pages: final-content.pdf
+swatches: ['#ffffff', '#c0c0c0', '#808080', '#333333', '#000000', '#004358', '#181e47', '#ffe11a', '#ff951a', '#7fcaf5', '#50b7f1']
+swatchesSmall:
+  slot1: ['#50b7f1', '#ffe11a', '#ffffff']
+  slot2: ['#ffe11a', '#ff951a', '#000000']
+  slot3: ['#ffffff', '#50b7f1', '#004358', '#b7b7b7', '#333333']
+  slot4: ['#004358', '#ffffff', '#50b7f1', '#b7b7b7']
+  slot5: ['#7fcaf5', '#ffffff']
+
 ---
 
 This week we work on the in class final.  <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-# Final Project
-
 The final is due at the end of class on April 20, 2016.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
 
 ## Colors
 
-* \#ffffff
-* \#c0c0c0
-* \#808080
-* \#333333
-* \#000000
-* \#004358
-* \#181e47
-* \#ffe11a
-* \#ff951a
-* \#7fcaf5
-* \#50b7f1
-
+<div id="swatches"></div>
 
 ## fonts
 
-```
+<pre class="text-content">
 @import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
 font-family: 'Montserrat', sans-serif;
 font-family: 'Homemade Apple', cursive;
-```
+</pre>
 
 ## header
 
-###### Swatches
-
-* \#50b7f1
-* \#ffe11a
-* \#ffffff
+<div id="slot1"></div>
 
 New York State {font size 60px}<br>
 The Empire State {font size 20px}
 
 ## Nav
 
-###### Swatches
-
-* \#ffe11a
-* \#ff951a
-* \#000000
+<div id="slot2"></div>
 
 ### Nav Items
 
@@ -76,13 +65,7 @@ The Empire State {font size 20px}
 
 ## Content
 
-###### Swatches
-
-* \#ffffff
-* \#50b7f1
-* \#004358
-* \#b7b7b7
-* \#333333
+<div id="slot3"></div>
 
 #### Background Images
 
@@ -94,22 +77,12 @@ ny-seal.png
 
 Download the image on the right.
 
-<a href="images.zip" class="btn">Download images</a>
-
 ## Side Bar
 
-###### Swatches
-
-* \#004358
-* \#ffffff
-* \#50b7f1
-* \#b7b7b7
+<div id="slot4"></div>
 
 ## Footer
 
-###### Swatches
-
-* \#7fcaf5
-* \#ffffff
+<div id="slot5"></div>
 
 © 2015 SVA HTML

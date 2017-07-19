@@ -1,5 +1,6 @@
 ---
 title: Lesson 7
+lesson: Background
 author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
@@ -8,8 +9,6 @@ nav:
   Setting up your site: hosting.html
   Background: background.html
 ---
-
-# Background
 
 Backgrounds are a way to add colors and images to elements on the page.
 

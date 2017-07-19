@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Inline Elements
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -20,8 +21,6 @@ nav:
   Homework: homework.html
 
 ---
-
-# Inline Elements
 
 An inline element is an element that when the content is wrapped with that tag does not display on its own line.
 

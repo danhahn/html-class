@@ -1,5 +1,6 @@
 ---
 title: Lesson 5
+lesson: Homework
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
@@ -9,11 +10,13 @@ nav:
   Floats: floats.html
   Clear Fix: clear-fix.html
   Homework: homework.html
+homework:
+  lesson: lesson5
+downloads:
+  Starter File:
+    file: homework6_yourname.zip
+    btn: primary
 ---
-
-# Homework
-
-[Download Stater File](homework6_yourname.zip)
 
 The point of this homework is to work with floats and the box model to create example of what a homepage of a site might look like.
 
@@ -50,5 +53,3 @@ So lets figure out the size for each box in this section.
 * 10px of space between each box (not after the last)
 * 10px of padding on each box
 * 1px border
-
-<div class="homework-view" data-lesson="lesson6"></div>

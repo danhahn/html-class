@@ -1,5 +1,6 @@
 ---
 title: Lesson 4
+lesson: Borders
 author: Dan Hahn
 date: 6/28/2017 15:00
 template: article.jade
@@ -12,8 +13,6 @@ nav:
   Padding and Margin: padding-margin.html
   Homework: homework.html
 ---
-
-# Borders
 
 Every element has a border weather it is seen or not.  The border is the extreme edge of that element.  
 

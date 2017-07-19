@@ -1,5 +1,6 @@
 ---
 title: Lesson 6
+lesson: Intro to Flex box
 author: Dan Hahn
 date: 7/12/2017 15:00
 template: article.jade
@@ -8,12 +9,6 @@ nav:
   Flex Box: flex.html
   Flex Layout: flex-layout.html
 ---
-
-# Intro to Flex box
-
-* [Float Layout]()
-* [Flex Box](flex.html)
-* [Flex Layout](flex-layout.html)
 
 ## History of Flex Box
 

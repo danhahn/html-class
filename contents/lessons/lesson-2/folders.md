@@ -1,5 +1,6 @@
 ---
 title: Lesson 2
+lesson: Linking files
 author: Dan Hahn
 date: 6/14/2017 15:00
 template: article.jade
@@ -13,8 +14,6 @@ nav:
   Embed: embed.html
   Homework: homework.html
 ---
-
-# Linking files
 
 ## Linking to a file in the same folder
 If the two files are in the same folder than file 1 can call file 2 by the file name only.

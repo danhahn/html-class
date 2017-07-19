@@ -1,5 +1,6 @@
 ---
 title: Lesson 5
+lesson: Clear fix
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
@@ -10,8 +11,6 @@ nav:
   Clear Fix: clear-fix.html
   Homework: homework.html
 ---
-
-# Clear fix
 
 There are a number of way to fix the issue when all the content within a element are floated.
 

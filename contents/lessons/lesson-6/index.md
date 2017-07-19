@@ -1,5 +1,6 @@
 ---
 title: Lesson 6
+lesson: Float Layout
 author: Dan Hahn
 date: 7/12/2017 15:00
 template: article.jade
@@ -21,8 +22,6 @@ nav:
 This week we will talk about the new CSS3 flex box layout. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
-
-# Float Layout
 
 <iframe height='589' scrolling='no' title='Float Layout' src='//codepen.io/danhahn/embed/owGKdY/?height=589&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/owGKdY/'>Float Layout</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

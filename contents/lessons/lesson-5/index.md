@@ -1,5 +1,6 @@
 ---
 title: Lesson 5
+lesson: CSS Box Model
 author: Dan Hahn
 date: 7/5/2017 15:00
 template: article.jade
@@ -29,8 +30,6 @@ nav:
 This week we will be talking about floating.  How to align images, build gallery and simple navigation. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
-
-# CSS Box Model
 
 Since Everything on in web design is a rectangular box we need to know how to size that box.  The way that CSS calculates the size of a box is not what you expect.  Rather than set the size of the box based on the outer most elements `border` or `padding` the width is set baed on the content.
 
