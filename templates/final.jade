@@ -1,6 +1,8 @@
 
 extends layout
 
+include mixins/_title
+
 block addlocalcss
   if page.metadata.localcss
     link(rel='stylesheet', href=page.metadata.localcss)
@@ -20,8 +22,8 @@ block header
   div.titlebar
     - const [first, ...rest] = page.title.split(' ')
     h1.titlebar__main
-      span.caps= first
-      = ` ${rest}`
+      h1.titlebar__main
+        +title(page.title)
     div.titlebar__date
       ul.layout.layout--date
         li.layout__item
@@ -32,10 +34,8 @@ block content
   section.article
     article.article__primary
       if page.metadata.lesson
-        - const [lessonFirst, ...lessonRest] = page.metadata.lesson.split(' ')
         h1
-          span.caps= lessonFirst
-          = ` ${lessonRest.join(' ')}`
+          +title(page.metadata.lesson)
       != typogr(page.html).typogrify()
 
       if page.metadata.swatches

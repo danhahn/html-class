@@ -1,6 +1,8 @@
 
 extends layout
 
+include mixins/_title
+
 block addlocalcss
   if page.metadata.localcss
     link(rel='stylesheet', href=page.metadata.localcss)
@@ -18,24 +20,20 @@ block prepend title
 
 block header
   div.titlebar
-    - const [first, ...rest] = page.title.split(' ')
     h1.titlebar__main
-      span.caps= first
-      = ` ${rest.join(' ')}`
+      +title(page.title)
     div.titlebar__date
       ul.layout.layout--date
         li.layout__item
           i.fa.fa-calendar
-        li.layout__item 
+        li.layout__item
           span.date= moment(page.date).format('MMMM D, YYYY')
 block content
   section.article
     article.article__primary
       if page.metadata.lesson
-        - const [lessonFirst, ...lessonRest] = page.metadata.lesson.split(' ')
         h1
-          span.caps= lessonFirst
-          = ` ${lessonRest.join(' ')}`
+          +title(page.metadata.lesson)
       - const removeMore = page.html.split('<p><span class="more"></span></p>');
       - const articleData = removeMore.length === 2 ? removeMore[1] : removeMore[0]
       != typogr(articleData).typogrify()
