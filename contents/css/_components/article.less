@@ -10,10 +10,9 @@
   }
   @media only screen
   and (max-width : 768px) {
-    grid-template-columns: 1fr;
     grid-template-areas:
-      "s"
-      "p";
+      "s s s s s s s s s s s s"
+      "p p p p p p p p p p p p";
   }
   h3 {
     @media only screen
@@ -22,7 +21,6 @@
     }
   }
   &__primary {
-    grid-area: p;
     padding: 2em 1em;
     @media only screen
     and (max-width : 768px) {
@@ -34,7 +32,6 @@
     }
   }
   &__secondary {
-    grid-area: s;
     padding: 2em 0;
     @media only screen
     and (min-width : 769px) {

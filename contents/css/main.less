@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto+Condensed:400,700,300|Oxygen+Mono);
 
+@import (inline) url(prism.css);
+@import (inline) url(font-awesome.min.css);
+
 @import "vars";
 @import url(./_components/layout.less);
 @import url(./_components/brand.less);
@@ -14,8 +17,13 @@
 @import url(./_components/tags.less);
 @import url(./_components/badge.less);
 @import url(./_components/grid.less);
+@import url(./_components/burger.less);
 @import url(./_components/lesson.less);
 @import url(./_components/utils.less);
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -38,10 +46,12 @@ a {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   &__center {
-    flex: 0 1 1170px;
+    // flex: 0 1 1170px;
+    max-width: 1170px;
+    margin: 0 auto;
   }
 }
 
@@ -90,6 +100,11 @@ a {
   p {
     margin: 0;
     color: @white;
+  }
+  svg {
+    .slash, .tag, .letter {
+      fill: @white;
+    }
   }
 }
 
