@@ -7,4 +7,4 @@ template: single.jade
 
 # View Page
 
-![](../pages/Home - SVA - Spring 2016 HTML.png)
+![](../pages/final-project2.png)

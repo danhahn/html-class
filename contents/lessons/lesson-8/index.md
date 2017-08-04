@@ -16,9 +16,11 @@ This week we work on the in class final.  <div><span class="label label-default 
 * [Pages](pages.html)
 * [Copy for pages](final-content.pdf)
 
-The final is due at the end of class on April 20, 2016.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
+The final is due at the end of class on July 26, 2017.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
 
 <a href="final.psd" class="btn">Download PSD</a>
+<a href="images.zip" class="btn">Download images</a>
+
 
 ## Colors
 
@@ -37,7 +39,7 @@ The final is due at the end of class on April 20, 2016.  Please email me at dan@
 
 ## fonts
 
-```
+```css
 @import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
 font-family: 'Montserrat', sans-serif;
 font-family: 'Homemade Apple', cursive;
@@ -51,8 +53,8 @@ font-family: 'Homemade Apple', cursive;
 * \#ffe11a
 * \#ffffff
 
-New York State {font size 60px}<br>
-The Empire State {font size 20px}
+New York State `{font size 3em}`<br>
+The Empire State `{font size 1.5em}`
 
 ## Nav
 
@@ -82,17 +84,6 @@ The Empire State {font size 20px}
 * \#b7b7b7
 * \#333333
 
-#### Background Images
-
-```
-ny-seal.png
-```
-
-## Images
-
-Download the image on the right.
-
-<a href="images.zip" class="btn">Download images</a>
 
 ## Side Bar
 
@@ -110,4 +101,4 @@ Download the image on the right.
 * \#7fcaf5
 * \#ffffff
 
-© 2015 SVA HTML
+© 2017 SVA HTML
