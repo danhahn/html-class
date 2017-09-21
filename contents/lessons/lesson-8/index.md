@@ -1,104 +1,45 @@
 ---
 title: Lesson 8
 author: Dan Hahn
-date: 7/26/2017 15:00
+date: 11/08/2017 15:00
 template: article.jade
-localjs: ['clipboard.min.js','copy.js']
 ---
 
-This week we work on the in class final.  <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about css display, building navigations, and simple layouts.
 
 <span class="more"></span>
 
-# Final Project
+# CSS Display
 
-* [Final Project]()
-* [Pages](pages.html)
-* [Copy for pages](final-content.pdf)
+* [CSS display (inline, block, inline-block, etc)]()
+* [Navigation](navigations.html)
+* [Simple Layouts](layouts.pdf)
 
-The final is due at the end of class on July 26, 2017.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
+## Display
 
-<a href="final.psd" class="btn">Download PSD</a>
-<a href="images.zip" class="btn">Download images</a>
+Value	| Description
+-- | --
+`inline` | 	Default value. Displays an element as an inline element (like `<span>`)	 
+`block` | 	Displays an element as a block element (like `<p>`)	 
+`flex` | 	Displays an element as a block-level flex container. New in CSS3	 
+`inline-block` | 	Displays an element as an inline-level block container. The inside of this block is formatted as block-level box , and the element itself is formatted as an inline-level box	 
+`inline-flex` | 	Displays an element as an inline-level flex container. New in CSS3	 
+`inline-table` | 	The element is displayed as an inline-level table	 
+`list-item` | 	Let the element behave like a `<li>` element	 
+`run-in` | 	Displays an element as either block or inline, depending on context	 
+`table` | 	Let the element behave like a `<table>` element	 
+`table-caption` | 	Let the element behave like a `<caption>` element	 
+`table-column-group` | 	Let the element behave like a `<colgroup>` element	 
+`table-header-group` | 	Let the element behave like a `<thead>` element	 
+`table-footer-group` | 	Let the element behave like a `<tfoot>` element	 
+`table-row-group` | 	Let the element behave like a `<tbody>` element	 
+`table-cell` | 	Let the element behave like a `<td>` element	 
+`table-column` | 	Let the element behave like a `<col>` element	 
+`table-row` | 	Let the element behave like a `<tr>` element	 
+`none` | 	The element will not be displayed at all (has no effect on layout)	 
+`initial` | Sets this property to its default value. Read about initial	 
+`inherit` | Inherits this property from its parent element. Read about inherit
 
-
-## Colors
-
-* \#ffffff
-* \#c0c0c0
-* \#808080
-* \#333333
-* \#000000
-* \#004358
-* \#181e47
-* \#ffe11a
-* \#ff951a
-* \#7fcaf5
-* \#50b7f1
-
-
-## fonts
-
-```css
-@import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
-font-family: 'Montserrat', sans-serif;
-font-family: 'Homemade Apple', cursive;
-```
-
-## header
-
-###### Swatches
-
-* \#50b7f1
-* \#ffe11a
-* \#ffffff
-
-New York State `{font size 3em}`<br>
-The Empire State `{font size 1.5em}`
-
-## Nav
-
-###### Swatches
-
-* \#ffe11a
-* \#ff951a
-* \#000000
-
-### Nav Items
-
-* Home(index.html)
-* History(history/index.html)
-* Geography(geography/index.html)
-* Major cities(cities/index.html)
-* Demographics(demographics/index.html)
-* Transportation(transportation/index.html)
-* Sports(sports/index.html)
-
-## Content
-
-###### Swatches
-
-* \#ffffff
-* \#50b7f1
-* \#004358
-* \#b7b7b7
-* \#333333
-
-
-## Side Bar
-
-###### Swatches
-
-* \#004358
-* \#ffffff
-* \#50b7f1
-* \#b7b7b7
-
-## Footer
-
-###### Swatches
-
-* \#7fcaf5
-* \#ffffff
-
-© 2017 SVA HTML
+<style>
+tr td:first-of-type code {white-space: nowrap}
+</style>

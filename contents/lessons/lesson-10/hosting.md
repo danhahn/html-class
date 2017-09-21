@@ -1,7 +1,7 @@
 ---
-title: Lesson 7
-author: Dan Hahn
-date: 7/19/2017 15:00
+title: Lesson 10
+author: the-wintersmith
+date: 11/29/2017 15:00
 template: article.jade
 ---
 
@@ -10,8 +10,6 @@ template: article.jade
 * [Understanding index]()
 * [Setting up your site](hosting.html)
 * [Background](background.html)
-
-
 
 ## Getting your domain
 
