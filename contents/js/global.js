@@ -11,8 +11,6 @@ const URL = window.location.pathname;
 let navOpen = false;
 let isSideNavOpen = false;
 
-
-
 navToggle.addEventListener('click', function() {
   sideNavTrigger ? sideNavTrigger.classList.toggle('hide') : () => null;
   this.classList.toggle('active');
@@ -31,10 +29,19 @@ if(sidenavContaner) {
     item.pathname === URL ? item.classList.add('active') : null;
   })
 
-  side.style.width = `${sideContainer.offsetWidth-16}px`;
+  if (window.innerWidth > 768) {
+    side.style.width = `${sideContainer.offsetWidth-16}px`;
+  }
 
   window.addEventListener('resize', () => {
-    side.style.width = `${sideContainer.offsetWidth-16}px`;
+    if (window.innerWidth > 768) {
+      side.style.width = `${sideContainer.offsetWidth-16}px`;      
+    } 
+    else {
+      if (side.hasAttribute('style')) {
+        side.removeAttribute('style');
+      }
+    }
   });
 
   window.addEventListener('scroll', () => {
