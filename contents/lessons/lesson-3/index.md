@@ -2,7 +2,7 @@
 title: Lesson 3
 lesson: Introduction to CSS
 author: Dan Hahn
-date: 6/21/2017 15:00
+date: 10/04/2017 15:00
 template: article.jade
 tags:
   'html':

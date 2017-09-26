@@ -2,7 +2,7 @@
 title: Lesson 5
 lesson: Floats
 author: Dan Hahn
-date: 7/5/2017 15:00
+date: 10/18/2017 15:00
 template: article.jade
 nav:
   Box Model: index.html

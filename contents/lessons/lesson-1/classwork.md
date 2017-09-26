@@ -2,7 +2,7 @@
 title: Lesson 1
 lesson: Classwork for week 1
 author: the-wintersmith
-date: 6/7/2017 15:00
+date: 09/20/2017 15:00
 template: article.jade
 
 nav:
@@ -14,7 +14,7 @@ nav:
   Classwork: classwork.html
   Homework: homework.html
 downloads:
-  text for classwork:
+  Text for Classwork:
     file: classwork.txt
     btn: primary
 ---

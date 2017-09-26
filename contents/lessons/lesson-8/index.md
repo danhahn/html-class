@@ -1,88 +1,45 @@
 ---
 title: Lesson 8
-lesson: Final Project
+lesson: CSS Display
 author: Dan Hahn
-date: 7/26/2017 15:00
-template: final.jade
-localjs: ['move-swatch.js', 'clipboard.min.js','copy.js']
-downloads:
-  Download PSD:
-    file: final.psd
-  Download images:
-    file: images.zip
+date: 11/08/2017 15:00
+template: article.jade
 nav:
-  Final Project: index.html
-  Pages: pages.html
-  Copy for pages: final-content.pdf
-swatches: ['#ffffff', '#c0c0c0', '#808080', '#333333', '#000000', '#004358', '#181e47', '#ffe11a', '#ff951a', '#7fcaf5', '#50b7f1']
-swatchesSmall:
-  slot1: ['#50b7f1', '#ffe11a', '#ffffff']
-  slot2: ['#ffe11a', '#ff951a', '#000000']
-  slot3: ['#ffffff', '#50b7f1', '#004358', '#b7b7b7', '#333333']
-  slot4: ['#004358', '#ffffff', '#50b7f1', '#b7b7b7']
-  slot5: ['#7fcaf5', '#ffffff']
+  CSS display (inline, block, inline-block, etc): index.html
+  Navigation: navigations.html
+  Simple Layouts: layouts.pdf
 
 ---
 
-This week we work on the in class final.  <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about css display, building navigations, and simple layouts.
 
 <span class="more"></span>
 
-The final is due at the end of class on April 20, 2016.  Please email me at dan@svahtml.com with a zip file that has all the files needed to complete the final.
+## Display
 
-## Colors
+Value	| Description
+-- | --
+`inline` | 	Default value. Displays an element as an inline element (like `<span>`)	 
+`block` | 	Displays an element as a block element (like `<p>`)	 
+`flex` | 	Displays an element as a block-level flex container. New in CSS3	 
+`inline-block` | 	Displays an element as an inline-level block container. The inside of this block is formatted as block-level box , and the element itself is formatted as an inline-level box	 
+`inline-flex` | 	Displays an element as an inline-level flex container. New in CSS3	 
+`inline-table` | 	The element is displayed as an inline-level table	 
+`list-item` | 	Let the element behave like a `<li>` element	 
+`run-in` | 	Displays an element as either block or inline, depending on context	 
+`table` | 	Let the element behave like a `<table>` element	 
+`table-caption` | 	Let the element behave like a `<caption>` element	 
+`table-column-group` | 	Let the element behave like a `<colgroup>` element	 
+`table-header-group` | 	Let the element behave like a `<thead>` element	 
+`table-footer-group` | 	Let the element behave like a `<tfoot>` element	 
+`table-row-group` | 	Let the element behave like a `<tbody>` element	 
+`table-cell` | 	Let the element behave like a `<td>` element	 
+`table-column` | 	Let the element behave like a `<col>` element	 
+`table-row` | 	Let the element behave like a `<tr>` element	 
+`none` | 	The element will not be displayed at all (has no effect on layout)	 
+`initial` | Sets this property to its default value. Read about initial	 
+`inherit` | Inherits this property from its parent element. Read about inherit
 
-<div id="swatches"></div>
-
-## fonts
-
-<pre class="text-content">
-@import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat);
-font-family: 'Montserrat', sans-serif;
-font-family: 'Homemade Apple', cursive;
-</pre>
-
-## header
-
-<div id="slot1"></div>
-
-New York State {font size 60px}<br>
-The Empire State {font size 20px}
-
-## Nav
-
-<div id="slot2"></div>
-
-### Nav Items
-
-* Home(index.html)
-* History(history/index.html)
-* Geography(geography/index.html)
-* Major cities(cities/index.html)
-* Demographics(demographics/index.html)
-* Transportation(transportation/index.html)
-* Sports(sports/index.html)
-
-## Content
-
-<div id="slot3"></div>
-
-#### Background Images
-
-```
-ny-seal.png
-```
-
-## Images
-
-Download the image on the right.
-
-## Side Bar
-
-<div id="slot4"></div>
-
-## Footer
-
-<div id="slot5"></div>
-
-© 2015 SVA HTML
+<style>
+tr td:first-of-type code {white-space: nowrap}
+</style>

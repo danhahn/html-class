@@ -2,7 +2,7 @@
 title: Lesson 7
 lesson: Understanding the Index.html
 author: Dan Hahn
-date: 7/19/2017 15:00
+date: 11/01/2017 15:00
 template: article.jade
 downloads:
   Download Stater File:
@@ -24,87 +24,89 @@ How to set up your own HTML website including how to choose where to host and ho
 
 ## Building a full site
 
-**The magic of the index.html**
+Backgrounds are a way to add colors and images to elements on the page.
 
-When building a site that is hosted on a web server there needs to be a default file to serve. In most cases this is  **index.html**. When you have a folder and put only one file in that folder it should be index.html since it will be served by just requesting the site or any subfolder of that site.
+## Background Color
+```css
+background-color: color name | RGB Value | Hex Value;
+```
+Background color can be added any element on the page including both block and inline elements. Block level elements will display the full width of the element where inline will only display in the space the content needs. You can use padding to expose more of the background.
 
-For example you may go to a site named http://www.svahtml.com but you just ask for the site you never say what file you want. The server knows to give you the default file, index.html. to make life easy it just gives you it and the file is never displayed in the URL. But what happens when you go to a sub folder like? Again you are not saying what file you want so the server needs to give you the default file which is index.html.
+<p data-height="200" data-theme-id="light" data-slug-hash="YWaZzb" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/YWaZzb/">background-color</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-<img height="36" src="images/image04.png" width="624">
+## Background Image
+```css
+background-image: url(<image path>);
+```
+Background images can be applied to any element on the page including both block and inline elements. If a background color and image are applied at the same time to the same element the image will overlay the color. By default a background image will tile in all directions starting in the top left corner.
 
-So far we have two files in two folders each named **index.html**. For every folder that we have on the site it will have it&#39;s own index.html. As you might imagine there could be a lot of index.htmls.
+<p data-height="400" data-theme-id="light" data-slug-hash="yJKvov" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/yJKvov/">yJKvov</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-Because of this we need to be very careful about the file we are working on. One way to help keep track of the file that you are editing it is very useful to update the for each page on your site. It might be something like this.
+## Background Repeat
+```css
+background-repeat: repeat | no-repeat | repeat-x | repeat-y
+```
+When applying a background image it will tile in all directions by default.
 
-* For you homepage - Site Name | Home
-* A sub folder for your gallery might be - Site Name | Gallery
+You can control the way the image will tile by using `background-repeat`.
 
-This way you can look at the markup to know what page you are on.
+Repeat | Direction
+---|---
+repeat (default) | tiles in all directions
+no-repeat | the image will appear one time.
+repeat-x | repeat along the x axis
+repeat-y | repeat along the x axis
 
-It should also be noted that you can not replace one index with an other since all the links where set for that page and the content would be wrong.
+<p data-height="400" data-theme-id="light" data-slug-hash="bZvLoq" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/bZvLoq/">background-repeat</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-## Your site might be something like this
+##Background Attachment
 
-	Homepage
-	- News
-	- Sport
-	- Weather
-	- Gallery
+```css
+background-attachment: scroll | fixed;
+```
 
-Every subsection on your site should be broken into its own folder.
+When a background image is applied to an element by default it will move with that element then the page scrolls. An image can be locked to one location by setting the value of background-attachment to fixed. When fixed is applied the element will no longer have its location set by the element but the body instead. The most common use of the is property is when applying a background to the BODY tag and that background image should not move when the page is scrolled.
 
-	/index.html
-	/news/index.html
-	/sports/index.html
-	/weather/index.html
-	/gallery/index.html
+## Background Position
+```css
+background-position: (left, right or center) (top, center or bottom);
+```
+The position of the background image can be sent by using background-position. When a value is set the image will move to the location set background-position and if a tile is applied tile out from that point.
 
-We have 5 index.html files.
+If you want the image to be position the center both vertical and horizontal than you need only define the value of center.
+```css
+background-position: center;
+```
+Position can also be set by adding a number value, two values must be set with the first value how far from the left and the second value how far from the top. Number can be in pixels or percentages.
+```css
+background-position: 100px 300px;
+background-position: 50% 80%;
+```
+<p data-height="400" data-theme-id="light" data-slug-hash="mExXpV" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/mExXpV/">background-position</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-## But what if we have to have more than one file In a folder?
+## Background Shorthand
+```css
+background: image repeat attachment position color;
+```
+Like many CSS properties there is a shorthand way to define a background. Like with other shorthand options not all values are required and values not set will be set to the default value.
+```css
+background: #fff url(images/side-bar.png) repeat-y right top;
+```
+<p data-height="400" data-theme-id="light" data-slug-hash="ZOxAxr" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/ZOxAxr/">background</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-In that case any other file can be named whatever you want. It would be linked to from the index.html using the link tag **(href=&rdquo;filename.html&rdquo;)**.
 
-## For example
+In this example attachment is not defined so it will be set to the default which in this case is scroll.
 
-	/news/index.html
-	/news/yesterday.html
-	/news/breakingnews.html
-	/news/fun-stories.html
+In a case where you need to override a value set elsewhere and remove all background values it can be done by setting the background value to none.
+```css
+background: none;
+```
+You are setting the `background-image` to none and by default setting the `background-color` to transparent.
 
-In this example we have four files all in the **/news/** folder.
-
-<img height="354" src="images/image00.png" width="624">
-
-When you have your files on a web server you are able to use absolute paths to make the paths from one section or folder to another.
-
-If you wanted to link from the news page to the weather page there are two ways to do this.
-
-1. Use a relative path. **../weather/**
-2. Use an absolute path **/weather/**
-
-The reason option 2 is better is because it will be the same path for all files on the site regardless of where you are.
-
-## Dev Local
-
-The big problem with this way is it will not work when viewing your files from a local directory.
-
-If you want to still develop locally you will need to set up a local server. One great one is MAMP. it is very easy to setup and use and will allow you to have the same setup as your web server.
-
-<img height="345" src="images/image01.png" width="427">
-
-You just need to set the &ldquo;Document Root&rdquo; by clicking the Preferences button then clicking Apache.
-
-<img height="349" src="images/image05.png" width="432">
-
-Then set the folder of your project and click OK.
-
-Once that is done you need to click Start Servers. It may ask you to enter your username and password. In almost all cases this will be the same as when you logged in to the computer.
-
-if everything works your app will have two green lights
-
-<img height="348" src="images/image03.png" width="430">
-
-Then you need to go to http://localhost:8888/
-
-This will act as a real web server but you can continue to develop locally.
+<p data-height="265" data-theme-id="light" data-slug-hash="jAzkjx" data-default-tab="result" data-user="danhahn" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/danhahn/pen/jAzkjx/">background: none</a> by Dan Hahn (<a href="http://codepen.io/danhahn">@danhahn</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

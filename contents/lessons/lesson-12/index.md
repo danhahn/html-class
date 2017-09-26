@@ -1,14 +1,15 @@
 ---
 title: Lesson 12
 author: Dan Hahn
-date: 4/20/2020 15:00
+lesson: Final Project
+date: 12/13/2017 15:00
 template: article.jade
+nav:
+  Final Project: index.html
 ---
 
-Continue to work on final <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we work on the in class final.  <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-# Continue to work on final
-
-Final is due at the end of this class.  If you are not able to make it to this class your final is still due at this time.
+Details of final will be released at a later date.

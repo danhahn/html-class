@@ -25,14 +25,24 @@
   box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font: 14px 'Droid Sans', sans-serif;
   line-height: 1.42857143;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
   color: @primary;
+}
+
+.main-level {
+  flex: 1;
 }
 
 .caps {
