@@ -1,14 +1,14 @@
 ---
 title: Lesson 7
+lesson: HTML Tables
 author: Dan Hahn
 date: 11/01/2017 15:00
 template: article.jade
+
+nav:
+  Background: index.html
+  Tables: tables.html
 ---
-
-# Tables
-
-* [Background]()
-* [Tables](tables.html)
 
 An HTML table is defined with the `<table>` tag.
 

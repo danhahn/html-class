@@ -1,6 +1,6 @@
 ---
 title: Lesson 7
-lesson: Understanding the Index.html
+lesson: CSS Backgrounds
 author: Dan Hahn
 date: 11/01/2017 15:00
 template: article.jade
@@ -8,17 +8,13 @@ downloads:
   Download Stater File:
     file: week7.zip
     btn: primary
-  Download Notes:
-    file: week7-notes.zip
-    btn: null
 
 nav:
-  Understanding index: index.html
-  Setting up your site: hosting.html
-  Background: background.html
+  Background: index.html
+  Tables: tables.html
 ---
 
-How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about CSS backgrounds and how to build and style an HTML table.
 
 <span class="more"></span>
 

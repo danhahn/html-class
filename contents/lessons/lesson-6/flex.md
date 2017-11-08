@@ -8,6 +8,7 @@ nav:
   Float Layout: index.html
   Flex Box: flex.html
   Flex Layout: flex-layout.html
+  Homework: homework.html
 ---
 
 ## History of Flex Box

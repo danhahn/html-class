@@ -37,16 +37,6 @@ The link tag is an HTML tag that is added within the head of a document.  This t
 
 `@import` includes a `.css` but does it with in CSS itself.  With `@import` one css file can include another file.
 
-### Example
-
-```HTML
-<style>
-	@import url(filename.css);
-</style>
-```
-
-You can also include from within a `.css` file by adding the `@import` at the top of the file.
-
 ```CSS
 @import url(filename.css)
 

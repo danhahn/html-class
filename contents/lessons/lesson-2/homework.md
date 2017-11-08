@@ -45,20 +45,20 @@ Any `[`, `]` or `{`, `}` are added as place holders to help show were links or i
 
 ### Page Title
 
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
 Yourname - Homework 2
 </pre>
 
 ### Header
 
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
 header.png
 Autumn
 </pre>
 
 ### Nav
 
-<pre style="white-space:pre-line;padding: 1em;">
+<pre class="text-content">
 Etymology
 Historic usage
 Gallery
@@ -114,3 +114,13 @@ Tourism
 
 Although color change in leaves occurs wherever deciduous trees are found, coloured autumn foliage is most famously noted in two regions of the world: most of Canada and the United States; and Eastern Asia, including China, Korea, and Japan. It can also be very significant in Argentina, Australia, Chile and New Zealand, but not to the same degree. Eastern Canada and the New England region of the United States are famous for the brilliance of their autumnal foliage, and a seasonal tourist industry has grown up around the few weeks in autumn when the leaves are at their peak.
 </pre>
+
+<style>
+article img {
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+}
+</style>

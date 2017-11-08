@@ -25,17 +25,23 @@ Attributes|Values
 
 ## Example
 
-`<img src=”logo.gif”>`
+```html
+<img src=”logo.gif”>
+```
 
 ## Adding the Alt Attribute
 
 HTML **requires** that you add an alt attribute to all images tags.  This attribute is used for persons with visual impairments and use screen readers to view the internet.  If there is text with in an image that text must be placed with the alt attribute.  While the attribute is required there is no need to place text within the value unless there is text on the image.  This can be a little misleading.  
 
-`<img src="image.gif" alt="text on the image">`
+```html
+<img src="image.gif" alt="text on the image">
+```
 
 **or**
 
-`<img src="image.png" alt="">`
+```html
+<img src="image.png" alt="">
+```
 
 ## Formats
 
@@ -55,5 +61,5 @@ The only image type that support transparency are GIF and PNG.
 GIF are able to display multiple images with in the same saved files.
 
 <style>
-table tr td:nth-child(1){width:20%}
+table tr td:nth-child(1){white-space: nowrap}
 </style>

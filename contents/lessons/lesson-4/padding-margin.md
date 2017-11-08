@@ -1,5 +1,6 @@
 ---
 title: Lesson 4
+lesson: Padding and Margin
 author: Dan Hahn
 date: 10/11/2017 15:00
 template: article.jade
@@ -12,8 +13,6 @@ nav:
   Padding and Margin: padding-margin.html
   Homework: homework.html
 ---
-
-# Padding and Margin
 
 Padding is the amount of space from the border in to the content.
 

@@ -63,4 +63,8 @@ Step 3
 article img {
   max-width: 100%;
 }
+
+iframe {
+  max-width: 100%;
+}
 </style>
