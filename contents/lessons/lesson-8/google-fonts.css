@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Rozha+One";
+h3.example {
+  font-family: 'Rozha One', serif;
+  color: #663399;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+h3.example::after {
+  content: " <-- Google Font";
+  color: black;
+  font-family: sans-serif;
+  margin-left: 1em;
+  opacity: 0;
+  transition: all .4s;
+}
+h3.example:hover::after {
+  opacity: 1;
+}

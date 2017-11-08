@@ -14,7 +14,7 @@ nav:
   Tables: tables.html
 ---
 
-This week we will talk about CSS backgrounds and how to build and style an HTML table.
+This week we will talk about CSS backgrounds and how to build and style an HTML table. <div> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
