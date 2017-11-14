@@ -1,6 +1,6 @@
 ---
 title: Lesson 9
-lesson: Backgrounds
+lesson: Forms
 author: Dan Hahn
 date: 11/15/2017 15:00
 template: article.jade
@@ -8,93 +8,197 @@ downloads:
   Download Stater File:
     file: week9.zip
     btn: primary
-  Download Notes:
-    file: week9-notes.zip
-    btn: null
 
 nav:
-  Backgrounds: index.html
-  Forms: forms.html
+  Forms: index.html
+  Javascript: javascript.html
 ---
 
-This week we will be talking about applying a background image with CSS and HTML forms <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will be talking about forms and JavaScript. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
 
 <span class="more"></span>
 
-[Download Notes  <i class="icon-download-alt icon-white"></i>](week9-notes.zip)
-[Download Starter File  <i class="icon-download-alt icon-white"></i>](week9.zip)
+## form 
+The `<form>` tag is used to create an HTML form for user input.
 
-Backgrounds are a way to add colors and images to elements on the page.
+The `<form>` element can contain one or more of the following form elements:
 
-### Background Color
+<table class="w3-table-all notranslate" id="table1">
+  <tbody><tr>
+    <th style="width:20%">Attribute</th>
+    <th style="width:37%">Value</th>
+    <th style="width:43%">Description</th>
+  </tr>
+  <tr>
+    <td>action</td>
+    <td><i>URL</i></td>
+    <td>Specifies where to send the form-data when a form is submitted</td>
+  </tr>
+  <tr>
+    <td>method</td>
+    <td>get<br>
+      post</td>
+    <td>Specifies the HTTP method to use when sending form-data</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><i>text</i></td>
+    <td>Specifies the name of a form</td>
+  </tr>
+  <tr>
+    <td>target</td>
+    <td>_blank<br>
+      _self<br>
+      _parent<br>
+      _top</td>
+    <td>Specifies where to display the response that is received after submitting the form</td>
+  </tr>
+</tbody></table>
 
-```css
-background-color: color name | RGB Value | Hex Value;
+```html
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
 ```
 
-Background color can be added any element on the page including both block and inline elements. Block level elements will display the full width of the element where inline will only display in the space the content needs. You can use padding to expose more of the background.
+## input
 
-### Background Image
-```css
-background-image: url(<image path>);
-```
-Background images can be applied to any element on the page including both block and inline elements. If a background color and image are applied at the same time to the same element the image will overlay the color. By default a background image will tile in all directions starting in the top left corner.
+The `<input>` tag specifies an input field where the user can enter data.
 
-### Background Repeat
-```css
-background-repeat: repeat | no-repeat | repeat-x | repeat-y
-```
-When applying a background image it will tile in all directions by default.
+`<input>` elements are used within a `<form>` element to declare input controls that allow users to input data.
 
-You can control the way the image will tile by using `background-repeat`.
+An input field can vary in many ways, depending on the type attribute.
 
-Repeat | Direction
----|---
-repeat (default) | tiles in all directions
-no-repeat | the image will appear one time.
-repeat-x | repeat along the x axis
-repeat-y | repeat along the x axis
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+    <th style="width:22%">Attribute</th>
+    <th style="width:37%">Value</th>
+    <th style="width:41%">Description</th>
+  </tr>
+  <tr>
+    <td>checked</td>
+    <td>checked</td>
+    <td>Specifies that an `<input>` element should be pre-selected when the page loads (for `type="checkbox"` or `type="radio"`)</td>
+  </tr>
+  <tr>
+    <td>disabled</td>
+    <td>disabled</td>
+    <td>Specifies that an `<input>` element should be disabled</td>
+  </tr>
+  <tr>
+    <td>maxlength</td>
+    <td><i>number</i></td>
+    <td>Specifies the maximum number of characters allowed in an `<input>` element</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><i>text</i></td>
+    <td>Specifies the name of an `<input>` element</td>
+  </tr>
+  <tr>
+    <td>placeholder</td>
+    <td><i>text</i></td>
+    <td>Specifies a short hint that describes the expected value of an `<input>` element</td>
+  </tr>
+  <tr>
+    <td>readonly</td>
+    <td>readonly</td>
+    <td>Specifies that an input field is `read-only`</td>
+  </tr>
+  <tr>
+    <td>required</td>
+    <td>required</td>
+    <td>Specifies that an input field must be filled out before submitting the form</td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td><i>number</i></td>
+    <td>Specifies the width, in characters, of an `<input>` element</td>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>button<br>
+      checkbox<br>
+ color<br>
+      date <br>
+ email <br>
+      file<br>
+      hidden<br>
+      image<br>
+      password<br>
+      radio<br>
+      range <br>
+      reset<br>
+      submit<br>
+      text<br>
+    </td>
+    <td>Specifies the type `<input>` element to display</td>
+  </tr>
+  <tr>
+    <td>value</td>
+    <td><i>text</i></td>
+    <td>Specifies the value of an `<input>` element<b><br>
+ &nbsp;</b></td>
+  </tr>
+  
+</tbody></table>
 
-### Background Attachment
-```css
-background-attachment: scroll | fixed;
-```
-When a background image is applied to an element by default it will move with that element then the page scrolls. An image can be locked to one location by setting the value of background-attachment to fixed. When fixed is applied the element will no longer have its location set by the element but the body instead. The most common use of the is property is when applying a background to the BODY tag and that background image should not move when the page is scrolled.
+<p data-height="650" data-theme-id="light" data-slug-hash="vWJXgj" data-default-tab="html,result" data-user="danhahn" data-embed-version="2" data-pen-title="Form Elements" class="codepen">See the Pen <a href="https://codepen.io/danhahn/pen/vWJXgj/">Form Elements</a> by Dan Hahn (<a href="https://codepen.io/danhahn">@danhahn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-### Background Position
-```css
-background-position: (left, right or center) (top, center or bottom);
-```
-The position of the background image can be sent by using background-position. When a value is set the image will move to the location set background-position and if a tile is applied tile out from that point.
+## select
 
-If you want the image to be position the center both vertical and horizontal than you need only define the value of center.
+The `<select>` element is used to create a drop-down list.
 
-```css
-background-position: center;
-```
+The `<option>` tags inside the `<select>` element define the available options in the list.
 
-Position can also be set by adding a number value, two values must be set with the first value how far from the left and the second value how far from the top. Number can be in pixels or percentages.
-```css
-background-position: 100px 300px;
-background-position: 50% 80%;
-```
-### Background Shorthand
+<table class="w3-table-all notranslate"> 
+  <tbody><tr>
+    <th style="width:20%">Attribute</th>
+    <th style="width:20%">Value</th>
+    <th style="width:60%">Description</th>
+  </tr>
+  <tr>
+    <td>disabled</td>
+    <td>disabled</td>
+    <td>Specifies that a drop-down list should be disabled</td>
+  </tr>
+  <tr>
+    <td class="html5badge">form</td>
+    <td><i>form_id</i></td>
+    <td>Defines one or more forms the select field belongs to</td>
+  </tr>
+  <tr>
+    <td>multiple</td>
+    <td>multiple</td>
+    <td>Specifies that multiple options can be selected at once</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><i>name</i></td>
+    <td>Defines a name for the drop-down list</td>
+  </tr>
+    <tr>
+    <td class="html5badge">required</td>
+    <td>required</td>
+    <td>Specifies that the user is required to select a value before submitting the form</td>
+    </tr>
+  <tr>
+    <td>size</td>
+    <td><i>number</i></td>
+    <td>Defines the number of visible options in a drop-down list</td>
+  </tr>
+</tbody></table>
 
-```css
-background: image repeat attachment position color;
-```
-Like many CSS properties there is a shorthand way to define a background. Like with other shorthand options not all values are required and values not set will be set to the default value.
+## textarea
 
-```css
-background: #fff url(images/side-bar.png) repeat-y right top;
-```
+The `<textarea>` tag defines a multi-line text input control.
 
-In this example attachment is not defined so it will be set to the default which in this case is scroll.
+A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
 
-In a case where you need to override a value set elsewhere and remove all background values it can be done by setting the background value to none.
+The size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.
 
-```css
-background: none;
-```
-
-You are setting the `background-image` to none and by default setting the `background-color` to transparent.
+<p data-height="450" data-theme-id="light" data-slug-hash="LOjbGg" data-default-tab="html,result" data-user="danhahn" data-embed-version="2" data-pen-title="Form Elements select, textarea" class="codepen">See the Pen <a href="https://codepen.io/danhahn/pen/LOjbGg/">Form Elements select, textarea</a> by Dan Hahn (<a href="https://codepen.io/danhahn">@danhahn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
