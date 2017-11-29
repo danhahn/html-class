@@ -1,8 +1,8 @@
 ---
-title: Lesson 7
+title: Lesson 10
 lesson: Setting up your own website
 author: Dan Hahn
-date: 7/19/2017 15:00
+date: 11/29/2017 15:00
 template: article.jade
 nav:
   Understanding index: index.html

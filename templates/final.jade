@@ -20,15 +20,13 @@ block prepend title
 
 block header
   div.titlebar
-    - const [first, ...rest] = page.title.split(' ')
     h1.titlebar__main
-      h1.titlebar__main
-        +title(page.title)
+      +title(page.title)
     div.titlebar__date
       ul.layout.layout--date
         li.layout__item
           i.fa.fa-calendar
-        li.layout__item 
+        li.layout__item
           span.date= moment(page.date).format('MMMM D, YYYY')
 block content
   section.article
@@ -36,26 +34,15 @@ block content
       if page.metadata.lesson
         h1
           +title(page.metadata.lesson)
-      != typogr(page.html).typogrify()
-
-      if page.metadata.swatches
-        ul#mainSwatches.hasSwatches
-          each swatch in page.metadata.swatches
-            li
-              .swatchWrapper
-                .swatch
-                  .swatchColor(style=`background-color: ${swatch}`)
-                  p.swatchLabel= swatch
-
-      if page.metadata.swatchesSmall
-        each small, name in page.metadata.swatchesSmall
-          ul(id=`${name}`).hasSwatches
-            each swatch in small
-              li(data-color=swatch).hasSwatches
-                .smSwatch
-                  .swatch
-                    .swatchColor(style=`background-color: ${swatch}`)= swatch
-
+      - const removeMore = page.html.split('<p><span class="more"></span></p>');
+      - let articleData = removeMore.length === 2 ? removeMore[1] : removeMore[0]
+      - articleData = articleData.replace(/<li>([#a-f0-9]*)<\/li>/g, '<li><div class="color-palette__palette" style="background-color: $1"><p>$1</p></div></li>');
+      - articleData = articleData.replace(/(<h3 id="color">COLOR<\/h3>[\n]?)(<ul>)/g, '<ul class="color-palette">');
+      - articleData = articleData.replace(/(<h3 id="psd">PSD<\/h3>[\n]?)(<ul>)/g, '$1<ul class="gallery">');
+      - articleData = articleData.replace(/(<h3 id="pdf">PDF<\/h3>[\n]?)(<ul>)/g, '<ul class="gallery PDF">');
+      - articleData = articleData.replace(/(<h3 id="zip">ZIP<\/h3>[\n]?)(<ul>)/g, '<ul class="gallery ZIP">');
+      - articleData = articleData.replace(/(<h2 id="pages">PAGES<\/h2>[\n]?)(<ul>)/g, '<ul class="IMG">');
+      != typogr(articleData).typogrify()
       if page.metadata.homework
         - const { lesson } = page.metadata.homework
         .homework-view

@@ -1,0 +1,67 @@
+@import "../vars.less";
+
+.color-palette {
+  margin: 0;
+  padding: 0 !important;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1em;
+  &__palette {
+    padding: .5em;
+    border: 1px solid @gray15;
+    text-align: center;
+    font-size: 2em;
+    p {
+      margin: 0;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+    }
+  }
+}
+
+
+.gallery {
+  margin: 0;
+  padding: 0 !important;
+  list-style-type: none;
+  display: flex;
+  li {
+    margin-right: 1em;
+    border: 1px solid @gray15;
+    padding: 1em;
+  }
+  &.PDF {
+    li {
+      a {
+        background: url(/lessons/lesson-11/pdf.svg) no-repeat center 1em;
+        padding-top: 110px;
+        text-decoration: none;
+        display: block;
+        width: 90px;
+        text-align: center;
+      }
+    }
+  }
+  &.ZIP {
+    li {
+      a {
+        background: url(/lessons/lesson-11/zip.svg) no-repeat center 1em;
+        padding-top: 110px;
+        text-decoration: none;
+        display: block;
+        width: 90px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.IMG {
+  margin: 0;
+  padding: 0 !important;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+
+}

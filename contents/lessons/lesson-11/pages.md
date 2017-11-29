@@ -1,13 +1,20 @@
 ---
 title: Lesson 11
+lesson: View All Pages
 author: Dan Hahn
 date: 12/06/2017 15:00
-template: single.jade
+template: final.jade
+nav:
+  Final Project: index.html
+  Pages: pages.html  
 ---
 
-# View All pages
+## PAGES
 
-<div style="display:flex;flex-wrap: wrap;">
-	<div style="margin-right: 10px;margin-bottom: 10px;">[![](pages/sm/final-project2.png)](examples/home.html)</div>
-	<div style="margin-right: 10px;margin-bottom: 10px;">[![](pages/sm/final-project1.png)](examples/history.html)</div>
-</div>
+* [![](pages/Fall-2017-site1.png)](pages/Fall-2017-site1.png)
+* [![](pages/Fall-2017-site2.png)](pages/Fall-2017-site2.png)
+* [![](pages/Fall-2017-site3.png)](pages/Fall-2017-site3.png)
+* [![](pages/Fall-2017-site4.png)](pages/Fall-2017-site4.png)
+* [![](pages/Fall-2017-site5.png)](pages/Fall-2017-site5.png)
+* [![](pages/Fall-2017-site6.png)](pages/Fall-2017-site6.png)
+* [![](pages/Fall-2017-site7.png)](pages/Fall-2017-site7.png)
