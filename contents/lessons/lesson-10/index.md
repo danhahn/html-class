@@ -22,6 +22,8 @@ How to set up your own HTML website including how to choose where to host and ho
 
 ## Building a full site
 
+<a href="classwork/" target="_blank" class="btn">View Classwork</a>
+
 **The magic of the index.html**
 
 When building a site that is hosted on a web server there needs to be a default file to serve. In most cases this is  **index.html**. When you have a folder and put only one file in that folder it should be index.html since it will be served by just requesting the site or any subfolder of that site.
