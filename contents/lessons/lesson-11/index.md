@@ -43,6 +43,24 @@ There are a limited number of colors that are used in the design you can copy th
 * \#b7b7b7
 * \#7fcaf5
 
+## Header Content
+
+<pre class="text-content">
+New York State
+The Empire State
+</pre>
+
+## Nav Content
+<pre class="text-content">
+Home => index.html
+History => history/index.html
+Geography => geography/index.html
+Major cities => cities/index.html
+Demographics => demographics/index.html
+Transportation => transportation/index.html
+Sports => sports/index.html
+</pre>
+
 ## Sizes
 
 While I will not give you the sizes for the padding or margin they will always we defined in `em` and be a whole number value like `1em`;
