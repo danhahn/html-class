@@ -1,9 +1,6 @@
 ---
 title: HTML Special Characters
-author: Dan Hahn
-date: 2013-06-05 18:00
 template: single.jade
-subject: TEST
 ---
 
 A listing of <acronym>HTML4</acronym> Character Entities

@@ -1,8 +1,9 @@
 .article {
   display: grid;
+  margin-top: @nav-height;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
-    "p p p p p p p p p s s s";
+    "p p p p p p p p . s s s";
   grid-column-gap: 1em;
   &--single {
     grid-template-areas:
@@ -21,7 +22,7 @@
     }
   }
   &__primary {
-    padding: 2em 1em;
+    padding: 0 0 2em 0;
     grid-area: p;
     @media only screen
     and (max-width : 768px) {
@@ -33,15 +34,20 @@
     }
   }
   &__secondary {
-    padding: 2em 0;
-    grid-area: s;    
-    @media only screen
-    and (min-width : 769px) {
-      position: relative;
-      .side-nav-inner.fixed {
+    grid-area: s;  
+    @media only screen and (min-width : 769px) {    
+      .side-nav-inner {
+        padding: 2em;
         position: fixed;
-        top: 1em;
+        width: 100%;
+        top: @nav-height * 2;
+        height: ~"calc(100vh - 120px)";
+        background-color: @gray20;
+        border-left: 1px solid @gray15;
       }
+    }
+    @media only screen and (min-width : 769px) {
+      position: relative;      
     }
     @media only screen
     and (max-width : 768px) {
