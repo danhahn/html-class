@@ -10,11 +10,11 @@
   and (max-width : 425px) {
     padding-left: 30px;
   }
-  @media only screen
-  and (max-width: 425px)  {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  // @media only screen
+  // and (max-width: 425px)  {
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  // }
 
   &__main {
     margin: 0;
@@ -26,8 +26,10 @@
   }
   &__date {
     margin: 0;
+    display: none;
     @media only screen
     and (min-width: 425px)  {
+      display: block;
       font-size: 1.2em;
       font-weight: 700;
     }

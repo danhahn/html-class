@@ -20,9 +20,11 @@ downloads:
   Download Notes:
     file: week4-notes.zip
     btn: null
+badges: [css]
+
 ---
 
-This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week We will dive back into CSS and talk about text, font, borders, margin and padding. 
 
 <span class="more"></span>
 

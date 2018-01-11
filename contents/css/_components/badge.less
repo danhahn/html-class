@@ -11,9 +11,9 @@
   border-radius: .25em;
   background-color: @primary20;
   text-transform: uppercase;
-  display: inline-flex;
+  display: inline-block;
   align-items: baseline;
-  i {
+  svg {
     margin-right: .5em;
   }
   &--html {
@@ -22,7 +22,22 @@
   &--css {
     background-color: #1572B6;
   }
+  &--js {
+    background-color: #f7df1e;
+    color: black;
+  }
   &--attribute {
     background-color: #008080;
+  }
+  &__list {
+    display: flex;
+    margin: 0 0 .5em;
+    padding: 0;
+    list-style: none;
+    &--item {
+      &:not(:last-of-type) {
+        margin-right: .2em;
+      }
+    }
   }
 }

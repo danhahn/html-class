@@ -1,6 +1,6 @@
 ---
 title: Lesson 9
-lesson: JavascriptA
+lesson: Javascript
 author: Dan Hahn
 date: 11/15/2017 15:00
 template: article.jade

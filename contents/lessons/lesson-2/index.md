@@ -27,10 +27,10 @@ nav:
   Image Types: image-types.html
   Embed: embed.html
   Homework: homework.html
-
+badges: [html]
 ---
 
-This week we will talk about how to create links and embed images. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
+This week we will talk about how to create links and embed images.
 
 <span class="more"></span>
 

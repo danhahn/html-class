@@ -12,9 +12,12 @@ downloads:
 nav:
   Background: index.html
   Tables: tables.html
+
+badges: [css]
+
 ---
 
-This week we will talk about CSS backgrounds and how to build and style an HTML table. <div> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about CSS backgrounds and how to build and style an HTML table. 
 
 <span class="more"></span>
 

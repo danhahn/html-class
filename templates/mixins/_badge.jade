@@ -1,0 +1,10 @@
+mixin badge(type = "html")
+  span(class=`badge--${type}`).badge
+    case type
+      when 'html'
+        i.fab.fa-html5.offset
+      when 'css'
+        i.fab.fa-css3-alt.offset
+      when 'js'
+        i.fab.fa-js        
+    span.caps= type

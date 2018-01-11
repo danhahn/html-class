@@ -22,9 +22,10 @@ nav:
 downloads:
   Download Notes:
     file: week1-notes.zip
+badges: [html]
 ---
 
-Introduction to HTML, Web Browsers, Standards<div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
+Introduction to HTML, Web Browsers, Standards
 
 <span class="more"></span>
 

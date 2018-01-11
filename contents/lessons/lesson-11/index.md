@@ -7,10 +7,12 @@ template: final.jade
 localcss: http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat
 nav:
   Final Project: index.html
-  Pages: pages.html  
+  Pages: pages.html
+badges: [html,css]
+
 ---
 
-This week we work on the in class final.  <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we work on the in class final.  
 
 <span class="more"></span>
 

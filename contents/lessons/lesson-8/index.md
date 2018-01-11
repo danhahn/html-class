@@ -25,9 +25,11 @@ tags:
       label: css
       icon: fa fa-css3
       data : [font-family, font-face, media]
+badges: [html,css]
+
 ---
 
-This week we will talk about adding Google Fonts, responsive and the `<picture>` tag. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about adding Google Fonts, responsive and the `<picture>` tag. 
 
 <span class="more"></span>
 

@@ -1,4 +1,5 @@
 const navToggle = document.querySelector('.burger');
+const navBar = document.querySelector('[class*=--brandbar]');
 const headerNav = document.querySelector('.header-nav');
 const headerNavList = document.querySelector('.header-nav__list');
 const sideNavTrigger = document.querySelector('.trigger');
@@ -24,6 +25,8 @@ for (item of headerItems) {
 navToggle.addEventListener('click', function() {
   sideNavTrigger ? sideNavTrigger.classList.toggle('hide') : () => null;
   this.classList.toggle('active');
+  navBar.classList.toggle('active');
+
   headerNav.style.maxHeight = !navOpen ? `${headerNavList.offsetHeight}px` : 0;
   navOpen = !navOpen;
 });

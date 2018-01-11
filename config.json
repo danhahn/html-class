@@ -19,7 +19,13 @@
         {
           "title": "Lessons",
           "class": "lesson",
-          "url": "/lessons/"
+          "url": "/lessons/",
+          "subNav": true
+        },
+        {
+          "title": "Syllabus",
+          "class": "syllabus",
+          "url": "/syllabus.html"
         },
         {
           "title": "Tag List",

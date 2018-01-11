@@ -12,9 +12,11 @@ downloads:
 nav:
   Forms: index.html
   Javascript: javascript.html
+badges: [html, js]
+
 ---
 
-This week we will be talking about forms and JavaScript. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will be talking about forms and JavaScript. 
 
 <span class="more"></span>
 

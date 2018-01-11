@@ -1,6 +1,7 @@
 extends layout
 
 include mixins/_title
+include mixins/_badge
 
 block append vars
   - bodyclass = 'homepage'
@@ -31,9 +32,14 @@ block content
               +title(article.title)
           ul.layout.layout--date.lesson__date
             li.layout__item
-              i.fa.fa-calendar
+              i.fas.fa-calendar-alt
             li.layout__item
               span.date= moment(article.date).format('MMMM D, YYYY')
         section.lesson__content !{ typogr(article.intro).typogrify() }
+        if article.metadata.badges
+          ul.badge__list
+            for badge in article.metadata.badges
+              li.badge__list--item
+                +badge(badge)
           if article.hasMore
-            a(href=`${article.url}index.html`).btn.btn--primary.lesson__button View Lesson
+            a(href=`${article.url}index.html`).btn.btn--primary.lesson__button Explore Lesson
