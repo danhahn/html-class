@@ -38,7 +38,7 @@ html(lang='en')
                       ul.header-nav__subNav
                         each article in articles  
                           li
-                            a(href=article.url)= article.title
+                            a(href=`${article.url}index.html`)= article.title
                               span.date= moment(article.date).format('MMMM D, YYYY')
 
     header.main-titlebar.container

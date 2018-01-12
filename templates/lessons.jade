@@ -4,17 +4,15 @@ include mixins/_title
 include mixins/_badge
 
 
-
 block header
   div.titlebar
     h1.titlebar__main
-      +title(locals.description)
-    
+      +title(locals.description)    
 
 block content
   .lessons
     - var articles = env.helpers.getArticles(contents);
-    for article in articles
+    for article, index in articles
       h2
         a(href=`${article.url}index.html`)= moment(article.date).format('MMMM D, YYYY')
       section !{ typogr(article.intro).typogrify() }
@@ -26,5 +24,6 @@ block content
       ul.lesson__list
         for url, title in article.metadata.nav
           li
-            a(href=url)= title
+            a(href=`/lessons/lesson-${index + 1}\/${url}`)= title
+
     

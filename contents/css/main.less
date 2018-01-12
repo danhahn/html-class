@@ -21,6 +21,7 @@
 @import url(./_components/lesson.less);
 @import url(./_components/utils.less);
 @import url(./_components/color-palette.less);
+@import url(./_components/table.less);
 
 * {
   box-sizing: border-box;
@@ -58,6 +59,12 @@ a {
 }
 
 .lessons {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .lesson__list {
     padding-left: 20px;
   }

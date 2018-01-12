@@ -1,4 +1,3 @@
 {
-  "template": "lessons.jade",
-  "data": "test"
+  "template": "lessons.jade"
 }
