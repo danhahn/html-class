@@ -2,7 +2,7 @@
 title: Lesson 11
 author: Dan Hahn
 lesson: Final Project
-date: 12/06/2017 15:00
+date: 4/11/2018 15:00
 template: final.jade
 localcss: http://fonts.googleapis.com/css?family=Homemade+Apple|Montserrat
 nav:

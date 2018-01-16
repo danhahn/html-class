@@ -2,7 +2,7 @@
 title: Lesson 5
 lesson: Clear fix
 author: Dan Hahn
-date: 10/18/2017 15:00
+date: 2/21/2018 15:00
 template: article.jade
 nav:
   Box Model: index.html

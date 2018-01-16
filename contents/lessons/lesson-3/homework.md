@@ -2,7 +2,7 @@
 title: Lesson 3
 lesson: Homework 3 – Intro to css
 author: Dan Hahn
-date: 10/04/2017 15:00
+date: 2/7/2018 15:00
 template: article.jade
 nav:
   Intro to CSS: index.html

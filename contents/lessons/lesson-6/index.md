@@ -2,7 +2,7 @@
 title: Lesson 6
 lesson: Float Layout
 author: Dan Hahn
-date: 10/25/2017 15:00
+date: 2/28/2018 15:00
 template: article.jade
 
 downloads:

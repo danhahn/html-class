@@ -2,7 +2,7 @@
 title: Lesson 1
 lesson: Block Elements
 author: the-wintersmith
-date: 09/20/2017 15:00
+date: 1/24/2018 15:00
 template: article.jade
 
 tags:
@@ -12,7 +12,7 @@ tags:
     data : [p,h1,h2,h3,h4,h5,h6, br, blockquote, ol, ul, li, div, section, article, header, footer]
 
 nav:
-  Intro: index.html
+  Introduction: index.html
   Editors: editors.html
   HTML Template: template.html
   Block-Level: block-level.html
