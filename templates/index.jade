@@ -6,6 +6,9 @@ include mixins/_badge
 block append vars
   - bodyclass = 'homepage'
 
+block addlocaljs
+  script(src='/js/homepage.js')
+
 block header
   div.titlebar.no-nav
     h1.titlebar__main
@@ -35,7 +38,7 @@ block notes
 block content
   .grid.grid--homepage
     each article in articles
-      article.lesson
+      article(class=`${moment(article.date).format('MDYYYY')}`).lesson
         .lesson__header
           h2.lesson__title
             a(href=`${article.url}index.html`).lesson__link

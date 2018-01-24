@@ -26,7 +26,6 @@ let isSideNavOpen = false;
 for (item of headerItems) {
   const link = item.querySelector('a');
   if (document.location.pathname.includes(link.pathname)) {
-    console.log(link);
     item.classList.add('active')
     break;
   }

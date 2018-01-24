@@ -29,6 +29,14 @@ Developer: GitHub
 
 ---
 
+## [VS Code](https://code.visualstudio.com/)
+
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/129px-Visual_Studio_Code_1.18_icon.svg.png)](https://code.visualstudio.com/)
+
+Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is also customizable, so users can change the editor's theme, keyboard shortcuts, and preferences. It is free and open-source, although the official download is under a proprietary license. Visual Studio Code is based on Electron, a framework which is used to deploy Node.js applications for the desktop running on the Blink layout engine. 
+
+---
+
 ## [Brackets](http://brackets.io/)
 
 [![](images/Brackets.png)](http://brackets.io/)
@@ -45,7 +53,7 @@ Developer: Adobe
 
 ## [Sublime Text](http://www.sublimetext.com/)
 
-[![](images/sublime.png)](http://www.sublimetext.com/)
+[![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png)](http://www.sublimetext.com/)
 
 Since 2008, Sublime Text has brought a series of great editing techniques to Mac, Linux, and Windows. It’s a universal “text editor you’ll fall in love with”, says the developer, John Skinner. The tabbed interface is not unlike that of Google Chrome. There’s a side-by-side mode for comparing documents. There’s a fullscreen mode available for concentrating, making it great for writers, too. Its most well-known feature is Goto Anything, which allows you to open files with a few taps on the keyboard, and will also locate any symbols, lines, or words in the document (though the multiple cursors feature might debate that most-well-known status).
 
@@ -99,7 +107,7 @@ Price: **Free**<br>
 Requires: OS X 10.6.6 or later<br>
 Developer: Apple Inc.
 
-<iframe src="http://player.vimeo.com/video/71448456?byline=0&amp;portrait=0&amp;color=ff9933" width="500" height="415" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/71448456?byline=0&amp;portrait=0&amp;color=ff9933" width="100%" height="415" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <style>
 h2 + p {
