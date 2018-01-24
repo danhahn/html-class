@@ -9,6 +9,14 @@
     grid-column: 1 / -1;
     grid-row: 1;
     font-size: 1.2em;
+    position: relative;
+    &::before {
+      content: "Today's Lesson";
+      color: $alt;
+      font-weight: 100;
+      position: absolute;
+      right: 1em;
+    }
   }
   &__title {
     margin: 0;
