@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px arial;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.banner {
+
+}
+
+.banner h1 {
+  margin: 0;
+}
+
+.navbar {
+
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar a {
+  color: #415863;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.navbar a:hover {
+
+}
+
+.content-area h2 {
+  color: #415863;
+}
+
+.content-area .update {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.chart {
+  border: 1px solid #415863;
+  width: 100%;
+}
+

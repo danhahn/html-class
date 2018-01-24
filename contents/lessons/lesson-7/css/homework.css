@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px arial;
+  background: url(../images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+  background: url(../images/header.png);
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #FDB927;
+  border-bottom: none;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 4em;
+  color: #FDB927;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  background-color: #83a6be;
+  border: 10px solid #415863;
+  border-top: none;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #415863;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.navbar a:hover {
+  background: url(../images/flake.png) no-repeat center center;
+  color: white;
+}
+
+.content-area h2 {
+  color: #415863;
+}
+
+.content-area .update {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.chart {
+  border: 1px solid #415863;
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.chart .altColor {
+  background-color: #e4eaee;
+}
+
+.chart th, .chart td {
+  border-bottom: 1px solid #415863;
+  padding: .5em;
+}
+
+.chart th {
+  background-color: #374a52;
+  color: white;
+  text-align: left;
+}
+
+.chart .city {
+  font-weight: bold;
+  width: 120px;
+}
+
+.chart .amount {
+  width: 140px;
+  text-align: center;
+}
+
+.chart .feature {
+  color: #b11c3f;
+  font-weight: bold;
+}

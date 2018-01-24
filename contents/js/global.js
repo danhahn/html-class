@@ -10,6 +10,16 @@ const side = document.querySelector('.side-nav-inner');
 const URL = window.location.pathname;
 const headerItems = [...document.querySelectorAll('.header-nav__list li')].reverse();
 
+// Alert 
+const alertContainer = document.querySelector('.alert');
+const alertCloseButton = document.querySelector('.alert__close');
+
+if (alertContainer) {
+  alertCloseButton.addEventListener('click', () => {
+    alertContainer.classList.add('alert__hide');
+  });
+}
+
 let navOpen = false;
 let isSideNavOpen = false;
 

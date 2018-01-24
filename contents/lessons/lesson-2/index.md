@@ -1,6 +1,6 @@
 ---
 title: Lesson 2
-lesson: Anchor Tag (inline element)
+lesson: Anchor Tag
 author: Dan Hahn
 date: 1/31/2018 15:00
 template: article.jade

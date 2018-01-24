@@ -15,11 +15,13 @@ nav:
   Introduction: index.html
   Editors: editors.html
   HTML Template: template.html
-  Block-Level: block-level.html
-  Inline: inline.html
+  Block Elements: block.html
   Classwork: classwork.html
   Homework: homework.html
 downloads:
+  Download Stater File:
+    file: HTML-[YOUR_NAME].zip
+    btn: primary
   Download Notes:
     file: week1-notes.zip
 badges: [html]

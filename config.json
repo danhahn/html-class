@@ -8,8 +8,7 @@
       "totalItems" : 12,
       "startDate": "January 24, 2018",
       "endDate": "April 18, 2018",
-      "classnote" : "Please enter your Name, Email and Phone Number here -> ",
-      "classaction" : null,
+      "classaction" : "https://goo.gl/forms/TfgeOP429S6j39962",
       "navs": [
         {
           "title": "Home",
@@ -21,6 +20,12 @@
           "class": "lesson",
           "url": "/lessons/",
           "subNav": true
+        },
+        {
+          "title": "Class Files",
+          "class": "class-files",
+          "url": "https://drive.google.com/drive/folders/1DkcIlszobtg-b2JgCEkxxPfDYY-0Vcri?usp=sharing",
+          "newTab": true
         },
         {
           "title": "Syllabus",

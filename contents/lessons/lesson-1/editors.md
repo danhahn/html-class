@@ -8,15 +8,14 @@ nav:
   Introduction: index.html
   Editors: editors.html
   HTML Template: template.html
-  Block-Level: block-level.html
-  Inline: inline.html
+  Block Elements: block.html
   Classwork: classwork.html
   Homework: homework.html
 ---
 
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.
 
-Below are some options for better HTML editors.  In class we will be using **Sublime Text**.
+Below are some options for better HTML editors.  In class we will be using **Atom**.
 
 ## [Atom](http://atom.io/)
 
@@ -104,12 +103,21 @@ Developer: Apple Inc.
 
 <style>
 h2 + p {
-    float: left;
-    margin-right: 20px;
-
+  float: right;
+  margin-bottom: 0 !important;
 }
+
+h2 + p > a {
+  margin-left: 1em;
+  display: block;
+  border: 2px solid #e6e9ea;
+  padding: 1em;
+  
+}
+
 p img,
 p a img {
-    width: 100px;
+  width: 100px;
+  display: block;
 }
 </style>

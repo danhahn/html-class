@@ -32,7 +32,10 @@ html(lang='en')
             ul.header-nav__list
               for nav in navs
                 li(class=`header-nav__item--${nav.class}`).header-nav__item
-                  a(href=`${nav.url}`).header-nav__link= nav.title
+                  if(nav.newTab)
+                    a(href=`${nav.url}` target="_blank").header-nav__link= nav.title
+                  else
+                    a(href=`${nav.url}`).header-nav__link= nav.title
                   if nav.subNav
                     - var articles = env.helpers.getArticles(contents);
                       ul.header-nav__subNav

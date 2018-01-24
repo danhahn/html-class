@@ -2,7 +2,7 @@
 
 .article {
   display: grid;
-  margin-top: @nav-height;
+  margin-top: 1em;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
     "p p p p p p p p . s s s";
@@ -13,6 +13,7 @@
   }
   @media only screen
   and (max-width : 768px) {
+    margin-top: 0;
     grid-template-areas:
       "s s s s s s s s s s s s"
       "p p p p p p p p p p p p";
@@ -26,14 +27,14 @@
   &__primary {
     padding: 0 0 2em 0;
     grid-area: p;
-    @media only screen
-    and (max-width : 768px) {
-      padding: 1em;
-    }
-    @media only screen
-    and (max-width : 425px) {
-      padding: 1em 1em 1em 30px;
-    }
+    // @media only screen
+    // and (max-width : 768px) {
+    //   padding: 1em;
+    // }
+    // @media only screen
+    // and (max-width : 425px) {
+    //   padding: 1em 1em 1em 30px;
+    // }
   }
   &__secondary {
     grid-area: s;  
@@ -53,7 +54,7 @@
     }
     @media only screen
     and (max-width : 768px) {
-      padding: 1em 1em 0;
+      padding: 1em 0 0;
     }
     @media only screen
     and (max-width : 425px) {

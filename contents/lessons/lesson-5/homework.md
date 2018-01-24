@@ -14,42 +14,47 @@ homework:
   lesson: lesson5
 downloads:
   Starter File:
-    file: homework6_yourname.zip
+    file: homework-5.zip
     btn: primary
 ---
 
-The point of this homework is to work with floats and the box model to create example of what a homepage of a site might look like.
+This week we are working using floats to display images and have the text wrap around it. 
 
 ## Getting started
 
-Download the starer file and be sure to rename both the folder and file name.
+Download and unzip the starter file.  
 
-In this folder you will find
+This file will have 
 
-* 1 html page
-* 1 css file
-* 1 folder of images
+* HTML file
+* CSS file
+* Images folder with 3 images. 
 
-## global nav
+## Adding images
 
-For the global nav we need to turn a vertical nav in to a horizontal nav.
+The page is missing the images needed to display the content to the user.  
 
-## promos
+* Add image to the header (header.jpg) - add to header tag before the `h1` tag.
 
-In this section we need to "stack" the promo boxes next to each other.  Here there is a small 10px gap between each box.  
+Each section of the article is missing the image related to the content.  Use the `figure` tag to add the an image (`img`). 
 
-Here you will need to put a margin right on all but the last box.  Keep in mind that we can use `:last-child` to target the last element.
+Add missing styles to the figure.  You will need to create two classes one for the image on the right and one for the image on the left.  
 
-**Note:** you may need to define a width to get the boxes to align correct.
+### On both classes add these styles 
 
-## more content
+```css
+border: 1px solid ligthgray;
+padding: 1em;
+```
 
-Here we need to use the box model get the correct size of each box.  
+### Floating the images
 
-So lets figure out the size for each box in this section.  
+While we are floating the images we will be applying all the styles to class on the `figure`.  
 
-* total width 1000px
-* 4 boxes
-* 10px of space between each box (not after the last)
-* 10px of padding on each box
-* 1px border
+* Add `float` (right or left based on how you want to display the "image"
+* Add `margin-right` or `margin-left`.  If you float right add `margin-left` so the text will not push right up against the `figure`
+
+### Style the footer
+
+The text in the footer needs to be displayed on the right side of the footer.   Try to use `float` and notice that the display breaks.  `text-align` will move the text within the contain to the right. 
+

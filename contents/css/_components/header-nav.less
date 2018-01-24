@@ -11,6 +11,7 @@
     overflow: hidden;
     max-height: 0;
     transition: all .2s linear;
+    margin: 0 -1em;
   }
   @media only screen
   and (max-width : 768px) {
@@ -22,7 +23,7 @@
     margin: 0;
     display: flex;
     @media only screen
-    and (min-width : 424px) {
+    and (min-width : 769px) {
       height: @nav-height;
     }
     @media only screen
@@ -32,7 +33,7 @@
   }
   &__item {
     @media only screen
-    and (min-width : 424px) {
+    and (min-width : 768px) {
       display: flex;
       align-items: center;
     }    
@@ -63,7 +64,7 @@
       }
     }
     @media only screen
-    and (min-width : 424px) {
+    and (min-width : 768px) {
       &:hover {
         .header-nav__subNav {
           display: block;
@@ -134,7 +135,7 @@
   }
   &__subNav {
     @media only screen
-    and (min-width : 424px) {
+    and (min-width : 769px) {
       position: absolute;
       display: none;
       top: 60px;
@@ -145,32 +146,36 @@
     background-color: @gray20;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     @media only screen
-    and (max-width : 425px) {
+    and (max-width : 768px) {
       box-shadow: 0 0 10px rgba(0,0,0,.5) inset;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
-    li {
+    a {
+      display: block;
       padding: .5em 1em;
+      text-decoration: none;
       @media only screen
-      and (min-width : 424px) {
+      and (min-width : 768px) {
         &:not(:last-of-type) {
           border-bottom: 1px solid @black;
         }
       }
       &:hover {
         background-color: @primary20;
-        a {
+        // a {
           color: @white;
-        }
+        // }
       }
-    } 
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      white-space: nowrap;
-      text-decoration: none;
+    }
+    @media only screen
+    and (min-width : 768px) {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+      }
     }
     .date {
       white-space: nowrap;
@@ -178,7 +183,7 @@
       margin-left: 1em;
       color: @black;
       @media only screen
-      and (max-width : 425px) {
+      and (max-width : 769px) {
         display: none;
       }
     }

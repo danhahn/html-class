@@ -7,7 +7,7 @@ block append vars
   - bodyclass = 'homepage'
 
 block header
-  div.titlebar
+  div.titlebar.homepage
     h1.titlebar__main
       +title(locals.description)
     p.titlebar__date= locals.startDate + " to " + locals.endDate
@@ -17,10 +17,20 @@ block notes
     div.container
       div.alert.alert-danger= locals.note
   if locals.classaction
-    div.container
-      div.alert.alert-danger
-        p= locals.classnote + " "
-          a.btn.btn-lg(href=locals.classaction, target='_blank') Click Here
+    div.container.alert
+      div.container__center
+        div.alert__content
+          div.alert__close &times;
+          h2
+            +title("Getting Started")
+          p 
+            i.fas.fa-arrow-alt-circle-right
+            a(href=locals.classaction, target='_blank') Please enter your 
+              strong Name
+              | , 
+              strong Phone 
+              | and  
+              strong Email 
 
 block content
   .grid.grid--homepage

@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-lesson: Getting started with Web Languages - HTML and CSS
+lesson: Coding HTML and CSS - Basic
 author: Dan Hahn
 date: 2013-06-05 18:00
 template: single.jade

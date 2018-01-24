@@ -12,8 +12,9 @@ downloads:
 nav:
   Background: index.html
   Tables: tables.html
+  Homework: homework.html
 
-badges: [css]
+badges: [html, css]
 
 ---
 

@@ -1,14 +1,13 @@
 ---
-title: Lesson 5
+title: Lesson 6
 lesson: Homework
 author: Dan Hahn
-date: 2/21/2018 15:00
+date: 2/28/2018 15:00
 template: article.jade
 nav:
-  Box Model: index.html
-  Pseudo Class: pseudo.html
-  Floats: floats.html
-  Clear Fix: clear-fix.html
+  Float Layout: index.html
+  Flex Box: flex.html
+  Flex Layout: flex-layout.html
   Homework: homework.html
 homework:
   lesson: lesson6
@@ -18,38 +17,68 @@ downloads:
     btn: primary
 ---
 
-The point of this homework is to work with floats and the box model to create example of what a homepage of a site might look like.
+The point of this homework is to work with flexbox and how to layout columns using it. 
 
-## Getting started
+## Getting Started
 
-Download the starer file and be sure to rename both the folder and file name.
+Download the starter file.  In the zipfile you will find 
 
-In this folder you will find
-
-* 1 html page
+* 1 html file
 * 1 css file
-* 1 folder of images
+* images folder with all the images needed for the design. 
 
-## global nav
+After unzipping the file please rename the folder and files with your name. In the `html` file also update the `title` tag with your name.  
 
-For the global nav we need to turn a vertical nav in to a horizontal nav.
+## Updating styles
 
-## promos
+Within `style.css` we need to update a bunch of styles.
 
-In this section we need to "stack" the promo boxes next to each other.  Here there is a small 10px gap between each box.  
+### Container width
 
-Here you will need to put a margin right on all but the last box.  Keep in mind that we can use `:last-child` to target the last element.
+`.wrapper` needs to have a max with of `1000px` we can this by adding a `max-width` property.
 
-**Note:** you may need to define a width to get the boxes to align correct.
+### Making flexible width images
 
-## more content
+All images (except `.logo`) need to have a variable width.  Again we will use `max-width` but the value will be `100%`. This property will allow the image to get smaller in size but grow larger than the original size of the image.  We also add `display: block;` to the images to remove a small space that is added due `img` being inline by default.
 
-Here we need to use the box model get the correct size of each box.  
+```css
+.hero img {
+  max-width: 100%;
+  display: block;
+}
+```
+Update the rest of the images to ensure they can resize if needed. 
 
-So lets figure out the size for each box in this section.  
+### Adding Flex
 
-* total width 1000px
-* 4 boxes
-* 10px of space between each box (not after the last)
-* 10px of padding on each box
-* 1px border
+Next we need get the content that is vertically aligned to be horizontally aligned.  There are two ways we can do this.  
+
+1. float
+2. flexbox
+
+Because flexbox is much more flexible we will use it for this homework but you could to the same with float (but will take 10 times more work).
+
+Lets start with the `.global-nav`.  In the provided css file you will find this selector 
+
+```css
+.global-nav ul {
+
+}
+```
+To get the content to align horizontally we just need to add `display: flex;` to the selector.
+
+---
+
+The "promo" and "more content" section will use the same idea but its a little more complex. 
+
+Again we will use `display: flex;` to align the content.
+
+In the styles that are provided for this example there is a `margin-right: 1em;` that will add the "gap" between the columns.  Notice there is a also a "gap" on the column all the way to the right (last column).  We need to remove that since we want the columns to full up the full space.  
+
+We have a selector that will select just the "last" item in a element.  `:last-child` If we set the margin right on just this element to `0` it will remove the extra space.
+
+Now that extra space on the right is gone notice how all the columns are not the same with.   The `flex` property will fix this for us.  We need to add `flex: 1;` to the flex child.  
+
+Repeat this for the "more content"
+
+Align the `.global-footer` as well. 
