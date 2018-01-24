@@ -1,15 +1,14 @@
-@import "../vars.less";
 .badge {
   display: inline;
   padding: .2em .5em .2em;
   font-weight: 700;
   line-height: 1;
-  color: @white;
+  color: $white;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
-  background-color: @primary20;
+  background-color: $primary20;
   text-transform: uppercase;
   display: inline-block;
   align-items: baseline;

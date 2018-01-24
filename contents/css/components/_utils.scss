@@ -1,9 +1,7 @@
-@import "../vars.less";
-
 .homework-view {
   display: flex;
-  border-top: 1px solid @alt;
-  border-bottom: 1px solid @alt;
+  border-top: 1px solid $alt;
+  border-bottom: 1px solid $alt;
 
   margin-top: 10px;
   margin-bottom: 10px;

@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
 
-@import (inline) url(prism.css);
-@import (inline) url(font-awesome.min.css);
+@import url(prism.css);
+@import url(font-awesome.min.css);
 
 @import "vars";
-@import url(./_components/layout.less);
-@import url(./_components/brand.less);
-@import url(./_components/nav-content.less);
-@import url(./_components/header-nav.less);
-@import url(./_components/titlebar.less);
-@import url(./_components/article.less);
-@import url(./_components/markdowned.less);
-@import url(./_components/button.less);
-@import url(./_components/sidenav.less);
-@import url(./_components/downloads.less);
-@import url(./_components/tags.less);
-@import url(./_components/badge.less);
-@import url(./_components/grid.less);
-@import url(./_components/burger.less);
-@import url(./_components/lesson.less);
-@import url(./_components/utils.less);
-@import url(./_components/color-palette.less);
-@import url(./_components/table.less);
-@import url(./_components/alert.less);
+@import "components/layout";
+@import "components/brand";
+@import "components/nav-content";
+@import "components/header-nav";
+@import "components/titlebar";
+@import "components/article";
+@import "components/markdowned";
+@import "components/button";
+@import "components/sidenav";
+@import "components/downloads";
+@import "components/tags";
+@import "components/badge";
+@import "components/grid";
+@import "components/burger";
+@import "components/lesson";
+@import "components/utils";
+@import "components/color-palette";
+@import "components/table";
+@import "components/alert";
 
 * {
   box-sizing: border-box;
@@ -34,15 +34,15 @@ html, body {
 
 body {
   margin: 0;
-  font: @font-size 'Droid Sans', sans-serif;
+  font: $font-size 'Droid Sans', sans-serif;
   line-height: 1.42857143;
   display: flex;
   flex-direction: column;
-  margin-top: @nav-height * 2;
+  margin-top: $nav-height * 2;
 }
 
 a {
-  color: @primary;
+  color: $primary;
 }
 
 .main-level {
@@ -54,7 +54,7 @@ a {
 }
 
 .text-content {
-  background-color: @gray20;
+  background-color: $gray20;
   padding: 1em;
   white-space: pre-wrap;
 }
@@ -130,7 +130,7 @@ a {
 }
 
 .global-nav {
-  background-color: @black;
+  background-color: $black;
   position: fixed;
   top: 0;
   left: 0;
@@ -139,32 +139,32 @@ a {
 }
 
 .main-titlebar {
-  background-color: @gray;
+  background-color: $gray;
   position: fixed;
-  top: @nav-height;
+  top: $nav-height;
   left: 0;
   right: 0;
   z-index: 100;  
   & > * {
-    background-color: @gray;
+    background-color: $gray;
   }
 }
 
 .global-footer {
-  background-color: @black;
+  background-color: $black;
   position: relative;
   z-index: 200;
   & > * {
-    background-color: @black;
+    background-color: $black;
     padding: 1.3em;
   }
   p {
     margin: 0;
-    color: @gray;
+    color: $gray;
   }
   svg {
     .slash, .tag, .letter {
-      fill: @gray;
+      fill: $gray;
     }
   }
 }
@@ -177,8 +177,8 @@ a {
 }
 
 code {
-  color: @primary;
-  background-color: lighten(@primary, 43%);
+  color: $primary;
+  background-color: lighten($primary, 43%);
   padding: 1px 5px;
   font-size: .9em;
   border-radius: .2em;

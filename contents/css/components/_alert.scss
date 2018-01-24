@@ -1,8 +1,6 @@
-@import "../vars.less";
-
 .alert {
-  background-color: @alert;
-  color: @white;
+  background-color: $alert;
+  color: $white;
   transition: all .5s;
   max-height: 1000px;
   overflow: hidden;
@@ -19,7 +17,7 @@
     cursor: pointer;
     &:hover {
       background-color: #fff;
-      color: @alert;
+      color: $alert;
     }
   }
   &__content {

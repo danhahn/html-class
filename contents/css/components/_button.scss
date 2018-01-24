@@ -1,4 +1,3 @@
-@import "../vars.less";
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -20,21 +19,21 @@
   border: 1px solid transparent;
   border-radius: 4px;
   text-decoration: none;
-  color: @primary;
-  border: 1px solid @primary;
+  color: $primary;
+  border: 1px solid $primary;
   transition: all .1s;
   &:hover {
-    background-color: @primary5;
-    color: @white;
+    background-color: $primary5;
+    color: $white;
   }
   i {
     margin-left: .5em;
   }
   &--primary, &.active {
-    color: @white;
-    background-color: @primary;
+    color: $white;
+    background-color: $primary;
     &:hover {
-      background-color: @primary10;
+      background-color: $primary10;
     }
   }
   svg {

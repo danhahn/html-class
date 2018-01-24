@@ -56,8 +56,8 @@
     },
     "plugins": [
         "./plugins/paginator.coffee",
-        "wintersmith-less",
-        "wintersmith-livereload"
+        "wintersmith-livereload",
+        "wintersmith-sassify"
     ],
   "require": {
     "moment": "moment",
@@ -73,5 +73,10 @@
   },
   "paginator": {
   "perPage": 12
+  },
+  "sassify": {
+    "outputStyle": "compressed",
+    "sourceComments": "false",
+    "sourceMap": true
   }
 }
