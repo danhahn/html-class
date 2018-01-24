@@ -27,7 +27,7 @@ downloads:
 badges: [html]
 ---
 
-Introduction to HTML, Web Browsers, Standards
+This week we will have an introduction to HTML, the HTML template and what block elements are and how to use them.
 
 <span class="more"></span>
 
