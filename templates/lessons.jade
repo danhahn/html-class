@@ -3,9 +3,10 @@ extends layout
 include mixins/_title
 include mixins/_badge
 
-
+block append vars
+  - bodyclass = 'lessons'
 block header
-  div.titlebar
+  div.titlebar.no-nav
     h1.titlebar__main
       +title(locals.description)    
 

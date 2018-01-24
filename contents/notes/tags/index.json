@@ -1,7 +1,7 @@
 {
   "template": "table.jade",
   "title": "HTML Tags",
-  "intro": "A table of all the valid <code>HTML</code>.",
+  "intro": "A table of all the valid <code>HTML</code> tags. Use the buttons below to view only that type of <code>HTML</code> tag.",
   "scripts": ["tags.js"],
   "tags": [
     {
