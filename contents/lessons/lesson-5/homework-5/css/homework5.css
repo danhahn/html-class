@@ -1,0 +1,25 @@
+body {
+  font: 16px arial;
+  background-color: #D4D8D8;
+}
+
+.container {
+  width: 768px;
+  background-color: #ffffff;
+}
+
+.global-header h1 {
+  color: #3CAEE2;
+}
+
+.content h3 {
+  color: #724B59;
+}
+
+.content p {
+
+}
+
+.global-footer {
+
+}

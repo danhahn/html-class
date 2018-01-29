@@ -2,6 +2,7 @@
 extends layout
 
 include mixins/_title
+include mixins/_badge
 
 block addlocalcss
   if page.metadata.localcss
@@ -25,7 +26,7 @@ block header
     div.titlebar__date
       ul.layout.layout--date
         li.layout__item
-          i.fa.fa-calendar
+          i.fas.fa-calendar-alt
         li.layout__item
           span.date= moment(page.date).format('MMMM D, YYYY')
 block content
@@ -63,7 +64,7 @@ block content
             each data, label in page.metadata.downloads
               li.downloads__item
                 a(href=data.file, class=(data.btn ? `btn--${data.btn}` : '')).btn #{label}
-                  i.fa.fa-download
+                  i.fas.fa-download
 
         if page.metadata.tags
           h3 Tags in Lesson
@@ -71,9 +72,7 @@ block content
             each val, index in page.metadata.tags
               .tags__item
                 div.data
-                  span(class=`badge--${val.label}`).badge
-                    i(class=val.icon) 
-                    = val.label
+                  +badge(val.label)
                 ul.tags__list
                   each tag in val.data
                     li.tags__list-item

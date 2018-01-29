@@ -2,7 +2,7 @@
 title: Lesson 9
 lesson: Forms
 author: Dan Hahn
-date: 11/15/2017 15:00
+date: 3/28/2018 15:00
 template: article.jade
 downloads:
   Download Stater File:
@@ -12,9 +12,11 @@ downloads:
 nav:
   Forms: index.html
   Javascript: javascript.html
+badges: [html, js]
+
 ---
 
-This week we will be talking about forms and JavaScript. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will be talking about forms and JavaScript. 
 
 <span class="more"></span>
 

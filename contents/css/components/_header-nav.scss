@@ -1,0 +1,203 @@
+.header-nav {
+  @media only screen
+  and (max-width : 768px) {
+    align-self: stretch;
+    background-color: $primary5;
+    box-shadow:
+      0 5px 10px -6px rgba(0, 0, 0, 0.5) inset,
+      0 1px 1px rgba(0,0,0,.05) inset
+    ;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .2s linear;
+    margin: 0 -1em;
+  }
+  @media only screen
+  and (max-width : 768px) {
+
+  }
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    @media only screen
+    and (min-width : 769px) {
+      height: $nav-height;
+    }
+    @media only screen
+    and (max-width : 768px) {
+      flex-direction: column;
+    }
+  }
+  &__item {
+    @media only screen
+    and (min-width : 768px) {
+      display: flex;
+      align-items: center;
+    }    
+    &:hover, &.active {
+      @media only screen
+      and (min-width : 768px) {
+        background-color: $gray2;
+        position: relative;
+        &::after {
+          background-color: $primary10;
+          width: 100%;
+          height: 2px;
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      .header-nav__dropdown {
+        @media only screen
+        and (min-width : 769px) {
+          display: block;
+        }
+      }
+    }
+    @media only screen
+    and (max-width : 768px) {
+      &:not(:last-of-type) {
+        border-bottom: 1px solid $primary;
+      }
+    }
+    @media only screen
+    and (min-width : 768px) {
+      &:hover {
+        .header-nav__subNav {
+          display: block;
+        }
+      }
+    }  
+    
+  }
+  &__link {
+    color: $white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-weight: 100;
+  }
+  &__dropdown {
+    @media only screen
+    and (min-width : 769px) {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      background-color: $primary20;
+      border: 1px solid $primary;
+      box-shadow: 0 5px 10px -3px rgba(0,0,0,.5);
+      display: none;
+    }
+    @media only screen
+    and (max-width : 768px) {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: $primary20;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      box-shadow: 0 5px 10px -3px rgba(0,0,0,.3) inset, 0 -5px 3px -3px rgba(0,0,0,.1) inset;
+    }
+  }
+  &__drop-item {
+    @media only screen
+    and (min-width : 769px) {
+      border-bottom: 2px solid $primary;
+      min-width: 170px;
+    }
+    a {
+      display: block;
+      color: $white;
+      text-decoration: none;
+      padding: .5em;
+      &:hover {
+        background-color: #fff;
+        color: $primary
+      }
+    }
+    @media only screen
+    and (max-width : 768px) {
+      border-bottom: none;
+      a {
+        padding: .5em 1em;
+      }
+    }
+  }
+  &__icon {
+    @media only screen
+    and (max-width : 768px) {
+      display: none;
+    }
+  }
+  &__subNav {
+    @media only screen
+    and (min-width : 769px) {
+      position: absolute;
+      display: none;
+      top: 60px;
+    }
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: $gray20;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    @media only screen
+    and (max-width : 768px) {
+      box-shadow: 0 0 10px rgba(0,0,0,.5) inset;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    a {
+      display: block;
+      padding: .5em 1em;
+      text-decoration: none;
+      @media only screen
+      and (min-width : 768px) {
+        &:not(:last-of-type) {
+          border-bottom: 1px solid $black;
+        }
+      }
+      &:hover {
+        background-color: $primary20;
+        // a {
+          color: $white;
+        // }
+      }
+    }
+    @media only screen
+    and (min-width : 768px) {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+      }
+    }
+    .date {
+      white-space: nowrap;
+      font-size: .7em;
+      margin-left: 1em;
+      color: $black;
+      @media only screen
+      and (max-width : 769px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.homepage {
+  .header-nav {
+    &__item{
+      &--home {
+        display: none;
+      }
+    }
+  }
+}

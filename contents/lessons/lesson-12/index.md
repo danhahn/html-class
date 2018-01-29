@@ -2,13 +2,15 @@
 title: Lesson 12
 author: Dan Hahn
 lesson: Final Project
-date: 12/13/2017 15:00
+date: 4/18/2018 15:00
 template: article.jade
 nav:
   Final Project: index.html
+badges: [html,css]
+
 ---
 
-This week we work on the in class final.  <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+This week we work on the in class final.
 
 <span class="more"></span>
 

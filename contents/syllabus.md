@@ -1,18 +1,17 @@
 ---
 title: Syllabus
-lesson: Getting started with Web Languages - HTML and CSS
+lesson: Coding HTML and CSS - Basic
 author: Dan Hahn
 date: 2013-06-05 18:00
 template: single.jade
-subject: TEST
 ---
 
 
 12 weeks<br/>
 Wednesday 6:30-9:30 pm<br/>
-September 20, 2017 - December 13, 2017
+January 24, 2017 - April 18, 2018
 
-**No class November 22 - Thanksgiving 🦃**
+**No class March 7 - Spring Break 🌴🏖️**
 
 **Daniel Hahn - dan@svahtml.com**
 

@@ -1,0 +1,30 @@
+extends layout
+
+include mixins/_title
+include mixins/_badge
+
+block append vars
+  - bodyclass = 'lessons'
+block header
+  div.titlebar.no-nav
+    h1.titlebar__main
+      +title(locals.description)    
+
+block content
+  .lessons
+    - var articles = env.helpers.getArticles(contents);
+    for article, index in articles
+      h2
+        a(href=`${article.url}index.html`)= moment(article.date).format('MMMM D, YYYY')
+      section !{ typogr(article.intro).typogrify() }
+      if article.metadata.badges
+        ul.badge__list
+          for badge in article.metadata.badges
+            li.badge__list--item
+              +badge(badge)
+      ul.lesson__list
+        for url, title in article.metadata.nav
+          li
+            a(href=`/lessons/lesson-${index + 1}\/${url}`)= title
+
+    

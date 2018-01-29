@@ -1,19 +1,63 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
-    "name": "SVA HTML",
-    "owner": "Daniel Hahn",
-    "description": "Fall 2017",
-    "date": "September 20, 2017 to December 13, 2017",
-    "totalItems" : 12,
-    "startDate": "September 20, 2017",
-    "endDate": "December 13, 2017",
-    "classnote" : "Please enter your Name, Email and Phone Number here -> ",
-    "classaction" : null
+      "url": "http://localhost:8080",
+      "name": "SVA HTML",
+      "owner": "Daniel Hahn",
+      "description": "Spring 2018",
+      "date": "January 24, 2018 to April 18, 2018",
+      "totalItems" : 12,
+      "startDate": "January 24, 2018",
+      "endDate": "April 18, 2018",
+      "classaction" : null,
+      "navs": [
+        {
+          "title": "Home",
+          "class": "home",
+          "url": "/"
+        },
+        {
+          "title": "Lessons",
+          "class": "lesson",
+          "url": "/lessons/",
+          "subNav": true
+        },
+        {
+          "title": "Class Files",
+          "class": "class-files",
+          "url": "https://drive.google.com/drive/folders/1DkcIlszobtg-b2JgCEkxxPfDYY-0Vcri?usp=sharing",
+          "newTab": true
+        },
+        {
+          "title": "Syllabus",
+          "class": "syllabus",
+          "url": "/syllabus.html"
+        },
+        {
+          "title": "Tag List",
+          "class": "tag",
+          "url": "/notes/tags/"
+        },
+        {
+          "title": "CSS 3",
+          "class": "css",
+          "url": "/notes/css/"
+        },
+        {
+          "title": "ASCII Codes",
+          "class": "ascii",
+          "url": "/notes/ascii/"
+        },
+        {
+          "title": "Colors",
+          "class": "color",
+          "url": "/notes/colors/"
+        }
+      ]
     },
     "plugins": [
         "./plugins/paginator.coffee",
-        "wintersmith-less"
+        "wintersmith-livereload",
+        "wintersmith-sassify"
     ],
   "require": {
     "moment": "moment",
@@ -29,5 +73,10 @@
   },
   "paginator": {
   "perPage": 12
+  },
+  "sassify": {
+    "outputStyle": "compressed",
+    "sourceComments": "false",
+    "sourceMap": true
   }
 }

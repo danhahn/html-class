@@ -2,7 +2,7 @@
 title: Lesson 6
 lesson: Float Layout
 author: Dan Hahn
-date: 10/25/2017 15:00
+date: 2/28/2018 15:00
 template: article.jade
 
 downloads:
@@ -18,9 +18,11 @@ nav:
   Flex Box: flex.html
   Flex Layout: flex-layout.html
   Homework: homework.html
+badges: [css]
+
 ---
 
-This week we will talk about the new CSS3 flex box layout. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about the new CSS3 flex box layout. 
 
 <span class="more"></span>
 

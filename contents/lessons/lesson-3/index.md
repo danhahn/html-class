@@ -2,7 +2,7 @@
 title: Lesson 3
 lesson: Introduction to CSS
 author: Dan Hahn
-date: 10/04/2017 15:00
+date: 2/7/2018 15:00
 template: article.jade
 tags:
   'html':
@@ -31,9 +31,11 @@ nav:
   Selectors: selectors.html
   CSS3 Reference: css.html
   Homework: homework.html
+badges: [html, css]
+
 ---
 
-This week we start to talk about CSS. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we start to talk about CSS.
 
 <span class="more"></span>
 

@@ -1,15 +1,14 @@
 ---
 title: Lesson 1
 lesson: Inline Elements
-date: 6/7/2017 15:00
+date: 1/24/2018 15:00
 template: article.jade
 
 nav:
-  Intro: index.html
+  Introduction: index.html
   Editors: editors.html
   HTML Template: template.html
-  Block-Level: block-level.html
-  Inline: inline.html
+  Block Elements: block.html
   Classwork: classwork.html
   Homework: homework.html
 

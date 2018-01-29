@@ -1,0 +1,50 @@
+.alert {
+  background-color: $alert;
+  color: $white;
+  transition: all .5s;
+  max-height: 1000px;
+  overflow: hidden;
+  &__hide {
+    opacity: 0;
+    max-height: 0;
+  }
+  &__close {
+    float: right;
+    padding: 0px 5px 2px;
+    line-height: 1em;
+    border-radius: 3px;
+    font-weight: 100;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+      color: $alert;
+    }
+  }
+  &__content {
+    padding: .5em 0;
+    svg {
+      margin-right: .5em;
+    }
+  }
+  h2 {
+    margin: 0;
+    font-weight: normal;
+    @media only screen
+    and (max-width: 424px)  {
+      & + p {
+        font-size: .9em;
+      }
+    }
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

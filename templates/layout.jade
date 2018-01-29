@@ -9,6 +9,7 @@ html(lang='en')
       meta(charset='utf-8')
       meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
       meta(name="viewport", content="width=device-width, initial-scale=1")
+      | !{ livereloadScript }
       title
         block title
           = locals.name
@@ -29,36 +30,19 @@ html(lang='en')
               .line
           nav.header-nav
             ul.header-nav__list
-              li.header-nav__item.header-nav__item--home
-                a(href="/").header-nav__link
-                  i.fa.fa-home.header-nav__icon
-                  = " Home"
-                ul.header-nav__dropdown
-                  - var navItem = 0;
-                  while navItem < locals.totalItems
-                    li.header-nav__drop-item <a href="/lessons/lesson-#{navItem + 1}/index.html">Lesson #{navItem+ 1}</a>
-                    -navItem++
-              li.header-nav__item
-                a(href="/syllabus.html").header-nav__link
-                  i.fa.fa-book.header-nav__icon
-                  =" Syllabus"
-              li.header-nav__item
-                a(href="/notes/tags/index.html").header-nav__link
-                  i.fa.fa-html5.header-nav__icon
-                  = " HTML Tag List"
-              li.header-nav__item
-                a(href="/notes/css/index.html").header-nav__link
-                  i.fa.fa-css3.header-nav__icon
-                  = " CSS"
-              li.header-nav__item
-                a(href="/notes/ascii/index.html").header-nav__link
-                  i.fa.fa-heart.header-nav__icon
-                  = " ASCII Codes"
-              li.header-nav__item
-                a(href="/notes/colors/index.html").header-nav__link
-                  i.fa.fa-paint-brush.header-nav__icon
-                  = " Colors"
-
+              for nav in navs
+                li(class=`header-nav__item--${nav.class}`).header-nav__item
+                  if(nav.newTab)
+                    a(href=`${nav.url}` target="_blank").header-nav__link= nav.title
+                  else
+                    a(href=`${nav.url}`).header-nav__link= nav.title
+                  if nav.subNav
+                    - var articles = env.helpers.getArticles(contents);
+                      ul.header-nav__subNav
+                        each article in articles  
+                          li
+                            a(href=`${article.url}index.html`)= article.title
+                              span.date= moment(article.date).format('MMMM D, YYYY')
 
     header.main-titlebar.container
       div.container__center
@@ -82,6 +66,7 @@ html(lang='en')
             +logo('simple-row--svg',80, 25)
     script(src='/js/prism.js')
     script(src='/js/global.js')
+    script(src='/js/fontawesome-all.min.js')
     block addlocaljs
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

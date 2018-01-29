@@ -2,7 +2,7 @@
 title: Lesson 11
 lesson: View All Pages
 author: Dan Hahn
-date: 12/06/2017 15:00
+date: 4/11/2018 15:00
 template: final.jade
 nav:
   Final Project: index.html

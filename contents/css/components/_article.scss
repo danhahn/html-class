@@ -1,0 +1,62 @@
+.article {
+  display: grid;
+  margin-top: 1em;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "p p p p p p p p . s s s";
+  grid-column-gap: 1em;
+  &--single {
+    grid-template-areas:
+      "p p p p p p p p p p p p";
+  }
+  @media only screen
+  and (max-width : 768px) {
+    margin-top: 0;
+    grid-template-areas:
+      "s s s s s s s s s s s s"
+      "p p p p p p p p p p p p";
+  }
+  h3 {
+    @media only screen
+    and (max-width : 768px) {
+      display: none;
+    }
+  }
+  &__primary {
+    padding: 0 0 2em 0;
+    grid-area: p;
+    // @media only screen
+    // and (max-width : 768px) {
+    //   padding: 1em;
+    // }
+    // @media only screen
+    // and (max-width : 425px) {
+    //   padding: 1em 1em 1em 30px;
+    // }
+  }
+  &__secondary {
+    grid-area: s;  
+    @media only screen and (min-width : 769px) {    
+      .side-nav-inner {
+        padding: 2em;
+        position: fixed;
+        width: 100%;
+        top: $nav-height * 2;
+        height: calc(100vh - 120px);
+        background-color: $gray20;
+        border-left: 1px solid $gray15;
+      }
+    }
+    @media only screen and (min-width : 769px) {
+      position: relative;      
+    }
+    @media only screen
+    and (max-width : 768px) {
+      padding: 1em 0 0;
+    }
+    @media only screen
+    and (max-width : 425px) {
+      padding: 0;
+    }
+  }
+}

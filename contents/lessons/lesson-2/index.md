@@ -1,8 +1,8 @@
 ---
 title: Lesson 2
-lesson: Anchor Tag (inline element)
+lesson: Anchor Tag
 author: Dan Hahn
-date: 09/27/2017 15:00
+date: 1/31/2018 15:00
 template: article.jade
 
 tags:
@@ -27,10 +27,10 @@ nav:
   Image Types: image-types.html
   Embed: embed.html
   Homework: homework.html
-
+badges: [html]
 ---
 
-This week we will talk about how to create links and embed images. <div><span class="badge badge--html"><i class="fa fa-html5"></i>HTML</span></div>
+This week we will talk about how to create links and embed images.
 
 <span class="more"></span>
 

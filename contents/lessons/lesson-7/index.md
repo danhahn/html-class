@@ -2,7 +2,7 @@
 title: Lesson 7
 lesson: CSS Backgrounds
 author: Dan Hahn
-date: 11/01/2017 15:00
+date: 3/14/2018 15:00
 template: article.jade
 downloads:
   Download Stater File:
@@ -12,9 +12,13 @@ downloads:
 nav:
   Background: index.html
   Tables: tables.html
+  Homework: homework.html
+
+badges: [html, css]
+
 ---
 
-This week we will talk about CSS backgrounds and how to build and style an HTML table. <div> <span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week we will talk about CSS backgrounds and how to build and style an HTML table. 
 
 <span class="more"></span>
 

@@ -1,0 +1,19 @@
+.brand {
+  display: flex;
+  align-items: center;
+  margin-right: 4em;
+  &__svg {
+    width: 115px;
+    height: 35px;
+    .slash {
+      fill: $white;
+    }
+    .tag {
+      fill: $white;
+    }
+    .letter {
+      fill: $white;
+    }
+  }
+}
+

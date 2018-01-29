@@ -69,7 +69,7 @@ block content
             each data, label in page.metadata.downloads
               li.downloads__item
                 a(href=data.file, class=(data.btn ? `btn--${data.btn}` : '')).btn #{label}
-                  i.fa.fa-download
+                  i.fas.fa-download
 
         if page.metadata.tags
           h3 Tags in Lesson

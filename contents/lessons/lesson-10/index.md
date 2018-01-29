@@ -1,7 +1,7 @@
 ---
 title: Lesson 10
 lesson: Understanding the Index.html
-date: 11/29/2017 15:00
+date: 4/4/2018 15:00
 template: article.jade
 downloads:
   Download Stater File:
@@ -14,9 +14,11 @@ downloads:
 nav:
   Understanding index: index.html
   Setting up your site: hosting.html
+badges: [html, css]
+
 ---
 
-How to set up your own HTML website including how to choose where to host and how to upload. <div><span class="label label-default html"><i class="fa fa-html5"></i>HTML</span> <span class="label label-default css"><i class="fa fa-css3"></i>css</span></div>
+How to set up your own HTML website including how to choose where to host and how to upload. 
 
 <span class="more"></span>
 

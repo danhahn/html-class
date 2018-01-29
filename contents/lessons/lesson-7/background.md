@@ -5,9 +5,9 @@ author: Dan Hahn
 date: 7/19/2017 15:00
 template: article.jade
 nav:
-  Understanding index: index.html
-  Setting up your site: hosting.html
-  Background: background.html
+  Background: index.html
+  Tables: tables.html
+  Homework: homework.htmlcd
 ---
 
 Backgrounds are a way to add colors and images to elements on the page.

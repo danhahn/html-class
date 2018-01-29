@@ -2,7 +2,7 @@
 title: Lesson 4
 lesson: Basic Style Properties
 author: Dan Hahn
-date: 10/11/2017 15:00
+date: 2/14/2018 15:00
 template: article.jade
 
 nav:
@@ -20,9 +20,11 @@ downloads:
   Download Notes:
     file: week4-notes.zip
     btn: null
+badges: [css]
+
 ---
 
-This week We will dive back into CSS and talk about text, font, borders, margin and padding. <div><span class="badge badge--css"><i class="fa fa-css3"></i>css</span></div>
+This week We will dive back into CSS and talk about text, font, borders, margin and padding. 
 
 <span class="more"></span>
 

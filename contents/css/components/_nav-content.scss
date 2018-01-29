@@ -1,0 +1,10 @@
+.nav-content {
+  @media only screen
+  and (min-width : 767px) {
+    height: $nav-height;
+  }
+  @media only screen
+  and (max-width : 768px) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,38 @@
+extends layout
+
+include mixins/_title
+
+block addlocaljs
+  if page.metadata.scripts
+    each script in page.metadata.scripts
+      script(src=script)
+
+
+block header
+  div.titlebar.no-nav
+    h1.titlebar__main
+      +title(page.metadata.title)
+
+block content
+  p!= typogr(page.metadata.intro).typogrify()
+  - const types = [...new Set(page.metadata.tags.map(tag => tag.type))].sort();
+  ul.tag-types
+    for type in types
+      li(data-tag-type=type).tag-types__item.btn= type
+    li(data-tag-type="reset").tag-types__item.btn reset
+  table.table
+    tr.header
+      th Tag
+      th
+      th Desc
+      th Type
+    for tag in page.metadata.tags
+      tr(class=tag.type)
+        td
+          code= tag.tag
+        td.isHTML5
+          if tag.isHTML5
+            i(style='color:#f14a29').fab.fa-html5
+        - const desc = tag.desc.replace(/<([\w]*)>/g, '<code>&lt;$1&gt;</code>').replace(/(Not supported in HTML5.)/g, '<small style="color: #f14a29">$1</small><br>')
+        td!= typogr(desc).typogrify()
+        td= tag.type
