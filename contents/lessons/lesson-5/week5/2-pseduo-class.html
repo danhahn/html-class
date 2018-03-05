@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pseduo Classes Explained</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main>
+  <h1>Pseudo class</h1>
+
+  <p>Pseudo class allow for adding of <em>state</em> to an HTML elmemet.</p>
+
+  <p>The most common place where we add Pseduo class is to a link.</p>
+
+  <h2>Link default state</h2>
+
+  <p>Links have three <em>states</em> by default</p>
+
+  <ol>
+    <li>Normal/unvisited (<span class="blue">blue</span>) - if the value in the <code>href</code> is not in the local browser history.</li>
+    <li>visited (<span class="purple">purple</span>) - if the value in the <code>href</code> is in the local browser history.</li>
+    <li>active (<span class="red">red</span>) - when the user is activly press the link</li>
+  </ol>
+
+  <p>When you style a link and do not define the pseudo classes they will all display with the styles that you define on the link.</p>
+
+  <p><a href="http://www.svahtml.com" class="no-style">No Styles</a></p>
+
+  <h2>Adding Pseudo Classes</h2>
+
+  <p><a href="http://www.google.com" class="example">Example of pseudo classes</a></p>
+
+  <p>Here we will define the order as</p>
+
+  <ol>
+    <li>link</li>
+    <li>visited</li>
+    <li>hover</li>
+    <li>active</li>
+  </ol>
+
+  <p>Since <code>hover</code> and <code>active</code> have the same selector weight it will default to the order defined in the CSS file.</p>
+
+  <h2>Other Examples</h2>
+
+  <p>Links are not the only place where we can add pseduo classes. Any element can have a <code>:hover</code> added.</p>
+  <div class="hover-box">
+    <p>This is example of a box that when you mouse over it we can change the background color.</p>
+  </div>
+
+  <h2>Focus</h2>
+
+  <p>Some elements like <code>&lt;input&gt;</code> tags can have a style applied when they have focus. Focus is when the a form element has the curser in it so the user can enter content.</p>
+
+  <input type="text" class="focus-example">
+
+  <p>When you click in to this form element you can add a style.</p>
+</main>
+
+</body>
+</html>

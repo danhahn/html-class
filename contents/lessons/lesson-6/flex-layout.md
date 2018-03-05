@@ -6,6 +6,7 @@ date: 2/28/2018 15:00
 template: article.jade
 nav:
   Float Layout: index.html
+  Clear Fix: clear-fix.html
   Flex Box: flex.html
   Flex Layout: flex-layout.html
   Homework: homework.html

@@ -56,7 +56,6 @@
     },
     "plugins": [
         "./plugins/paginator.coffee",
-        "wintersmith-livereload",
         "wintersmith-sassify"
     ],
   "require": {

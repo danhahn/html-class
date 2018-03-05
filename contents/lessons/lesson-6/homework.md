@@ -6,6 +6,7 @@ date: 2/28/2018 15:00
 template: article.jade
 nav:
   Float Layout: index.html
+  Clear Fix: clear-fix.html
   Flex Box: flex.html
   Flex Layout: flex-layout.html
   Homework: homework.html
@@ -17,15 +18,15 @@ downloads:
     btn: primary
 ---
 
-The point of this homework is to work with flexbox and how to layout columns using it. 
+The point of this homework is to work with flexbox and how to layout columns using it.
 
 ## Getting Started
 
-Download the starter file.  In the zipfile you will find 
+Download the starter file.  In the zipfile you will find
 
 * 1 html file
 * 1 css file
-* images folder with all the images needed for the design. 
+* images folder with all the images needed for the design.
 
 After unzipping the file please rename the folder and files with your name. In the `html` file also update the `title` tag with your name.  
 
@@ -47,7 +48,7 @@ All images (except `.logo`) need to have a variable width.  Again we will use `m
   display: block;
 }
 ```
-Update the rest of the images to ensure they can resize if needed. 
+Update the rest of the images to ensure they can resize if needed.
 
 ### Adding Flex
 
@@ -58,7 +59,7 @@ Next we need get the content that is vertically aligned to be horizontally align
 
 Because flexbox is much more flexible we will use it for this homework but you could to the same with float (but will take 10 times more work).
 
-Lets start with the `.global-nav`.  In the provided css file you will find this selector 
+Lets start with the `.global-nav`.  In the provided css file you will find this selector
 
 ```css
 .global-nav ul {
@@ -69,7 +70,7 @@ To get the content to align horizontally we just need to add `display: flex;` to
 
 ---
 
-The "promo" and "more content" section will use the same idea but its a little more complex. 
+The "promo" and "more content" section will use the same idea but its a little more complex.
 
 Again we will use `display: flex;` to align the content.
 
@@ -81,4 +82,4 @@ Now that extra space on the right is gone notice how all the columns are not the
 
 Repeat this for the "more content"
 
-Align the `.global-footer` as well. 
+Align the `.global-footer` as well.

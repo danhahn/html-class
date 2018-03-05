@@ -15,6 +15,7 @@ downloads:
 
 nav:
   Float Layout: index.html
+  Clear Fix: clear-fix.html
   Flex Box: flex.html
   Flex Layout: flex-layout.html
   Homework: homework.html
@@ -22,7 +23,7 @@ badges: [css]
 
 ---
 
-This week we will talk about the new CSS3 flex box layout. 
+This week we will talk about the new CSS3 flex box layout.
 
 <span class="more"></span>
 
